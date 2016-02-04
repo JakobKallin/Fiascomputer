@@ -1,0 +1,290 @@
+{
+  "subtitle": "...AT THE MANNA HOTEL",
+  "tables": {
+    "locations": {
+      "categories": [
+        {
+          "elements": [
+            "In the dry swimming pool, currently filled with dead leaves",
+            "The flagpole, flying a crisp American flag",
+            "The trunk of a car",
+            "Out by the road, where you can see who’s coming half a mile away",
+            "The dumpster - vandals have spray-painted “USA #1” on it",
+            "Under the old, spreading oak tree.  This tree must have been alive for at least a hundred years."
+          ],
+          "name": "OUT FRONT"
+        },
+        {
+          "elements": [
+            "A ransacked guest room with holes in the walls and ceiling",
+            "A guest room sealed off since forever",
+            "Next door",
+            "A flyspecked windowsill",
+            "Taped under a rug in one of the guest rooms",
+            "In the tank of the toilet"
+          ],
+          "name": "INSIDE"
+        },
+        {
+          "elements": [
+            "The fuse box - a pair of wires runs from the box into the woods",
+            "The tornado shelter, its steel door rusted thin",
+            "There’s just enough room for one person to squeeze between the fuel-oil tank and the outside wall of the office",
+            "A gully leading down to Sumida Creek",
+            "A laundry line with two sheets and a pair of men’s boxer shorts clipped to it",
+            "Out by the long-neglected lawnmower"
+          ],
+          "name": "OUT BACK"
+        },
+        {
+          "elements": [
+            "The safe",
+            "The office",
+            "The room where the manager lives, formerly a guest room",
+            "The desk drawers in the office",
+            "Up on the roof",
+            "The supply closet, containing a jug of ammonia and a nest of snakes"
+          ],
+          "name": "EMPLOYEES ONLY"
+        },
+        {
+          "elements": [
+            "The dirt road to town",
+            "The railroad tracks",
+            "Sumida Creek Lake",
+            "A clearing in the woods, with a fire pit and a makeshift altar",
+            "Ed Keith’s buffalo ranch",
+            "The old cemetery, unused since the fifties"
+          ],
+          "name": "NEARBY"
+        },
+        {
+          "elements": [
+            "Manna High School",
+            "The Tyrell & Janes Bank",
+            "The abandoned Manna railroad station",
+            "Manna First Baptist Church",
+            "A padlocked entrance to the underground walkways",
+            "A tiny zoo - no larger than a city block - run for some reason by the local power utility"
+          ],
+          "name": "IN TOWN"
+        }
+      ],
+      "title": "LOCATIONS..."
+    },
+    "needs": {
+      "categories": [
+        {
+          "elements": [
+            "... by taking what is rightfully yours",
+            "... by destroying what she never should have had in the first place",
+            "... by humiliating him",
+            "... but no one can know it was you",
+            "... and everyone has to know it was you",
+            "... for the good of America"
+          ],
+          "name": "TO GET EVEN"
+        },
+        {
+          "elements": [
+            "... of these handcuffs",
+            "... of sight for a while",
+            "... of your “relationship”",
+            "... of a promise you made",
+            "... of your marriage",
+            "... of your contract"
+          ],
+          "name": "TO GET OUT"
+        },
+        {
+          "elements": [
+            "...  by making everyone afraid of you",
+            "... by making everyone mad at you",
+            "... through the exercise of subtle mystical powers",
+            "... from the one you love",
+            "... from the one you hate",
+            "... by living an epic story that will make you a hero forever"
+          ],
+          "name": "TO GET RESPECT"
+        },
+        {
+          "elements": [
+            "... because she can protect me",
+            "... because I can use him to get what I really want",
+            "... because that’s what you do when you are deeply in love",
+            "... because I want to hurt someone else",
+            "... to propagate your superior bloodline",
+            "... to prove you are not the slightest bit gay"
+          ],
+          "name": "TO GET LAID"
+        },
+        {
+          "elements": [
+            "... and you don’t care who you have to hurt to get it",
+            "... but no one can know it was you",
+            "... and everyone has to know it was you",
+            "... right now!",
+            "... but the money isn’t for you. It’s for somebody who needs it bad.",
+            "... enough to buy your safety"
+          ],
+          "name": "TO GET RICH"
+        },
+        {
+          "elements": [
+            "... for the good of America",
+            "... about what really happened to him",
+            "... about the cover-up in Manna",
+            "... about what happened to the loot",
+            "... about why they did what they did to you",
+            "... about who you really are"
+          ],
+          "name": "TO GET THE TRUTH"
+        }
+      ],
+      "title": "NEEDS..."
+    },
+    "objects": {
+      "categories": [
+        {
+          "elements": [
+            "A detailed diagram of the interior of the Tyrell & Janes Bank",
+            "A peephole",
+            "Five photos held together by a rubber band.  Each photo features a different disemboweled corpse surrounded by hooded figures.",
+            "A long, blond wig, matted with blood",
+            "The wrong gun",
+            "Seven dried ears on a dirty string"
+          ],
+          "name": "UNTOWARD"
+        },
+        {
+          "elements": [
+            "A WPA mural from 1940 in the lobby of the post office downtown",
+            "A map showing the 19th-century maze of walkways and passages beneath the streets of Manna.",
+            "Clipped from a magazine and carefully pressed in a book, an article about “Brother John” Lazia, crime boss in the Kansas City Mafia",
+            "A photo of the 1931 all-Asian Manna High School football team",
+            "A Polaroid of Sumida Creek Lake with a penciled “X”",
+            "A medal.  The front side shows two men on horseback in mid-gal-lop exchanging a mailbag.  One of the men is Caucasian; the other has distinctly Asian features.  Motto:  “Duty drives us -- We stop for none.”  The back side has the inscription, “1931”."
+          ],
+          "name": "INFORMATION"
+        },
+        {
+          "elements": [
+            "A dagger with a bone handle and a wavy blade.  The blade has the inscription, E PLURIBUS UNUM.",
+            "Two gallons of gasoline",
+            "A spiked pit",
+            "A Smith & Wesson Model 10 government-issue revolver, dating from World War II, fully loaded with vintage ammo",
+            "A Tommy gun, disassembled and carefully wrapped in oily rags to prevent rust",
+            "A shovel"
+          ],
+          "name": "WEAPONS"
+        },
+        {
+          "elements": [
+            "A tractor",
+            "A two-ton flatbed truck with an arc welder strapped to its bed",
+            "A pickup truck, dented and dirty",
+            "A Mercedes with a rotten smell",
+            "An ambulance",
+            "An empty boxcar on a forgotten siding"
+          ],
+          "name": "TRANSPORTATION"
+        },
+        {
+          "elements": [
+            "A tiara, hammered flat, jewels removed",
+            "A broken-down 18-wheeler loaded with buffalo jerky",
+            "A bag containing $50,000 of raw gold dust and nuggets, reportedly buried somewhere around Sumida Creek Lake in the 19th century",
+            "A black bear, recently housed at the local zoo",
+            "A samurai sword with an engraving at the base of its blade",
+            "A box of gold teeth"
+          ],
+          "name": "VALUABLES"
+        },
+        {
+          "elements": [
+            "A U.S. Navy sea bag full of broken padlocks, all violently torn apart",
+            "An unsigned postcard from Niagara Falls, postmarked 1934, ad-dressed to “Johnny” care of the Manna post office.  Inscription:  “You can count on me.”",
+            "A death mask of President McKinley",
+            "A fossil of a fish with red candle wax dripped all over it",
+            "A buck’s head, stuffed and mounted, mouth agape, glass eyes wild with terror.  It is impossible for anyone to sleep with this thing in the same room with them.",
+            "A photo of five U.S. soldiers in Vietnam-era uniforms, arms around each-others’ shoulders."
+          ],
+          "name": "SENTIMENTAL"
+        }
+      ],
+      "title": "OBJECTS..."
+    },
+    "relationships": {
+      "categories": [
+        {
+          "elements": [
+            "Friends with benefits",
+            "Went to high school together",
+            "“You let me down when I needed it most!”",
+            "Fought side by side in the war",
+            "Friendship ended after one humiliated the other",
+            "Spiritual advisor / truth-seeker"
+          ],
+          "name": "FRIENDSHIP"
+        },
+        {
+          "elements": [
+            "Husband and wife",
+            "Ex-husband and ex-wife",
+            "Siblings",
+            "Identical twins",
+            "Stepchildren",
+            "Parent and child"
+          ],
+          "name": "FAMILY"
+        },
+        {
+          "elements": [
+            "Blood brothers in the Kansas City Mafia",
+            "Mortal enemies in the Kansas City Mafia",
+            "Together, planned and executed a daring, drunken theft of the badger from its pen in Manna’s tiny zoo",
+            "Watched June Alexander’s murder and did nothing to stop it",
+            "Got caught setting a fire",
+            "Did three years together in Lansing Correctional Facility"
+          ],
+          "name": "crime"
+        },
+        {
+          "elements": [
+            "Neighbors",
+            "VFW Post 1161",
+            "Manna First Baptist Church",
+            "Manna high school football",
+            "National Pony Express Association, “an all-volunteer, non-profit historical organization for the purpose of identifying, reestablishing, and marking the original pony express trail”",
+            "Bingo!"
+          ],
+          "name": "COMMUNITY"
+        },
+        {
+          "elements": [
+            "Forbidden love",
+            "Infatuation",
+            "Romantic bliss",
+            "On the rocks",
+            "Insane jealousy",
+            "Loathing"
+          ],
+          "name": "romance"
+        },
+        {
+          "elements": [
+            "Manager and employee",
+            "Sergeant and private",
+            "Innkeeper and guest",
+            "Seventh Degree Master of Fell Secrets and Initiate",
+            "Lawyer and client",
+            "Doctor and patient"
+          ],
+          "name": "work"
+        }
+      ],
+      "title": "relationships..."
+    }
+  },
+  "title": "The Manna Hotel"
+}

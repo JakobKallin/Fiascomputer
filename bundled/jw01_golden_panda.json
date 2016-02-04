@@ -1,0 +1,290 @@
+{
+  "subtitle": "...IN MYTHIC CHINA",
+  "tables": {
+    "locations": {
+      "categories": [
+        {
+          "elements": [
+            "Meng Yo’s private pagoda",
+            "Feng shui koi ponds",
+            "Bench in the sheltered bamboo gardens",
+            "The Kin Xi suspended silt house - with a trap door",
+            "Atop the drum tower that warns of invaders",
+            "Chamber in the Dragon Temple"
+          ],
+          "name": "private places"
+        },
+        {
+          "elements": [
+            "An ancient temple hewn out of solid rock",
+            "The expensive and discrete tea house",
+            "Imperial panda reserve, off limits to all",
+            "Ba Se Inn, among brocade silk pillows",
+            "The Green Market Place",
+            "Dragon Temple training field"
+          ],
+          "name": "public places"
+        },
+        {
+          "elements": [
+            "Clearing in the Malao Forest",
+            "Secluded hut near Ying Creek",
+            "Dock on the river skirting the village",
+            "A long-abandoned shrine haunted by a ghost",
+            "Falling Lotus Waterfall",
+            "An abandoned rice patty field where the Demon Snake lives"
+          ],
+          "name": "The wilderness"
+        },
+        {
+          "elements": [
+            "Freshly dug grave in the Lost Soul Cemetery",
+            "Deserted camp left by rampaging barbarians",
+            "The Yang Rope Bridge crossing over the gorge",
+            "Dirt road along The Niao River",
+            "Spiked rocks lining the edge of the gorge cliff",
+            "A bronze Shang sword stuck in hardened rock"
+          ],
+          "name": "Hanging Coffin Gorge"
+        },
+        {
+          "elements": [
+            "Secret cave with a hidden wooden box",
+            "Lone tree on the highest peak",
+            "Deserted town within the rock",
+            "Remote ridge overlooking the gorge",
+            "Tall temple nestled within the trees on the face of the mountain",
+            "A goat farm at the base of the mountain"
+          ],
+          "name": "THE SNOWY MOUNTAINS"
+        },
+        {
+          "elements": [
+            "The vintage armor room",
+            "A small powder room with a secret passage",
+            "Inside the private bed chambers",
+            "Prayer room with burning incense sticks",
+            "Long hallway lined with water-ink paintings",
+            "Kitchen with a wood burning stove in the corner"
+          ],
+          "name": "THE ESTATE OF SHANG LEE"
+        }
+      ],
+      "title": "LOCATIONS..."
+    },
+    "needs": {
+      "categories": [
+        {
+          "elements": [
+            "... through blackmail",
+            "... through the theft of something - or someone - precious",
+            "... through murder",
+            "... through a misplaced treasure map",
+            "... through fraud and trickery",
+            "... through the written bequest of a long-lost ancestor"
+          ],
+          "name": "TO GET RICH"
+        },
+        {
+          "elements": [
+            "... from the mysterious villains who pursue you",
+            "... from a debt, before the clock strikes midnight",
+            "... from those who’d take your share of the prize",
+            "... from a crappy job",
+            "... from an obligation you cannot honor",
+            "... from the ritual"
+          ],
+          "name": "TO GET AWAY"
+        },
+        {
+          "elements": [
+            "... from your peers, by finally fulfilling your sacred oath",
+            "... from your would-be lover, by proving yourself",
+            "... from your honored ancestors",
+            "... from your ex-best-friend, who doesn’t believe you any more",
+            "... from an overbearing master",
+            "... from the world, by showing the world who you really are"
+          ],
+          "name": "TO GET RESPECT"
+        },
+        {
+          "elements": [
+            "... with those backstabbing liars",
+            "... with a rival you hate - and love",
+            "... with a family member",
+            "... with the Celestial Emperor’s delegate",
+            "... with your “friend”",
+            "... with this stupid village and everyone in it"
+          ],
+          "name": "TO GET EVEN"
+        },
+        {
+          "elements": [
+            "... your past, and the secret your father kept from you",
+            "... the curse that was cast upon your family",
+            "... the golden poppy flower that was left on your doorstep",
+            "... the map that was ripped in half",
+            "... the object that changed all of your friends",
+            "... the disappearance of the missing panda"
+          ],
+          "name": "TO GET THE TRUTH ABOUT"
+        },
+        {
+          "elements": [
+            "... the meaning of life",
+            "... the one you are destined to be with forever",
+            "... a new and better life",
+            "... why she was murdered",
+            "... the true object you are seeking",
+            "... what the mystic ritual really entails"
+          ],
+          "name": "TO DISCOVER"
+        }
+      ],
+      "title": "NEEDS..."
+    },
+    "objects": {
+      "categories": [
+        {
+          "elements": [
+            "A horse named Dreamer",
+            "Wagon with a broken wheel",
+            "Two-wheeled bamboo bicycle contraption",
+            "Carved walking stick",
+            "Battered old rickshaw",
+            "Luxurious river boat"
+          ],
+          "name": "TRANSPORTATION"
+        },
+        {
+          "elements": [
+            "Fifty feet of silk rope, a hammer and spikes, and a lantern",
+            "A mysteriously glowing orb",
+            "Magical ever-full bottle",
+            "Pair of noteworthy chopsticks",
+            "Red silk scarf",
+            "Square box decorated with symbols and filled with dumplings"
+          ],
+          "name": "NECESSITIES"
+        },
+        {
+          "elements": [
+            "Half a note with burned edges",
+            "Fortune cookie",
+            "Folded parchment map",
+            "Whispered secret in the tea room",
+            "Reading from tea leaves with ominous foretellings",
+            "Set of stone tablets with mystical symbols"
+          ],
+          "name": "INFORMATION"
+        },
+        {
+          "elements": [
+            "An empty scabbard",
+            "Pair of Shaolin war-fans",
+            "Lucky fighting staff",
+            "Wagon-load of gunpowder-filled rockets",
+            "Treasured ancient bronze axe",
+            "Wooden bow and arrow set"
+          ],
+          "name": "WEAPONS"
+        },
+        {
+          "elements": [
+            "A silk-lined box filled with calligraphy ink",
+            "A box of ceramic moveable print",
+            "Two puzzle pieces that form a whole",
+            "Silver locket with a hidden picture",
+            "Compass made from a bowl of water and a needle",
+            "Painting of a child eating from a decorated rice bowl"
+          ],
+          "name": "MEMORIES"
+        },
+        {
+          "elements": [
+            "An ivory “doctor’s doll”",
+            "A scroll about a mysterious new martial arts style",
+            "An ancestor’s locket, stolen from their coffin",
+            "Satchel filled with golden coins",
+            "Dragon statue made out of jade",
+            "Green porcelain vase from the Shang Dynasty"
+          ],
+          "name": "VALUABLES"
+        }
+      ],
+      "title": "OBJECTS..."
+    },
+    "relationships": {
+      "categories": [
+        {
+          "elements": [
+            "In-law and son or daughter-in-law",
+            "Twins born under an inauspicious star",
+            "Parent and child",
+            "Cousins",
+            "Grandparent and unwanted grandchild",
+            "Astrologically-linked distant relatives"
+          ],
+          "name": "Clan"
+        },
+        {
+          "elements": [
+            "Bitter enemies forced to maintain a veneer of friendship",
+            "Hunting buddies",
+            "Benefactor and concubine",
+            "Manipulator and victim",
+            "Friendly rivals in all things",
+            "Best friends and loyal compatriots"
+          ],
+          "name": "Friendship"
+        },
+        {
+          "elements": [
+            "Outdoorsman and city-dwelling tenderfoot",
+            "Old wise elder and curious child",
+            "Warrior returning from war and spouse/child",
+            "Social adversaries",
+            "Village head and lowly peasant",
+            "Guardian and temple sweeper"
+          ],
+          "name": "VILLAGE"
+        },
+        {
+          "elements": [
+            "Divorced by Imperial edict",
+            "Youthful sweethearts",
+            "Lovers from opposing clans",
+            "Incestuous family members",
+            "Current spouses",
+            "Unhealthy obsession"
+          ],
+          "name": "ROMANCE"
+        },
+        {
+          "elements": [
+            "Farmers",
+            "Artisan and patron",
+            "Monk and disciple",
+            "Clandestine collaborators",
+            "Master and apprentice",
+            "Merchant and customer"
+          ],
+          "name": "WORK"
+        },
+        {
+          "elements": [
+            "Village rivals",
+            "Grew up together as competitors - and more",
+            "Descendants from the same hallowed ancestor",
+            "Mutual keepers of an ominous secret",
+            "Neighbors once, now again",
+            "Trained warriors"
+          ],
+          "name": "THE PAST"
+        }
+      ],
+      "title": "relationships..."
+    }
+  },
+  "title": "Quest for the Golden Panda"
+}

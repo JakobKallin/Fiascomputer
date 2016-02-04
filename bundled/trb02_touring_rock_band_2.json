@@ -1,0 +1,290 @@
+{
+  "subtitle": "...After the Music Stops",
+  "tables": {
+    "locations": {
+      "categories": [
+        {
+          "elements": [
+            "Owner’s office, gold records on the wall",
+            "Crawlspace beneath the drum room",
+            "Soundproofed music lesson room",
+            "Humbucker’s Famous Bargain Basement",
+            "Band and orchestra rental desk",
+            "Shelf where the accounts payable ledger is supposed to be"
+          ],
+          "name": "HUMBUCKER’S MUSIC STORE"
+        },
+        {
+          "elements": [
+            "Amstar Studios",
+            "Law offices of Creswell Phelps",
+            "Dr. Gerlach Moeller, Urology",
+            "The Frantic Bean coffee stand",
+            "Pacific Breeze Cosmetic Surgery and Spa",
+            "Reception desk staffed by a bored rent-a-cop"
+          ],
+          "name": "THE PHELPS BUILDING"
+        },
+        {
+          "elements": [
+            "Manager’s office, usually locked",
+            "On stage, under the lights, like old times",
+            "Trough urinal, men’s bathroom",
+            "Out in the van under drifts of cheeseburger wrappers",
+            "Behind the bar, slinging drinks",
+            "Green room, grotty as ever"
+          ],
+          "name": "THE BEANSTALK SHOW CLUB"
+        },
+        {
+          "elements": [
+            "R. McGhee, Dental Surgery and Prosthodontics",
+            "Merlin Park Occupy encampment",
+            "Forever Records, long since boarded up and closed",
+            "Gamehawks Falconry Supply",
+            "Dumpster behind the Chicken Hut",
+            "Namaste Books and Crystals"
+          ],
+          "name": "DOWNTOWN"
+        },
+        {
+          "elements": [
+            "Crumbling mansion built ten years ago",
+            "The old bus, which will never roll again",
+            "Upscale condo paid for by an occasionally demanding fan",
+            "Some girlfriend’s duplex next to the tracks",
+            "Empty swimming pool shaped like a double-necked guitar",
+            "Little cottage on the grounds of the big mansion"
+          ],
+          "name": "CRASH SPACE"
+        },
+        {
+          "elements": [
+            "On the roof, by the UFO beacon",
+            "Brody’s bedroom, where he keeps the hard stuff",
+            "Basement “party” room with the hidden camera",
+            "Front porch filled with old couches and college stoners",
+            "The living room, where the bands play",
+            "Out back, in the bonfire"
+          ],
+          "name": "11 PENTECOST ROAD"
+        }
+      ],
+      "title": "LOCATIONS..."
+    },
+    "needs": {
+      "categories": [
+        {
+          "elements": [
+            "...though your body may not cooperate",
+            "...by Marcie Lowell",
+            "...by the record label to get your album deal",
+            "...because you never have been",
+            "...by that person who never would back in the day",
+            "...by somebody you didn’t marry twice"
+          ],
+          "name": "TO GET FUCKED"
+        },
+        {
+          "elements": [
+            "...while keeping your “clean living” rep",
+            "...in the grand manner to which you were once accustomed",
+            "...with your high school sweetheart",
+            "...in public, on television, while getting paid",
+            "...for one last time",
+            "...with a living legend"
+          ],
+          "name": "TO GET WASTED"
+        },
+        {
+          "elements": [
+            "...from royalties you are due",
+            "...to fund an ironic nostalgia gig at the Beanstalk",
+            "...by moving a little product",
+            "...from selling your rock relics on the Internet",
+            "...to pay for all that alimony and the lawsuits",
+            "...by scamming free stuff from fans"
+          ],
+          "name": "TO GET A LITTLE CASH"
+        },
+        {
+          "elements": [
+            "...on King Boots Affair, those upstart assholes",
+            "...for what happened on tour all those years ago",
+            "...on Tito Luna for stealing your money",
+            "...on the monster who stole your spouse",
+            "...on those who made you a living joke",
+            "...because nobody should ever touch another man’s falcon"
+          ],
+          "name": "TO GET REVENGE"
+        },
+        {
+          "elements": [
+            "...by finishing the magnum opus at last",
+            "...by recovering your pawned American Music Award",
+            "...by finally coming out of the closet",
+            "...by filling the arena one more time",
+            "...by playing the humanitarian card",
+            "...by partying harder than people half your age"
+          ],
+          "name": "TO GET RESPECT"
+        },
+        {
+          "elements": [
+            "...shape, for reasons that are pretty obvious",
+            "...the band",
+            "...the game, despite someone’s reluctance",
+            "...to your kid’s life",
+            "...by letting a pop star debase your life’s work",
+            "...by scoring spots in the cast of that reality TV show"
+          ],
+          "name": "TO GET BACK IN"
+        }
+      ],
+      "title": "NEEDS..."
+    },
+    "objects": {
+      "categories": [
+        {
+          "elements": [
+            "Extremely old grizzly bear",
+            "Medical chart with very bad news on it",
+            "Medical marijuana in vast quantities",
+            "Lemmy Kilmister",
+            "Daily dialysis support for long-ruined kidneys",
+            "Bronzed armadillo with something engraved on it"
+          ],
+          "name": "SICK AS HELL"
+        },
+        {
+          "elements": [
+            "Extraordinarily precious guitar",
+            "Bottles of pills you cannot get anywhere any more",
+            "15-year-old pyrotechnic charges",
+            "Long lost studio masters of the second album",
+            "Schott Perfecto leather jacket",
+            "Weathered, disintegrating Scab-Man costume"
+          ],
+          "name": "ROCKIN’"
+        },
+        {
+          "elements": [
+            "The old bus, Janis",
+            "Backpack full of rubber masks and spray paint cans",
+            "KISS lunchbox full of Viagra",
+            "Gold record",
+            "New contract waiting for a signature",
+            "Tipper Gore’s private phone number"
+          ],
+          "name": "ROLLIN’"
+        },
+        {
+          "elements": [
+            "Sun-bleached carcass of a Maserati Quattroporte III",
+            "Ronnie James Dio’s wristbands",
+            "The pick. You know the one.",
+            "Neil Peart’s copy of The Fountainhead, extensively underlined",
+            "Two-handed sword, slightly used",
+            "666 black M&M candies in a jar"
+          ],
+          "name": "FUCKIN’ AWESOME"
+        },
+        {
+          "elements": [
+            "Stack of paternity test results",
+            "Ten dusty boxes of merch from the final tour",
+            "Replica of a youthful schlong done by Cynthia Plaster Caster",
+            "Dangerously-trained peregrine falcon",
+            "Deceased bandmate’s skull, now an honored bong",
+            "Tito Luna’s stolen horse trailer"
+          ],
+          "name": "DUDE NO WAY"
+        },
+        {
+          "elements": [
+            "Comp tickets to a King Boots Affair show at the Beanstalk",
+            "Clean work uniforms",
+            "Old stage costume that you’re too fat to wear",
+            "Candidacy Filing paperwork for School Board Election",
+            "Boxes of faded, tear-stained fan letters",
+            "Pile of unopened certified mail from the IRS"
+          ],
+          "name": "FUCKIN’ WEAK"
+        }
+      ],
+      "title": "OBJECTS..."
+    },
+    "relationships": {
+      "categories": [
+        {
+          "elements": [
+            "“Divorced. But, you know, we’re cool with that”",
+            "Twins",
+            "The couple that defied the odds",
+            "Extramarital child and parent",
+            "A lie told so long it became true",
+            "Cousins"
+          ],
+          "name": "FAM I LY"
+        },
+        {
+          "elements": [
+            "High school sweethearts",
+            "Mentor and new kid with fast hands",
+            "Play the same instrument, by some definition of instrument",
+            "Rehab buddies",
+            "“Nothing has changed for us since 1990”",
+            "Composer and lyricist"
+          ],
+          "name": "GOOD FRIENDS"
+        },
+        {
+          "elements": [
+            "Coworkers at funeral monument carving workshop",
+            "New front man and old rocker",
+            "Baristas",
+            "“We’re all roadies now”",
+            "Desperate visionary and the stubborn one",
+            "Boss and boss"
+          ],
+          "name": "THE GRIND"
+        },
+        {
+          "elements": [
+            "Old musician and number one fan",
+            "Plastic surgeon and devoted client",
+            "Record executive and “artist”",
+            "Shiftless dreamer and spouse with job",
+            "Fired agent and tour personnel",
+            "Rock poet and social worker"
+          ],
+          "name": "PARASITES"
+        },
+        {
+          "elements": [
+            "Law enforcement officer and ex-con",
+            "Aspiring author and ghostwriter",
+            "Guru and follower",
+            "Drug people",
+            "Bitter ex-spouses",
+            "Newest members of King Boots Affair"
+          ],
+          "name": "TROUBLE"
+        },
+        {
+          "elements": [
+            "Codependent spouses",
+            "Misguided business partners",
+            "Moneylender and serious debtor",
+            "Cleaned-up addict and dealer",
+            "The one who eventually made it big and the one who never did",
+            "Unknown songwriter and the one who took all the credit"
+          ],
+          "name": "BAD FRIENDS"
+        }
+      ],
+      "title": "Relationships..."
+    }
+  },
+  "title": "Touring Rock Band 2"
+}

@@ -1,0 +1,290 @@
+{
+  "subtitle": "...under cosimo de' medici",
+  "tables": {
+    "locations": {
+      "categories": [
+        {
+          "elements": [
+            "Palazzo Ducale (see notes)",
+            "Loggia dei Lanzi, among the Medici’s statues (see notes)",
+            "Groundworks  for  the  new  offices  (in  Florentine,  uffizi)  of  the        thirteen Magistrates of the Arts (see notes)",
+            "Tribunale della Mercanzia (see notes)",
+            "Palazzo Uguccioni (see notes)",
+            "Arte del Cambio, the corporation of bankers (see notes)"
+          ],
+          "name": "In Piazza della Signoria"
+        },
+        {
+          "elements": [
+            "Filthy streets of the Market after closing hours",
+            "Lungarno, in the middle of the night (see notes)",
+            "Forgotten Roman temple, beneath the potter’s shop",
+            "Butcher shops on Ponte Vecchio (see notes)",
+            "Goldsmith’s workshop",
+            "Black Boar’s Inn"
+          ],
+          "name": "The narrow streets of the center"
+        },
+        {
+          "elements": [
+            "Crossroads on the way to Montalcino (see notes)",
+            "Monastery in Chianti",
+            "Vineyard, precious grapes on the vines",
+            "Ancient oak in Balduccio’s field",
+            "Old Hangman’s Coaching Inn",
+            "Hidden bend of the Arno, downriver from the city"
+          ],
+          "name": "In the country"
+        },
+        {
+          "elements": [
+            "Hidden alcove in the cathedral, Santa Maria del Fiore (see notes)",
+            "Basilica of Santa Croce, Franciscan convent and seat of      the Inquisition (see notes)",
+            "Convent of cloistered nuns observing the vow of silence",
+            "In the quiet shade of a rich Benedictine cloister",
+            "Confessional in a discreet church",
+            "Two synagogues in the ghetto, a few yards from the Archbishopric"
+          ],
+          "name": "Of the faith"
+        },
+        {
+          "elements": [
+            "Cosimo’s private apartments",
+            "Palace medicinal garden",
+            "Beneath a long oak dining table",
+            "Bedroom of Lucrezia, Cosimo’s stunning (and secluded)      daughter (see notes)",
+            "Secret passage, cleverly disguised",
+            "Busy palace kitchens"
+          ],
+          "name": "At Cosimo's court"
+        },
+        {
+          "elements": [
+            "Gambling house",
+            "Back of the undertaker’s workshop",
+            "Secret chapel of a small heretic congregation",
+            "Cosimo’s informal torture chamber",
+            "Stinking tannery near Ponte Vecchio",
+            "Brothel near the Arno"
+          ],
+          "name": "U n s avo ry"
+        }
+      ],
+      "title": "Locations..."
+    },
+    "needs": {
+      "categories": [
+        {
+          "elements": [
+            "...through fraud and duplicity",
+            "...by blackmailing the Archbishop",
+            "...by robbing a money changer",
+            "...through a once in a lifetime opportunity",
+            "...by carefully saving every penny over a lifetime",
+            "...through one huge winning bet at Il Palio"
+          ],
+          "name": "To get rich"
+        },
+        {
+          "elements": [
+            "...by one of the powers that be",
+            "...to get back at an old love that ended badly",
+            "...with a public challenge",
+            "...by one of the faith",
+            "...to get your name back",
+            "...to save a life"
+          ],
+          "name": "To right a wrong"
+        },
+        {
+          "elements": [
+            "...temptation on the altar of righteousness",
+            "...the life your family has planned for you",
+            "...a helpless woman and the child you sired",
+            "...holy orders",
+            "...the oath of allegiance to your Lord",
+            "...the conspiracy"
+          ],
+          "name": "To abandon"
+        },
+        {
+          "elements": [
+            "...to your loved one",
+            "...from your unforgivable sins",
+            "...to Cosimo himself",
+            "...before you can kill him",
+            "...to a friend you have wronged",
+            "...to an innocent dragged into scandal"
+          ],
+          "name": "To prove your repentance"
+        },
+        {
+          "elements": [
+            "...by silencing a rival",
+            "...by defending Cosimo De’ Medici",
+            "...from her own ungodly vanity",
+            "...from Siennese spies, real and imagined",
+            "...with a casual threat of heresy",
+            "...with great enthusiasm but no real effect"
+          ],
+          "name": "To defend Florence"
+        },
+        {
+          "elements": [
+            "...and write your name in history",
+            "...by returning to your village richer than Croesus",
+            "...by slaying Cosimo",
+            "...by destroying yourself, literally or figuratively",
+            "...whispered in your ear by the Devil",
+            "...by delivering a message of the utmost importance"
+          ],
+          "name": "To complete your mission"
+        }
+      ],
+      "title": "NEEDS..."
+    },
+    "objects": {
+      "categories": [
+        {
+          "elements": [
+            "Nail from the True Cross",
+            "Cathedral’s Eucharistic chalice, all gold and precious stones",
+            "Finely done illuminated Bible",
+            "Elderly and comatose Benedictine bursar",
+            "Ceremonial costume of Tlatlauhqui Tezcatlipoca, Aztec God        of death and rebirth",
+            "Franciscan monk’s habit and a hand-drawn map"
+          ],
+          "name": "Religious"
+        },
+        {
+          "elements": [
+            "Forbidden book, put to the Index by the Holy Church (see notes)",
+            "Ingredients and recipe for the Philosopher’s Stone",
+            "Lambskin “French letter”",
+            "Newborn bastard",
+            "Corpse, freshly stolen",
+            "Siennese war banner"
+          ],
+          "name": "Untoward"
+        },
+        {
+          "elements": [
+            "Ring with a secret compartment",
+            "Secret dispatch, cyphered",
+            "Wooden cross that hides a dagger",
+            "Incriminating testimony from a witness",
+            "Sleeping draught, prepared a little strong",
+            "Overheard secret that could destroy a reputation"
+          ],
+          "name": "Of intrigue"
+        },
+        {
+          "elements": [
+            "Dagger, dripping poison",
+            "Butcher’s cleaver",
+            "Sword, received as heirloom",
+            "Clever collapsible bow",
+            "Massive block of fine white Carrara marble",
+            "Rosary with heavy stone beads"
+          ],
+          "name": "Weapons"
+        },
+        {
+          "elements": [
+            "Stolen plans for one of Leonardo’s machines",
+            "Two exotic savage beasts, in cages",
+            "Ocularia with extremely well crafted lenses from Holland",
+            "Siren, mummified",
+            "Alchemical oven",
+            "The Florentine codex, an Aztec manuscript"
+          ],
+          "name": "Curious and bizarre"
+        },
+        {
+          "elements": [
+            "Necklace of sapphires",
+            "Golden signet ring",
+            "Trunk of silver coins, half full",
+            "Letter of exchange worth a thousand gold ducats",
+            "Perfectly proportioned skull, cut from New World jade",
+            "Siennese race horse named after the Pope"
+          ],
+          "name": "Precious"
+        }
+      ],
+      "title": "OBJECTS..."
+    },
+    "relationships": {
+      "categories": [
+        {
+          "elements": [
+            "Brothers in Christ",
+            "Front bench at Sunday’s Mass in Santa Croce (see notes)",
+            "Penitent and confessor",
+            "Neighbors, devout and not so devout",
+            "Inquisitor and heretic",
+            "We share common beliefs, best kept private"
+          ],
+          "name": "Faith"
+        },
+        {
+          "elements": [
+            "Spouses in a loveless marriage",
+            "Secretly betrothed",
+            "The shameful mistake of one night",
+            "Tied by a forbidden passion",
+            "Bitter ex-lovers",
+            "Chaste, yet burning for one another"
+          ],
+          "name": "Love"
+        },
+        {
+          "elements": [
+            "Protector and protected",
+            "Former brothers in arms",
+            "Deadly rivals",
+            "Veterans of a free company",
+            "Hired assassin and target",
+            "Mercenary and employer"
+          ],
+          "name": "War and violence"
+        },
+        {
+          "elements": [
+            "Artist and young apprentice",
+            "Artist and patron of the arts",
+            "Rival merchants",
+            "Ex students at Pisa’s University",
+            "Skilled laborer (carpenter, sculptor) and supervisor of the      Opera del Duomo (see notes)",
+            "Established court artist and young rising star"
+          ],
+          "name": "Arts and crafts"
+        },
+        {
+          "elements": [
+            "Noble and page/handmaiden",
+            "High rank parent and bastard child",
+            "Younger cousins in a noble family",
+            "Secret lovers",
+            "Servant and servant’s servant",
+            "High ranking noble and lowly subject"
+          ],
+          "name": "At court"
+        },
+        {
+          "elements": [
+            "Corrupt public officer and rich merchant",
+            "Moneylender and debtor",
+            "Wrongdoers (thugs, housebreakers, pickpockets, thieves)",
+            "Con man and mark",
+            "Members of the same cabal/conspiracy",
+            "Relic peddler and religious zealot"
+          ],
+          "name": "Of low morals"
+        }
+      ],
+      "title": "relationships..."
+    }
+  },
+  "title": "De' Medici"
+}

@@ -1,0 +1,290 @@
+{
+  "subtitle": "...in 1913 New York",
+  "tables": {
+    "locations": {
+      "categories": [
+        {
+          "elements": [
+            " H. Kauffman & Sons Harness Company, Park Avenue South at East 24th street (See Notes)",
+            " The United States Mortgage and Trust Company, 55 Cedar Street",
+            " Tiffany and Company, at Fifth Avenue and 37th Street",
+            " The Arnold-Constable department store, Broadway and E. 19th St",
+            " Association for Befriending Children and Young Girls, 136 2nd Ave",
+            " Union League Club, Fifth Avenue and 39th Street"
+          ],
+          "name": "posh NEW YORK"
+        },
+        {
+          "elements": [
+            " Yonah Shimmel’s Bakery, 137 East Houston Street (try the knishes)",
+            " KALEM Moving Picture Studios, 131 Seventh Avenue (See Notes)",
+            " The American Bank Note Company, Broad and Beaver Streets",
+            " Columbia Warehouses, 149 Columbus Avenue",
+            " Lee Machine Works, Mott and Hester Streets",
+            " New York Court of Common Pleas, City Hall Park"
+          ],
+          "name": "working NEW YORK"
+        },
+        {
+          "elements": [
+            " Segal’s, the restaurant of choice among working criminals, Second Avenue and First Street",
+            " The burned out shell of the Asch Building on Washington Place",
+            " Block Drugs, 101 East Sixth Street (See Notes)",
+            " Bismark Hall, Second Avenue and 13th Street, the epicenter of the criminal underworld",
+            " Saint Marks-in-the-Bowery Church, at Second Avenue West and East Tenth Street",
+            " New York County Workhouse, Blackwell’s Island"
+          ],
+          "name": "yegg NEW YORK"
+        },
+        {
+          "elements": [
+            " A low stakes Fran-Tan parlor on Pell Street",
+            " The On Leong Merchant’s Association Building on Pell Street",
+            " Dr. Hum Mun Tau’s Apothecary on Doyer Street",
+            " The Canton Club, Fifth Avenue and Mulberry (See Notes)",
+            " The Bing Ching Union gambling hall",
+            " A high-class brothel on Mott Street"
+          ],
+          "name": "chinese NEW YORK"
+        },
+        {
+          "elements": [
+            " The Metropolitan Roller Skating Rink at Broadway and 52nd Street",
+            " Wallack’s Theater, Broadway and East 13th Street",
+            " The Houston Athletic Club, 143 East Houston Street",
+            " The Holland Brothers’ Kinetoscope Parlor, at 1157 West 27th Street",
+            " John Delmonico’s restaurant, arguably New York’s finest, at Fifth Avenue and 44th Street",
+            " Hadley Hall, at 293 East First Street and the Bowery (See notes)"
+          ],
+          "name": "entertaining NEW YORK"
+        },
+        {
+          "elements": [
+            " A squalid tenement apartment in the lower East Side",
+            " A posh “bachelor apartment” in the Sherry building, Fifth Avenue and 44th Street",
+            " A family apartment in The Mitchell, 123 West 15th street",
+            " Secure top floor suite of the St. Denis hotel, Broadway and East 11th",
+            " A weekly room in the Liberty Hotel, 295 East First Street and Bow-ery (See Notes)",
+            " An elegant townhouse overlooking Tompkins Square"
+          ],
+          "name": "residences"
+        }
+      ],
+      "title": "LOCATIONS..."
+    },
+    "needs": {
+      "categories": [
+        {
+          "elements": [
+            "...From the slums, before they eat you alive",
+            "...From your oppressive family",
+            "...From your spouse",
+            "...From an unwanted lover",
+            "...From a heavy obligation to a family member",
+            "...From a crushing debt coming due"
+          ],
+          "name": "To free your body and soul"
+        },
+        {
+          "elements": [
+            " ...perpetrated by the New York political machine",
+            " ...caused by America, which has turned you into a monster",
+            " ...committed by a police officer",
+            " ...covered up by your own family",
+            " ...arrogantly enacted by a business rival",
+            " ...corrupting the very heart of industrial capitalism"
+          ],
+          "name": "To avenge a great wrong"
+        },
+        {
+          "elements": [
+            "...Through stealing from the Chinese",
+            "...Through robbing a business unlikely to notice",
+            "...Through simple but bold fraud",
+            "...Through the death of an elderly person",
+            "...Through political graft",
+            "...Through a sudden windfall that does not belong to you"
+          ],
+          "name": "To gain the wealth of croesus"
+        },
+        {
+          "elements": [
+            "...From New York, by bringing that politician down",
+            "...From the city, by demonstrating your power and reach",
+            "...From your lover, by proving yourself in the most grave extreme",
+            "...From the police, by assisting them at dire personal danger",
+            "...From a family member, by rescuing them from ruin",
+            "...From yourself, by ending the long wait and pulling the trigger"
+          ],
+          "name": "To earn universal RESPECT"
+        },
+        {
+          "elements": [
+            "...About the family’s shameful past",
+            "...About New York’s political corruption",
+            "...About a loved one’s criminal history",
+            "...About someone’s infidelity",
+            "...About what happened on the S.S. Tuscania",
+            "...About the woman’s face that haunts you still"
+          ],
+          "name": "To discover the dark truth"
+        },
+        {
+          "elements": [
+            "...With anyone, anywhere, to dull the pain",
+            "...With a flash bit of ankle down at Macy’s",
+            "...With an exotic foreigner",
+            "...And rekindle a dormant romance",
+            "...As a means to a very terrible end",
+            "...With the best of them, to prove you are a man"
+          ],
+          "name": "To engage in immoral congress"
+        }
+      ],
+      "title": "NEEDS..."
+    },
+    "objects": {
+      "categories": [
+        {
+          "elements": [
+            " A purple velvet Brooks Brothers ladies flying suit",
+            " A lock-box from Tammany Hall, Park Avenue and East 17th Street",
+            " A prodigious brick of cocaine in a Block Drugs bag (see Notes)",
+            " The pickled head of a murderer in a jar",
+            " An aborted fetus wrapped in an old copy of the New York Journal",
+            " An opium fiend’s monogrammed kit"
+          ],
+          "name": "unwholesome"
+        },
+        {
+          "elements": [
+            " Fowling piece, still in the box from the Abercrombie and Fitch Company, 57 Reade Street",
+            " A leopard",
+            " Dynamite bomb with timer",
+            " Ladies’ pistol, dainty as you please",
+            " Beaker of hydrofluoric acid",
+            " Lacquered basswood airplane strut"
+          ],
+          "name": "weapons"
+        },
+        {
+          "elements": [
+            " Gaggenau 7-ton gasoline truck",
+            " Alco “anti-fatigue” motorcar, 2-time winner of the Vanderbilt Cup",
+            " Studebaker hansom horse-drawn carriage",
+            " Curtiss Model 1911-D aeroplane",
+            " An I.R.T. elevated train car",
+            " A freight lighter moored at the East River docks"
+          ],
+          "name": "transportation"
+        },
+        {
+          "elements": [
+            " A list of all 67,000 New York telephone subscribers with certain names underlined",
+            " A blueprint of the H. Wolff Book Bindery, Tenth Avenue and West 26th Street, one of the few poured concrete buildings in New York",
+            " A threatening note addressed to Adams Dry Goods, Sixth Avenue and West 22nd Street (See Notes)",
+            " Annotated copy of the Report of the Exhibition and Tests of Street Cleaning",
+            " A treasure map",
+            " Curious letter penned by an inmate of the Riverside Rest Associa-tion, Second Avenue & East 26th Street (See Notes)"
+          ],
+          "name": "information"
+        },
+        {
+          "elements": [
+            " An envelope containing Hamburg-American Line tickets to Europe",
+            " The key to a deposit box at the Chase Bank, 200 Park Avenue South",
+            " A Turkish rug from Ferdossi Rugs, Broadway and East 21st Street",
+            " A camera and tripod from E & T Anthony and Co., 591 Broadway",
+            " Chemicals misplaced from the New York Lying-In Hospital",
+            " A gold Hip Sing tong “Dragon Head” necklace"
+          ],
+          "name": "valuable"
+        },
+        {
+          "elements": [
+            " A gentleman’s tasteful moonstone tie-tack",
+            " A soldier’s diary from the Spanish-American War",
+            " A wedding ring",
+            " A budgie in a cage",
+            " A family bible stuffed with correspondence",
+            " A tattered Daguerreotype of the Engine Company Eleven crew, at the 437 Columbia St. firehouse"
+          ],
+          "name": "Sentimental"
+        }
+      ],
+      "title": "OBJECTS..."
+    },
+    "relationships": {
+      "categories": [
+        {
+          "elements": [
+            "Godparent and child",
+            "Parent and stepchild",
+            "Siblings",
+            "Cousins",
+            "Grandparent and grandchild",
+            "Relatives in the Old Country"
+          ],
+          "name": "Family"
+        },
+        {
+          "elements": [
+            "Former co-workers",
+            "Current co-workers",
+            "Supervisor / employee",
+            "Working stiff / client (mechanic, plumber, gardener, groomsman)",
+            "Salesman and customer",
+            "Professional and client (pastor, lawyer, accountant, prostitute)"
+          ],
+          "name": "Work"
+        },
+        {
+          "elements": [
+            "Manipulator and victim",
+            "Old friends",
+            "Disreputable friends (criminal, opium addict, gambling, whoring)",
+            "Friendly sporting rivals",
+            "Club / society friends",
+            "Social adversaries"
+          ],
+          "name": "FRIENDSHIP"
+        },
+        {
+          "elements": [
+            "Spouses in name only",
+            "Current spouses",
+            "Stalker and obsession",
+            "Broken engagement or one-time fling",
+            "Lovers",
+            "Former lovers"
+          ],
+          "name": "ROMANCE"
+        },
+        {
+          "elements": [
+            "Graft giver and receiver",
+            "Gamblers",
+            "Thieves (shoplifters, burglars, purse snatchers)",
+            "Con man and mark",
+            "Hoodlums (gangsters, knuckleheads, delinquents)",
+            "Drug people (sellers, distributors, users)"
+          ],
+          "name": "CRIME"
+        },
+        {
+          "elements": [
+            "Appointed officials (Sanitation or commerce board, judges)",
+            "Volunteers (Neighborhood committee, election officials)",
+            "Church (Lay reader, deacon, sexton, temperance society)",
+            "Ethnic group (Clubs and societies, education or relief society)",
+            "Vigilantes (Vigilance committee, ethnic gang)",
+            "Radicals (Organizers, anarchists, Wobblies)"
+          ],
+          "name": "COMMUNITY"
+        }
+      ],
+      "title": "relationships..."
+    }
+  },
+  "title": "1913 New York"
+}

@@ -1,0 +1,290 @@
+{
+  "subtitle": "...Aboard Flight 1180",
+  "tables": {
+    "locations": {
+      "categories": [
+        {
+          "elements": [
+            "The emergency exit row",
+            "Down in the hold",
+            "The suffocating airplane bathroom",
+            "Row 3, in the first-class cabin",
+            "Row 22, by the window",
+            "The galley, with the curtain drawn"
+          ],
+          "name": "In The Air"
+        },
+        {
+          "elements": [
+            "The crowded cab stand at the hotel",
+            "On the shuttle bus with half a dozen other poor schlubs",
+            "In the smoking lounge at the airport",
+            "In the handicapped stall of the airport bathroom",
+            "A half-assed airport franchise bar and grill",
+            "At the ticket counter, behind an irate customer"
+          ],
+          "name": "Around the Airport - Flashback"
+        },
+        {
+          "elements": [
+            "In the bedroom, before this whole mess started",
+            "In the car, just after the accident",
+            "At the hospital, before you knew how bad it was",
+            "At work, when you got the assignment",
+            "In the kitchen, when you began to suspect",
+            "At the Rusty Nail, after closing, when there was still hope"
+          ],
+          "name": "Back Home - flashback"
+        },
+        {
+          "elements": [
+            "The bathroom in high school, before you knew better",
+            "In the burning garage, just before the worst of it",
+            "At the hospital, the day you met, you think",
+            "In the restaurant, celebrating the big day",
+            "That day in the elevator, when you lied",
+            "In the alley behind the jewelry shop"
+          ],
+          "name": "Way Back When - flashback"
+        },
+        {
+          "elements": [
+            "The convention floor, with just an hour left to go",
+            "The Tasty Place Noodle House, just as they’re trying to close",
+            "Club Intensity, where they dance in cages",
+            "The rooftop restaurant, which spins too fast",
+            "The hotel bathroom, morning of the flight",
+            "The convenience store at an inconvenient hour"
+          ],
+          "name": "Point of Departure - Flashback"
+        },
+        {
+          "elements": [
+            "In a field of wildflowers, near the emergency slide",
+            "In the woods, where they’ll never find you. Maybe.",
+            "The booking room of a New York police station",
+            "The lawyer’s office, later than you should be there",
+            "In the ICU, where the machines chirp like birds",
+            "The morgue"
+          ],
+          "name": "Final Destination"
+        }
+      ],
+      "title": "LOCATIONS..."
+    },
+    "needs": {
+      "categories": [
+        {
+          "elements": [
+            "...from the evidence left behind",
+            "...from that bitch before it’s too late",
+            "...with the goods",
+            "...from the bastard who bought your ticket",
+            "...from the passenger next to you",
+            "...with adultery"
+          ],
+          "name": "TO Get Away"
+        },
+        {
+          "elements": [
+            "...like in the deal",
+            "...by inheriting more than your share",
+            "...by selling what’s inside your suitcase",
+            "...without the others finding out",
+            "...using inside information you don’t have yet",
+            "...off the insurance money"
+          ],
+          "name": "To Get Rich"
+        },
+        {
+          "elements": [
+            "...in time for the funeral",
+            "...your freedom",
+            "...to the way things were before this trip",
+            "...you r passpor t",
+            "...without anyone finding out you were gone",
+            "...your reputation as a badass"
+          ],
+          "name": "TO Get Back"
+        },
+        {
+          "elements": [
+            "...before you return to your ordinary life",
+            "...in the freaking sky!",
+            "...to prove you can do better than last time",
+            "...and not regret it",
+            "...without getting caught",
+            "...to know that you still can"
+          ],
+          "name": "TO Get Laid"
+        },
+        {
+          "elements": [
+            "...that’s long overdue, that you fucking earned",
+            "...that you lost on this trip",
+            "...from that asshole who got what’s yours",
+            "...from your dead father",
+            "...from the press",
+            "...from these fucking passengers"
+          ],
+          "name": "To Get Respect"
+        },
+        {
+          "elements": [
+            "...about your inheritance",
+            "...about why they left",
+            "...about who sold you out",
+            "...about why it ended so badly",
+            "...about why you were overlooked",
+            "...and then tell the whole world about it"
+          ],
+          "name": "TO Get The Truth"
+        }
+      ],
+      "title": "NEEDS..."
+    },
+    "objects": {
+      "categories": [
+        {
+          "elements": [
+            "Pornography, lots of pornography",
+            "Love letters you never sent",
+            "Your pay stub",
+            "Prescription you need to get filled",
+            "Your underwear, not where it should be",
+            "Toupee, on backwards"
+          ],
+          "name": "Embarrassing"
+        },
+        {
+          "elements": [
+            "4.5 oz. of foreign alcohol",
+            "Load of pirated DVDs",
+            "Leaky balloon of heroin",
+            "Just enough marijuana to secure a trafficking charge",
+            "Knife, let on the plane by accident",
+            "Small stack of fresh passports"
+          ],
+          "name": "Contraband"
+        },
+        {
+          "elements": [
+            "Wedding band, ruined",
+            "The photo, all that’s left",
+            "The ticket stub, from back when",
+            "Watch, not technically given to you",
+            "Locket with a key inside",
+            "Wedding band, thought lost"
+          ],
+          "name": "Sentimental"
+        },
+        {
+          "elements": [
+            "Cell phone with telling contacts in it",
+            "An iPad with your diary on it",
+            "Newspaper that says what you did, if you read it right",
+            "Digital camera with photos of you doing what you did",
+            "Receipts, which don’t support your lies",
+            "Her voicemail message, which is probably a lie"
+          ],
+          "name": "Informational"
+        },
+        {
+          "elements": [
+            "Diamond ring, engraved for someone else",
+            "$14,000 in small bills",
+            "Endorsed check for $22,498.00",
+            "Prototype next generation smart phone",
+            "First-edition book that’s worth more than your house",
+            "Design for the next big project"
+          ],
+          "name": "Valuable"
+        },
+        {
+          "elements": [
+            "Conversation, overheard",
+            "Air marshal’s Zippo lighter",
+            "The plan, all written out",
+            "A confession, meant just for one person",
+            "A promise that may yet be kept",
+            "A child, hidden away"
+          ],
+          "name": "Secret"
+        }
+      ],
+      "title": "OBJECTS..."
+    },
+    "relationships": {
+      "categories": [
+        {
+          "elements": [
+            "Siblings, headed home for the funeral",
+            "Cousins, estranged since the spat in school",
+            "Parent and child, withholding their love",
+            "Siblings, faking affection",
+            "Grandparent and child, straining across a gulf of years",
+            "Parent and child, reunited after months"
+          ],
+          "name": "Family"
+        },
+        {
+          "elements": [
+            "Peers feigning camaraderie",
+            "Newly promoted boss and passed-over colleague",
+            "Irresponsible executive and responsible assistant",
+            "Responsible executive and fuck-up assistant",
+            "Comrades returning from a disastrous meeting",
+            "Rival conventioneers"
+          ],
+          "name": "Work"
+        },
+        {
+          "elements": [
+            "A minor or local celebrity and an eager fan",
+            "Met at the airport bar prior to the flight",
+            "Old high-school enemies reunited on the flight",
+            "The sick passenger and the doctor on board by chance",
+            "The nosy middle-seater and the flight-fearing passenger",
+            "Friends of friends oddly seated next to each other"
+          ],
+          "name": "Coincidence"
+        },
+        {
+          "elements": [
+            "Newlyweds, coming back from a disastrous honeymoon",
+            "A devoted couple, strained to breaking by airport stress",
+            "Broke up on vacation, stuck flying back together",
+            "Just met, and made out, in the airport",
+            "Spouses trying for a second honeymoon",
+            "The cheater and the lover flying to a weekend tryst"
+          ],
+          "name": "Romance"
+        },
+        {
+          "elements": [
+            "The smitten passenger and the oblivious flight attendant",
+            "The brand-new flight attendant and the old pro",
+            "The frequent flyer and a familiar flight attendant",
+            "The furious passenger and the indignant flight attendant",
+            "The ill  flight attendant and someone who thinks he’s faking",
+            "The take-charge passenger and the take-charge flight attendant"
+          ],
+          "name": "Agents of the Sky"
+        },
+        {
+          "elements": [
+            "An ex-con and an ex-cop, seated together by chance",
+            "A con artist and a mark",
+            "Two penny-ante “fugitives” from something other than justice",
+            "First-time smugglers",
+            "Retired rival B&E experts headed toward new lives",
+            "A retired bounty-hunter and a current bond-jumper"
+          ],
+          "name": "Crime or, well, “crime”"
+        }
+      ],
+      "title": "relationships..."
+    }
+  },
+  "title": "Flight 1180"
+}

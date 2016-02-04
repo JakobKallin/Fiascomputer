@@ -1,0 +1,290 @@
+{
+  "subtitle": "...AT NEWS CHANNEL SIX",
+  "tables": {
+    "locations": {
+      "categories": [
+        {
+          "elements": [
+            "At the scene of a grisly murder/suicide",
+            "In the trailer park just after the tornado hit",
+            "At the crime scene the police don’t know about yet",
+            "In the big sinkhole behind Buddy’s garage",
+            "In the pointless live coverage of that severe weather event",
+            "At what will be the biggest drug bust of the decade"
+          ],
+          "name": "HARD NEWS"
+        },
+        {
+          "elements": [
+            "At the home of Elmer Jenkins",
+            "At the high school football game",
+            "At the St. Agnes Rescue Mission",
+            "At the hospital for a live on-the-air colonoscopy",
+            "At the civil war reenactment",
+            "At Grandma Whittaker’s 102nd birthday party"
+          ],
+          "name": "HUMAN INTEREST"
+        },
+        {
+          "elements": [
+            "On Six Today’s friendly morning show set",
+            "Under the news desk",
+            "In the control room",
+            "On Six Investigates’ angry exposé set",
+            "Behind the set, during the broadcast",
+            "In the kitchen set for Chef Ron’s cooking segment"
+          ],
+          "name": "ON THE AIR"
+        },
+        {
+          "elements": [
+            "In the janitor’s closet",
+            "On the roof, right behind the big satellite dish",
+            "In the Big Anchorman’s dressing room",
+            "In the “executive washroom”",
+            "In the transmitter tower equipment shack",
+            "At the donut table"
+          ],
+          "name": "OFF THE AIR"
+        },
+        {
+          "elements": [
+            "Peabody Award for Excellence in Local News banquet",
+            "Groundbreaking ceremony for the local community college",
+            "Book signing for your recently-published memoir/cookbook",
+            "Benefit concert to pay for Little Billy’s medical expenses",
+            "Breast cancer awareness screening",
+            "Drinking it up at a local bar"
+          ],
+          "name": "FACE TIME"
+        },
+        {
+          "elements": [
+            "Sleazy hotel room with a hidden camera",
+            "Action News Eleven studio/editing room",
+            "In the evidence room at the police station",
+            "Official Peabody Award for Excellence in Local News ballot box",
+            "Local underground, high-stakes poker game",
+            "The Governor’s bedroom"
+          ],
+          "name": "OFF LIMITS"
+        }
+      ],
+      "title": "LOCATIONS..."
+    },
+    "needs": {
+      "categories": [
+        {
+          "elements": [
+            "By the local celebrity or politician",
+            "Constantly",
+            "By a work partner",
+            "So I can have a baby before I’m fifty",
+            "By the Big Anchorman’s trophy wife",
+            "For the very first time"
+          ],
+          "name": "TO GET LAID"
+        },
+        {
+          "elements": [
+            "By making it to a bigger market",
+            "By breaking into acting",
+            "By finally getting your own signature human interest segment",
+            "By winning a Local News Peabody Award",
+            "By getting the weekday six PM chair",
+            "By going out with a bang"
+          ],
+          "name": "TO GET FAMOUS"
+        },
+        {
+          "elements": [
+            "By blowing the lid off the whole story",
+            "By bringing honor and respect back to the local news",
+            "By finally making it to see my kid do that thing",
+            "By getting your own recurring exposé-style news segment",
+            "By saving a life",
+            "By bringing down God’s wrath on this wicked, heathen society"
+          ],
+          "name": "TO MAKE A DIFFERENCE"
+        },
+        {
+          "elements": [
+            "Through a secret I learned at work",
+            "By stealing something",
+            "By securing book and movie rights",
+            "By fabricating a story",
+            "By blackmailing the Big Anchorman",
+            "By scamming all my co-workers and then skipping town"
+          ],
+          "name": "TO GET RICH"
+        },
+        {
+          "elements": [
+            "By getting even with that douchebag who stole my story",
+            "By putting those bastards at Action News Eleven in their place",
+            "By getting that Big Anchorman fired",
+            "With that suit who doesn’t get your “vision” for the news",
+            "With our mutual ex",
+            "With that dude who landed me in jail"
+          ],
+          "name": "TO SETTLE THINGS"
+        },
+        {
+          "elements": [
+            "By being a willing tool for powerful, corrupt forces",
+            "By covering up a major conflict of interest",
+            "By “taking care of” a witness",
+            "By destroying that freaking file/tape. So, so stupid!",
+            "By framing a co-worker",
+            "By hiding the fact that I’m illiterate"
+          ],
+          "name": "TO COVER OUR ASSES"
+        }
+      ],
+      "title": "NEEDS..."
+    },
+    "objects": {
+      "categories": [
+        {
+          "elements": [
+            "Positive pregnancy test",
+            "Evidence that you tampered with a crime scene",
+            "The contract someone just signed to jump ship and head to Action News Eleven",
+            "Flash drive containing leaked U.S. military secrets",
+            "The sex tape to end all sex tapes",
+            "Channel Six’s real account books"
+          ],
+          "name": "SECRETS"
+        },
+        {
+          "elements": [
+            "Waaaay too much Pseudoephedrine",
+            "Bottle of whiskey under the news desk",
+            "List of sponsors not to piss off or report negatively about",
+            "Company laptop stuffed with porn",
+            "Big Anchorman’s coke stash",
+            "Illegal alien"
+          ],
+          "name": "CONTRABAND"
+        },
+        {
+          "elements": [
+            "Sky Chopper Six!",
+            "Little clicker that makes the weatherman’s blue screen work",
+            "Buggy and/or hacked teleprompter",
+            "Ancient news van held together by prayer and old videotape",
+            "Action Six Purse-Cam",
+            "Ol’ Blinky, the camera that all the cameramen say is cursed"
+          ],
+          "name": "TOOLS OF THE TRADE"
+        },
+        {
+          "elements": [
+            ".22 rifle the building manager uses to keep birds off the satellite dish",
+            "Bag of peanuts and someone’s well-known peanut allergy",
+            "Fire axe from backstage",
+            "Exotic animal, exotically out of control",
+            "Tainted cookies sent to the station by a disgruntled viewer",
+            "Carefully loosened 100 lb stage light right above someone’s chair"
+          ],
+          "name": "WHERE’S THE WARNING LABEL?"
+        },
+        {
+          "elements": [
+            "Six Today anchor’s coffee cup collection",
+            "New tits",
+            "Homeless dude who lives out back",
+            "The Big Anchor’s Peabody Award for Excellence in Local News",
+            "Love letter",
+            "Lucky couch"
+          ],
+          "name": "PERSONAL"
+        },
+        {
+          "elements": [
+            "High-powered model rocket",
+            "Giant pot of boiling soup",
+            "Box of fan mail/hate mail",
+            "“Happy Bear” costume",
+            "Golden shovel from community college ground-breaking",
+            "“Condom demonstrator”"
+          ],
+          "name": "PROPS"
+        }
+      ],
+      "title": "OBJECTS..."
+    },
+    "relationships": {
+      "categories": [
+        {
+          "elements": [
+            "Work partners (co-anchors, cameraman/reporter, etc)",
+            "You and the dude who got fired last week",
+            "On-air talent/support person (writer, makeup, etc)",
+            "Management/talent",
+            "Tired mentor/ambitious protégé",
+            "Work rivals"
+          ],
+          "name": "ACTION SIX NEWS TEAM"
+        },
+        {
+          "elements": [
+            "Ex-spouses, current parents",
+            "Currently married",
+            "Siblings, at each other’s throats",
+            "You and your parent’s hot new spouse, who’s younger than you",
+            "You and your good-for-nothing in-law",
+            "Faked family"
+          ],
+          "name": "FAMILY"
+        },
+        {
+          "elements": [
+            "Secret lovers",
+            "“Secret” lovers only to yourselves",
+            "Friends with benefits",
+            "Did it once at the office Christmas party... you think",
+            "Don’t like each other much, but keep having sex anyway",
+            "Not having sex, but everybody thinks that you are"
+          ],
+          "name": "FOOLING AROUND"
+        },
+        {
+          "elements": [
+            "“I know a secret about you”",
+            "Odd couple room-mates",
+            "“We’ve been through Hell and high water together”",
+            "One of you cost the other one his last job",
+            "“The restraining order is still in place, you know”",
+            "Went to journalism school together"
+          ],
+          "name": "WE’VE GOT HISTORY"
+        },
+        {
+          "elements": [
+            "Coke-head and supplier",
+            "Robbing the station blind together",
+            "Plotting the downfall of the Big Anchorman together",
+            "Shooting an “art film” after hours using the station’s equipment",
+            "Blackmailer/victim",
+            "Moonlighting as thieves"
+          ],
+          "name": "UP TO NO GOOD"
+        },
+        {
+          "elements": [
+            "News team member and source/witness/subject of the big story",
+            "News team member and a major advertiser",
+            "You and your counterpart from Action News Eleven",
+            "News team member and Local bigwig (mayor, chief of police, etc)",
+            "You and the star of another locally-produced show on Channel Six",
+            "You and your friend from the Peabody Awards Committee"
+          ],
+          "name": "US VS THEM Use judiciously"
+        }
+      ],
+      "title": "relationships..."
+    }
+  },
+  "title": "News Channel Six"
+}

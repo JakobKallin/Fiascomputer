@@ -1,0 +1,290 @@
+{
+  "subtitle": ". . . at   C a m p   C l e a r wat e r",
+  "tables": {
+    "locations": {
+      "categories": [
+        {
+          "elements": [
+            "Big fireplace in the common area",
+            "Upstairs bedrooms",
+            "Camp administration office",
+            "Locked boiler room",
+            "Gun safe",
+            "Attic with a pull-down stairway"
+          ],
+          "name": "The Lodge"
+        },
+        {
+          "elements": [
+            "Twisting, muddy paths to the cabins",
+            "Cabin 1, the cabin closest to the lodge",
+            "Cabin 13, haunted according to camp legend",
+            "Cabin 20, the cabin closest to the lake",
+            "Supply shed",
+            "Big fire pit with log benches"
+          ],
+          "name": "The Cabins"
+        },
+        {
+          "elements": [
+            "Rickety lifeguard tower",
+            "Docks and boathouse",
+            "Trails around the lake",
+            "Small island",
+            "Secluded cove",
+            "Marshy east shore"
+          ],
+          "name": "The Lake"
+        },
+        {
+          "elements": [
+            "Thunderstorm",
+            "Thick fog",
+            "Moonless night",
+            "Heat wave",
+            "Cold snap",
+            "Wind storm"
+          ],
+          "name": "Weather"
+        },
+        {
+          "elements": [
+            "Lost",
+            "Secluded cave",
+            "Mounds of freshly dug earth",
+            "Small clearing with the remnants of several campfires",
+            "Hidden, seemingly abandoned shack",
+            "Dense trees well off the trail"
+          ],
+          "name": "The Woods"
+        },
+        {
+          "elements": [
+            "Muddy road to the highway",
+            "Someone’s secret stash by the welcome sign",
+            "Power lines running to the lodge",
+            "Highway several miles down the road",
+            "Gas station on the edge of the nearby town",
+            "Rusted-out car sunk in the mud on the side of the road"
+          ],
+          "name": "The Way out of camp"
+        }
+      ],
+      "title": "LOCATIONS..."
+    },
+    "needs": {
+      "categories": [
+        {
+          "elements": [
+            "... by every girl/guy here",
+            "... by your ex",
+            "... to prove that you’re straight",
+            "... to win a bet",
+            "... one last time before the end",
+            "... to finally lose your virginity"
+          ],
+          "name": "To get laid"
+        },
+        {
+          "elements": [
+            "... from your old life",
+            "... with the money before anyone realizes it’s gone",
+            "... from these losers",
+            "... with the lie you’ve been telling",
+            "... with murder",
+            "... from the cops"
+          ],
+          "name": "To get away"
+        },
+        {
+          "elements": [
+            "... from the camp owner by running things well",
+            "... from the voice in your head",
+            "... by sleeping alone in Cabin 13",
+            "... as a result of your sexual prowess",
+            "... by showing them they shouldn’t have fucked with you",
+            "... by turning your life around"
+          ],
+          "name": "To get respect"
+        },
+        {
+          "elements": [
+            "... with the guy/girl who spurned your advances",
+            "... by embarrassing him/her in front of everyone",
+            "... because why should they be so happy?",
+            "... for what they did last year",
+            "... with every last one of these motherfuckers",
+            "... by stealing him/her back from that backstabber"
+          ],
+          "name": "To get even"
+        },
+        {
+          "elements": [
+            "... to his/her pants",
+            "... tight with this new group of friends",
+            "... to their heads",
+            "... to the administration office",
+            "... to the lock box",
+            "... to a committed relationship"
+          ],
+          "name": "To get in"
+        },
+        {
+          "elements": [
+            "... of a stifling relationship",
+            "... of town and lay low for a while, to let things calm down",
+            "... of the way",
+            "... of your mind, to get totally blazed",
+            "... of the downward spiral your life has been in",
+            "... alive"
+          ],
+          "name": "To get out"
+        }
+      ],
+      "title": "NEEDS..."
+    },
+    "objects": {
+      "categories": [
+        {
+          "elements": [
+            "Keys to the camp bus",
+            "Master key to the lodge and cabins",
+            "Map of the area and compass",
+            "Large flashlight",
+            "Hatchet",
+            "Ham radio"
+          ],
+          "name": "Useful"
+        },
+        {
+          "elements": [
+            "Well-used wood ax",
+            "Unlicensed revolver",
+            "Rusty machete",
+            "Old, taped-up oar",
+            "Hunting shotgun and box of shells",
+            "Hedge clippers"
+          ],
+          "name": "Weapons"
+        },
+        {
+          "elements": [
+            "Couple bottles of liquor",
+            "Several ounces of high-quality weed",
+            "Porno mags",
+            "Enough condoms to last the summer",
+            "Illegal fireworks",
+            "Carton of cigarettes"
+          ],
+          "name": "Smuggled Goods"
+        },
+        {
+          "elements": [
+            "Sappy, undelivered love letter",
+            "Unfortunately shaped birthmark",
+            "Exotic vibrator",
+            "Fungal cream",
+            "Virginity (and everyone knows it)",
+            "Unsavory reputation"
+          ],
+          "name": "Embarrassing"
+        },
+        {
+          "elements": [
+            "Corpses of tortured animals",
+            "“The master key to the lodge and cabins is missing!”",
+            "Roughly carved occult symbols",
+            "Dark stains",
+            "Bleached human skull just off the trail",
+            "“The power lines have been deliberately cut!”"
+          ],
+          "name": "Ominous Findings"
+        },
+        {
+          "elements": [
+            "Ridiculous, creepy camp legends",
+            "Medical case files",
+            "Crazy drunk’s incoherent warning",
+            "Dusty old video reel and projector",
+            "Map with one location clearly marked",
+            "Dark secrets"
+          ],
+          "name": "Information"
+        }
+      ],
+      "title": "OBJECTS..."
+    },
+    "relationships": {
+      "categories": [
+        {
+          "elements": [
+            "Friends since grade school",
+            "Unlikely friends",
+            "Old friends reunited",
+            "Alpha male/queen bee and sycophant",
+            "Members of the “In Crowd”",
+            "Fellow social outcasts"
+          ],
+          "name": "Friends"
+        },
+        {
+          "elements": [
+            "Older sibling and “baby” sister/brother",
+            "Identical twins",
+            "Step-siblings",
+            "Ex-spouses",
+            "Cousins",
+            "Parent and child"
+          ],
+          "name": "Family"
+        },
+        {
+          "elements": [
+            "Fellow camp counselors",
+            "Head counselor and underling",
+            "Forest ranger and camp counselor",
+            "Gas station attendant and customer",
+            "Bus driver and camp counselor",
+            "Dealer and pot head"
+          ],
+          "name": "Work"
+        },
+        {
+          "elements": [
+            "Obnoxious public displays of affection",
+            "Once, while drunk, at some stupid party...",
+            "Happily engaged",
+            "Fuck buddies",
+            "Once mutual lust, now mutual disgust",
+            "Promiscuous partner and desperate virgin"
+          ],
+          "name": "Romance"
+        },
+        {
+          "elements": [
+            "Admiring from afar",
+            "Lovers behind others’ backs",
+            "Stalker and object of sick obsession",
+            "Bound by a dark secret",
+            "Peeping tom and eye candy",
+            "Not who they appear to be"
+          ],
+          "name": "Secret"
+        },
+        {
+          "elements": [
+            "Fisherman and camp counselor",
+            "Lost hunter and camp counselor",
+            "Old hermit and camp counselor",
+            "Crazy drunk and camp counselor",
+            "Paranoid survivalist and camp counselor",
+            "Passing motorist and hitchhiking camper"
+          ],
+          "name": "Local"
+        }
+      ],
+      "title": "Relationships..."
+    }
+  },
+  "title": "Camp Death"
+}

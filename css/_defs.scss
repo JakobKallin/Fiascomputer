@@ -1,0 +1,296 @@
+@font-face {
+    font-family: Meridien;
+    src: url("/fonts/Meridien-Medium.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: Dice;
+    src: url("/fonts/dice.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: Hitchcock;
+    src: url("/fonts/Hitchcock.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: Vertigo;
+    src: url("/fonts/VERTRG_.ttf") format('truetype');
+}
+
+$text-red: #9e032a;
+$black: black;
+$white: white;
+$gray: hsl(0, 0%, 50%);
+$light-gray: hsl(0, 0%, 75%);
+$blue: hsl(240, 100%, 50%);
+
+$heading-font: Hitchcock, sans-serif;
+
+$yellow-card-background-color: hsl(50, 60%, 60%);
+$red-card-background-color: hsl(10, 100%, 70%);
+$blue-card-background-color: hsl(200, 40%, 70%);
+$green-card-background-color: hsl(100, 50%, 60%);
+
+$red-background-color: hsl(0, 70%, 35%);
+$dark-red-background-color: hsl(0, 100%, 15%);
+$green-background-color: hsl(150, 60%, 30%);
+$dark-green-background-color: hsl(150, 100%, 10%);
+$blue-background-color: hsl(210, 60%, 40%);
+$dark-blue-background-color: hsl(210, 100%, 15%);
+
+@mixin vertical-margin($margin) {
+    margin-top: $margin;
+    margin-bottom: $margin;
+}
+
+@mixin horizontal-margin($margin) {
+    margin-left: $margin;
+    margin-right: $margin;
+}
+
+@mixin flex(
+    $direction,
+    $horizontal: start,
+    $vertical: start,
+    $horizontal-spacing: false,
+    $vertical-spacing: false,
+    $multiline: false
+) {
+    display: flex;
+    flex-direction: $direction;
+
+    @if $horizontal == start {
+        $horizontal: flex-start;
+    }
+    @if $vertical == start {
+        $vertical: flex-start;
+    }
+
+    @if $horizontal == end {
+        $horizontal: flex-end;
+    }
+    @if $vertical == end {
+        $vertical: flex-end;
+    }
+
+    @if $direction == row {
+        justify-content: $horizontal;
+        align-items: $vertical;
+    }
+    @else if $direction == column {
+        justify-content: $vertical;
+        align-items: $horizontal;
+    }
+
+    @if $multiline {
+        flex-wrap: wrap;
+        @if $direction == row {
+            align-content: $vertical;
+        }
+        @else if $direction == column {
+            align-content: $horizontal;
+        }
+    }
+
+    @if $horizontal-spacing {
+        @if $multiline {
+            & > * {
+                margin-left: $horizontal-spacing / 2;
+                margin-right: $horizontal-spacing / 2;
+            }
+        }
+        @else {
+            & > * + * {
+                margin-left: $horizontal-spacing;
+            }
+        }
+    }
+
+    @if $vertical-spacing {
+        @if $multiline {
+            & > * {
+                margin-top: $vertical-spacing / 2;
+                margin-bottom: $vertical-spacing / 2;
+            }
+        }
+        @else {
+            & > * + * {
+                margin-top: $vertical-spacing;
+            }
+        }
+    }
+}
+
+@mixin box($color: $white, $background-color: $dark-background-color, $border: false) {
+    color: $color;
+    background-color: $background-color;
+
+    @if $border == true {
+        border: 0.125rem solid $background-color;
+    }
+}
+
+@mixin button($color: $white, $background-color: $dark-background-color, $border: false) {
+    @include box($color: $color, $background-color: $background-color, $border: $border);
+    @include shadow;
+    font-family: $heading-font;
+
+    &:hover,
+    &:focus {
+        background-color: $black;
+        border-color: $black;
+        outline: none;
+    }
+
+    &[type=button]:active,
+    &[href]:active {
+        transform: translate(0.125rem, 0.125rem);
+        @include shadow(0.25rem);
+    }
+}
+
+$shadow-color: hsla(0, 0%, 0%, 0.25);
+@mixin shadow($size: 0.375rem) {
+    box-shadow: $size $size $shadow-color;
+}
+
+@mixin text-shadow($size: 0.25rem) {
+    text-shadow: $size $size $shadow-color;
+}
+
+@mixin heading {
+    font-family: $heading-font;
+    font-size: 2rem;
+    line-height: 1.5;
+    text-align: center;
+    color: $heading-color;
+}
+
+@mixin plain-button {
+    border: 0;
+    color: inherit;
+    background-color: transparent;
+}
+
+@mixin columns($count, $gap: 0) {
+    -moz-columns: $count;
+    -webkit-columns: $count;
+    columns: $count;
+    -moz-column-gap: $gap;
+    -webkit-column-gap: $gap;
+    column-gap: $gap;
+}
+
+@mixin die-item {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    padding-left: 1.5rem;
+    text-indent: -1.5rem;
+    line-height: 1.25;
+}
+
+@mixin die-bullet($counter) {
+    &:before {
+        content: counter($counter);
+        margin-right: 0.5rem;
+        font-family: Dice, sans-serif;
+        border-radius: 0.25em;
+        background-color: $white;
+    }
+}
+
+@mixin close-button {
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+
+    img {
+        width: auto;
+        height: 2rem;
+        opacity: 0.75;
+    }
+}
+
+@mixin line-through($top: false, $right: false, $bottom: false, $left: false, $color: $color, $width: $width) {
+    background-repeat: no-repeat;
+
+    @if $left and $right {
+        background-image: linear-gradient(to right, $color, $color);
+        background-size: 100% $width;
+        background-position: center center;
+    }
+    @else if $left and $top {
+        background-image:
+            linear-gradient(to right, $color, $color),
+            linear-gradient(to right, $color, $color);
+        background-size: 50% $width, $width 50%;
+        background-position: left center, center top;
+    }
+    @else if $right and $top {
+        background-image:
+            linear-gradient(to right, $color, $color),
+            linear-gradient(to right, $color, $color);
+        background-size: 50% $width, $width 50%;
+        background-position: right center, center top;
+    }
+    @else if $left and $bottom {
+        background-image:
+            linear-gradient(to right, $color, $color),
+            linear-gradient(to right, $color, $color);
+        background-size: 50% $width, $width 50%;
+        background-position: left center, center bottom;
+    }
+}
+
+@mixin editable($background-color) {
+    &[contenteditable=true] {
+        min-width: 1rem;
+        outline: 0.25rem solid $background-color;
+        background-color: $background-color;
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+@mixin edit-button($position: outside) {
+    @include plain-button;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    
+    @if $position == outside {
+        left: 100%;
+        margin-left: 0.5em;
+    }
+    @else {
+        right: 0;
+    }
+
+    img {
+        display: block;
+        vertical-align: middle;
+        width: 1em;
+    }
+
+    &:focus {
+        opacity: 1;
+    }
+}
+
+@mixin inline-edit-button {
+    @media (max-width: 40rem) {
+        position: static !important;
+        display: inline !important;
+        margin: 0 !important;
+        vertical-align: middle;
+    }
+}

@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: inherit;
+    line-height: inherit;
+    font-size: inherit;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+a {
+    display: block;
+    color: inherit;
+}
+
+html {
+    line-height: 1.25;
+}
+
+[hidden] {
+    display: none !important;
+}
+
+button {
+    cursor: pointer;
+    font-family: inherit;
+}
+
+select {
+    font-family: inherit;
+}

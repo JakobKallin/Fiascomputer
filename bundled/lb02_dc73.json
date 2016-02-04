@@ -1,0 +1,290 @@
+{
+  "subtitle": "...in cold war d.c.",
+  "tables": {
+    "locations": {
+      "categories": [
+        {
+          "elements": [
+            "Walkway inside the Capitol Dome",
+            "Senator or representative’s office",
+            "Supreme Court chambers",
+            "Senate or House chambers",
+            "The stacks of the Library of Congress",
+            "Broom closet 3B of the Capitol Building"
+          ],
+          "name": "Capitol Hill"
+        },
+        {
+          "elements": [
+            "Park bench near the Reflecting Pool",
+            "Arlington National Cemetery",
+            "Ford’s Theatre",
+            "White House Press Corps offices",
+            "National Air & Space Museum (under construction)",
+            "Public restroom near the Lincoln Memorial"
+          ],
+          "name": "Near the Mall"
+        },
+        {
+          "elements": [
+            "Pit Stop Motel (hourly rates)",
+            "Posh apartment",
+            "The Lincoln bedroom",
+            "Condemned apartment",
+            "VA H o s pit a l",
+            "Watergate Hotel"
+          ],
+          "name": "Residences"
+        },
+        {
+          "elements": [
+            "Eastern Market",
+            "Kennedy Center for the Performing Arts",
+            "The fishing boat “Boondoggle”",
+            "Carpenters concert",
+            "Special exhibit at the National Gallery of Art",
+            "Washington Capitals hockey game"
+          ],
+          "name": "Entertainment"
+        },
+        {
+          "elements": [
+            "Well-stocked fallout shelter",
+            "Unfinished subway tunnel",
+            "Armed forces war room",
+            "Militants’ lair",
+            "The Pentagon basement, Ring G",
+            "Parking garage"
+          ],
+          "name": "Underground"
+        },
+        {
+          "elements": [
+            "Red Square",
+            "East Berlin",
+            "U.S.S. Midway aircraft carrier, near Vietnam",
+            "Whistle-stop tour train",
+            "Siberian gulag",
+            "Havana"
+          ],
+          "name": "Abroad: Back then, now, or soon"
+        }
+      ],
+      "title": "LOCATIONS..."
+    },
+    "needs": {
+      "categories": [
+        {
+          "elements": [
+            "... by finding infiltrators",
+            "... by quashing dissent",
+            "... by going to war / starting a new war",
+            "... by toppling a corrupt system",
+            "... by helping the little people",
+            "... by preventing nuclear annihilation"
+          ],
+          "name": "To Serve the Mother Country"
+        },
+        {
+          "elements": [
+            "... off the American people",
+            "... by selling state secrets",
+            "... by lying through your teeth",
+            "... by landing a job in high finance",
+            "... by stealing from the Man",
+            "... by securing a government contract"
+          ],
+          "name": "To Get Rich"
+        },
+        {
+          "elements": [
+            "... from your superiors, by advancing their goals",
+            "... from constituents, by using pork-barrel politics",
+            "... from the counterculture, by sticking it to the Man",
+            "... after a major fuckup, by making things right",
+            "... from a family member, by living up to the legacy",
+            "... from yourself, by upholding your nation’s ideals"
+          ],
+          "name": "To Get Respect"
+        },
+        {
+          "elements": [
+            "... that will bring down the President",
+            "... that will lead to the nukes being dismantled / deployed",
+            "... to change the course of the war in Vietnam",
+            "... to lead all people to enlightenment",
+            "... during a communication breakdown",
+            "... and reveal a superpower’s dirty laundry to its subjects"
+          ],
+          "name": "To Get the Truth"
+        },
+        {
+          "elements": [
+            "... with somebody you think is lying to you",
+            "... with the country that betrayed you",
+            "... with your old boss",
+            "... with someone who used you as a political tool",
+            "... with the enemies of your culture",
+            "... with the rival who got all the breaks"
+          ],
+          "name": "To Get Even"
+        },
+        {
+          "elements": [
+            "... by defecting",
+            "... by escaping with the money",
+            "... of a relationship",
+            "... of crushing responsibilities",
+            "... of the lose-lose political game",
+            "... of this square trip, man"
+          ],
+          "name": "To Get Out"
+        }
+      ],
+      "title": "NEEDS..."
+    },
+    "objects": {
+      "categories": [
+        {
+          "elements": [
+            "Dossier about foreign spies working on U.S. soil",
+            "Key to secure offices",
+            "Combination to a safe",
+            "The truth about Area 51",
+            "Cracked codes",
+            "Audio tapes from the White House"
+          ],
+          "name": "Classified"
+        },
+        {
+          "elements": [
+            "Name and number of a politician’s mistress",
+            "Poorly researched report",
+            "Incriminating photos",
+            "Number of the red telephone",
+            "Propaganda",
+            "Names and addresses of counterculture leaders"
+          ],
+          "name": "Information"
+        },
+        {
+          "elements": [
+            "Government contract with a major corporation",
+            "Suitcase full of rubles",
+            "Stolen page of the Constitution",
+            "30 minutes of airtime on national TV",
+            "Nazi bullion",
+            "A whole lot of LSD"
+          ],
+          "name": "Valuables"
+        },
+        {
+          "elements": [
+            "Limousine",
+            "Roller skates",
+            "Covert surveillance van",
+            "Motor scooter",
+            "Private jet",
+            "Taxi"
+          ],
+          "name": "Transportation"
+        },
+        {
+          "elements": [
+            "Family Bible",
+            "American flag",
+            "Letters from back home",
+            "Cufflinks owned by FDR / Lenin",
+            "Box of Cuban cigars",
+            "Pen used to sign important legislation"
+          ],
+          "name": "Sentimental"
+        },
+        {
+          "elements": [
+            "Revolver",
+            "The nuclear “football” briefcase",
+            "Tear gas canister",
+            "Sword cane",
+            "A K- 47",
+            "Bowling ball"
+          ],
+          "name": "Weapon"
+        }
+      ],
+      "title": "OBJECTS..."
+    },
+    "relationships": {
+      "categories": [
+        {
+          "elements": [
+            "Parent / child",
+            "Cousins",
+            "Bastard relation",
+            "Aunt or uncle / niece or nephew",
+            "Siblings",
+            "Distant / unusual / unofficial relatives"
+          ],
+          "name": "Family"
+        },
+        {
+          "elements": [
+            "Majority party member / opposition party member",
+            "Visiting dignitary / host",
+            "Politician / advisor",
+            "Communists or communist sympathizers",
+            "Activists",
+            "Elder statesman / young turk"
+          ],
+          "name": "Politics"
+        },
+        {
+          "elements": [
+            "Military officers (current and/or former)",
+            "In the lobbyist game",
+            "Corporate donor / beneficiary (legal or illegal)",
+            "Hawk / dove",
+            "Officer / war profiteer",
+            "Veterans"
+          ],
+          "name": "Military-Industrial"
+        },
+        {
+          "elements": [
+            "Bribery",
+            "Blackmail",
+            "Federal marshal / name on the arrest warrant",
+            "Named in the same report",
+            "Spies (same side or not)",
+            "Revolutionaries (same side or not)"
+          ],
+          "name": "Law or Outlaw"
+        },
+        {
+          "elements": [
+            "Current spouses",
+            "Estranged spouses",
+            "John / high-class prostitute",
+            "One-time fling",
+            "Lovers",
+            "Former lovers"
+          ],
+          "name": "Romance"
+        },
+        {
+          "elements": [
+            "Boss / employee",
+            "Stewardess / frequent flyer",
+            "Client / translator",
+            "Experts on nuclear weapons",
+            "Custodial or secretarial staff",
+            "Reporter / source"
+          ],
+          "name": "On the Outside"
+        }
+      ],
+      "title": "relationships..."
+    }
+  },
+  "title": "DC73"
+}

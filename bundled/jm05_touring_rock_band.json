@@ -1,0 +1,290 @@
+{
+  "subtitle": "...in A TOURING ROCK BAND",
+  "tables": {
+    "locations": {
+      "categories": [
+        {
+          "elements": [
+            "Bathroom",
+            "Bedroom",
+            "Driver’s seat and door well",
+            "Video game lounge",
+            "The roof, in motion",
+            "The capacious but empty liquor cabinet"
+          ],
+          "name": "THE TOUR BUS"
+        },
+        {
+          "elements": [
+            "Above the stage",
+            "In the wings",
+            "Beneath the stage with the pyro package",
+            "The green room, with snacks",
+            "On stage, before an angry crowd",
+            "In the mosh pit"
+          ],
+          "name": "THE ARENA"
+        },
+        {
+          "elements": [
+            "A Circle-K Cafeteria",
+            "A dodgy truck stop",
+            "An elementary school",
+            "A used CD store",
+            "“Musician’s Buddy” megastore",
+            "An industrial trash incinerator"
+          ],
+          "name": "WHEREVER THE HELL WE ARE TODAY"
+        },
+        {
+          "elements": [
+            "A greasy all-ages club in Ferndale",
+            "A luxury suite above the Palace of Auburn Hills arena",
+            "A shabby bungalow in Hamtramck",
+            "The studio of WRIF at five in the morning",
+            "A Canadian 25 foot powerboat on Lake St. Clair",
+            "Cargo terminal at Detroit Metro Airport"
+          ],
+          "name": "DETROIT"
+        },
+        {
+          "elements": [
+            "The laundry room of the LA Airport Hilton",
+            "The American Music Awards ceremony",
+            "A powered wheelchair showroom in Ventura",
+            "A crack house in East Los Angeles",
+            "The Wilshire Community Police Station",
+            "Cedars-Sinai Medical Center"
+          ],
+          "name": "LOS ANGELES"
+        },
+        {
+          "elements": [
+            "Cerulean Skies Studio",
+            "The Sucker Creek Spawning Channel",
+            "A barn, on fire",
+            "The bed of an F-150 pickup, underwater",
+            "A dog-fighting ring behind a trailer park",
+            "The Mayor’s house on Plessy Street"
+          ],
+          "name": "CHADWICK, IDAHO"
+        }
+      ],
+      "title": "LOCATIONS..."
+    },
+    "needs": {
+      "categories": [
+        {
+          "elements": [
+            "By a groupie, right the hell now",
+            "To prove you are straight",
+            "To win a bet",
+            "In a new and unsavory way not even Led Zeppelin attempted",
+            "By your estranged sweetheart",
+            "By the one person who can refuse you"
+          ],
+          "name": "TO GET FUCKED"
+        },
+        {
+          "elements": [
+            "Because your promoter told you to get in the papers",
+            "As a cry for help",
+            "With some cool local teenagers",
+            "Just to make it through",
+            "With a friendly drug dealer",
+            "To handle the pressure of a TV interview"
+          ],
+          "name": "TO GET WASTED"
+        },
+        {
+          "elements": [
+            "By ripping off the rest of the band",
+            "By signing a solo contract",
+            "With the help of faith healer Tito Luna",
+            "By following your cousin’s advice",
+            "By keeping the band together no matter what",
+            "With a sideline energy drink deal"
+          ],
+          "name": "TO GET PILES OF CASH"
+        },
+        {
+          "elements": [
+            "On these toolbags that call themselves artists",
+            "For the humiliation you endure every day",
+            "On your fucking manager",
+            "On that strutting primadonna",
+            "For ignoring your creative contributions forever",
+            "Because nobody calls you a poser"
+          ],
+          "name": "TO GET REVENGE"
+        },
+        {
+          "elements": [
+            "By showing the world that you have no limits",
+            "By winning an American Music Award",
+            "From the band, because you deserve ... respect",
+            "From the crew, who laugh behind your back",
+            "From your family, who think you are a failure",
+            "By bringing the light of Christ to the tour"
+          ],
+          "name": "TO GET RESPECT"
+        },
+        {
+          "elements": [
+            "Of certain promises you made to certain dangerous people",
+            "Of a debt you owe and can’t repay",
+            "Of your fuckin’ contract",
+            "Of your fuckin’ marriage",
+            "Of your menial role, and thereby thrust into greatness",
+            "Of your responsibility - permanently"
+          ],
+          "name": "TO GET OUT"
+        }
+      ],
+      "title": "NEEDS..."
+    },
+    "objects": {
+      "categories": [
+        {
+          "elements": [
+            "A crate of illegal blue-light lasers",
+            "A sniper rifle",
+            "A digital camera with a stuffed memory card",
+            "Lyle Lovett",
+            "A minimally-trained grizzly bear",
+            "A spear-fishing gun"
+          ],
+          "name": "SICK AS HELL"
+        },
+        {
+          "elements": [
+            "A Scab-Man costume",
+            "An extraordinarily precious guitar",
+            "A trailer full of theatrical lights",
+            "The extra box shipped with the drum kit",
+            "A pyrotechnic bomb-pot",
+            "“Flight” rigging and angel wings"
+          ],
+          "name": "ROCKIN’"
+        },
+        {
+          "elements": [
+            "A 20 gallon tub of porn DVDs",
+            "A bong made out of a 13-year-old girls’ skull",
+            "A heat-sealed Mylar sack of weed",
+            "Polyhedral dice made out of real rubies",
+            "A case of top shelf whiskey bottles",
+            "An unlabeled chemical paste in a locked Pelican box"
+          ],
+          "name": "ROLLIN’"
+        },
+        {
+          "elements": [
+            "Ronnie James Dio’s wristbands",
+            "A “full body burn” stunt suit",
+            "An African dictator’s Learjet 25",
+            "A mountain of cocaine",
+            "Bondage gear",
+            "A Maserati Quatroporte III"
+          ],
+          "name": "FUCKIN’ AWESOME"
+        },
+        {
+          "elements": [
+            "Somebody’s heroin works",
+            "A district attorney’s misplaced notes",
+            "A threatening email message",
+            "An unfortunate X-Ray",
+            "A pit bull kennel with a wonky lock",
+            "Advance copy of a scathing expose on the band"
+          ],
+          "name": "DUDE, NO WAY"
+        },
+        {
+          "elements": [
+            "A restraining order",
+            "A Ford Fiesta",
+            "The Manager’s true account books",
+            "The pager number of doom",
+            "A scrapbook of Janet Jackson clippings",
+            "A truckload of telephone handsets"
+          ],
+          "name": "FUCKIN’ WEAK"
+        }
+      ],
+      "title": "OBJECTS..."
+    },
+    "relationships": {
+      "categories": [
+        {
+          "elements": [
+            "Brother and sister",
+            "Brothers or sisters",
+            "“Blood brothers”",
+            "Cousins",
+            "Twins",
+            "Faked family"
+          ],
+          "name": "FAMILY"
+        },
+        {
+          "elements": [
+            "Best friends since grade school",
+            "Best friends since yesterday",
+            "Tour bus friends",
+            "The collective soul of the band",
+            "Creative challengers",
+            "Friends with benefits"
+          ],
+          "name": "GOOD FRIENDS"
+        },
+        {
+          "elements": [
+            "Boss / roadie",
+            "Boss / wardrobe and merch",
+            "Tour manager / dude under manager’s thumb",
+            "Boss / off-stage session musician",
+            "Tour assistant manager / guitar tech",
+            "Boss / weird guy with tool bag"
+          ],
+          "name": "THE GRIND"
+        },
+        {
+          "elements": [
+            "Dealer / drug fiend",
+            "Sidekicks of The Great One",
+            "Reporter / tour personnel",
+            "Roadies",
+            "Local celebrity / tour personnel",
+            "Musician’s teenager / tour personnel"
+          ],
+          "name": "PARASITES"
+        },
+        {
+          "elements": [
+            "Undercover cop / tour personnel",
+            "Protective parent / tour personnel",
+            "Underage fan / tour personnel",
+            "Insane stalker / tour personnel",
+            "Tour personnel who violently hate each other",
+            "Former member of the band / tour personnel"
+          ],
+          "name": "TROUBLE"
+        },
+        {
+          "elements": [
+            "You owe him your life",
+            "He owes you his career",
+            "Manipulator / victim",
+            "Public enemies, private friends",
+            "Friends by court-ordered consent decree",
+            "Public friends, private enemies"
+          ],
+          "name": "BAD FRIENDS"
+        }
+      ],
+      "title": "relationships..."
+    }
+  },
+  "title": "Touring Rock Band"
+}

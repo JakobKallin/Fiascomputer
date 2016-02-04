@@ -1,0 +1,290 @@
+{
+  "subtitle": "...IN the Zoo",
+  "tables": {
+    "locations": {
+      "categories": [
+        {
+          "elements": [
+            "Reptile House",
+            "Australian Excursion exhibit",
+            "Ocean World exhibit",
+            "Penguin habitat",
+            "Bat cave",
+            "Grizzly habitat"
+          ],
+          "name": "Habitats"
+        },
+        {
+          "elements": [
+            "Funnel-cake stand",
+            "Peacock Park",
+            "Fish Pond",
+            "East Gate, locked",
+            "Under the broken security camera",
+            "Statue of zoo founder, Douglas E. Hitchcock III"
+          ],
+          "name": "grounds"
+        },
+        {
+          "elements": [
+            "City comptroller’s office",
+            "Train tunnel that runs behind the zoo",
+            "Town Hall meeting",
+            "Pre-dawn parking lot",
+            "Rat-trap motel in Redbud Court",
+            "Jail cell"
+          ],
+          "name": "around town"
+        },
+        {
+          "elements": [
+            "Australian outback",
+            "South American rainforest",
+            "The veldt",
+            "Canadian Rockies",
+            "Underwater with the fishes",
+            "A desert, miles from anywhere"
+          ],
+          "name": "the wild"
+        },
+        {
+          "elements": [
+            "Chairperson’s house during a dinner party",
+            "Whatever’s left after the fire",
+            "Attic, behind the bookcase",
+            "Basement habitat nobody’s supposed to know about",
+            "Ill-kept, in-ground pool",
+            "Inside the old RV behind the garage"
+          ],
+          "name": "at home"
+        },
+        {
+          "elements": [
+            "Inside the zoo’s veterinary clinic",
+            "Walk-in refrigerator full of lion food",
+            "Steam tunnels under the zoo grounds",
+            "...of the Rain Forest Adventure exhibit",
+            "...at the Small Mammal House",
+            "...of the House of Birds"
+          ],
+          "name": "behind the scenes"
+        }
+      ],
+      "title": "LOCATIONS..."
+    },
+    "needs": {
+      "categories": [
+        {
+          "elements": [
+            "...with the crew of the coolest exhibit in the zoo.",
+            "...to the Rain Forest Adventure after hours.",
+            "...on the trip that’s being planned.",
+            "...with the looker on the rival exhibit staff.",
+            "...before it’s too late to save the zoo.",
+            "...to the Nocturnal House before anyone finds what’s in there."
+          ],
+          "name": "To get in"
+        },
+        {
+          "elements": [
+            "...of the country with your prize.",
+            "...from under your debt to the zoo.",
+            "...from under the zoo’s considerable debts.",
+            "...with your pride intact.",
+            "...before anyone else gets wise.",
+            "...once your favorite animal is secure."
+          ],
+          "name": "To get out"
+        },
+        {
+          "elements": [
+            "...with cutting corners.",
+            "...to a foreign country, where you can do real good.",
+            "...just for a few days, maybe a week. Or even a month.",
+            "...with your power play, in the long run.",
+            "...by taking your show on tour.",
+            "...to join another, better zoo."
+          ],
+          "name": "To get away"
+        },
+        {
+          "elements": [
+            "...from the community, for a job well done.",
+            "...from the board, despite the mistakes.",
+            "...from the International Zoological Society, who will understand.",
+            "...from the one who left.",
+            "...from D.E. Hitchcock IV, even though he’s dead.",
+            "...from an animal, lest it turn on you."
+          ],
+          "name": "To get respect"
+        },
+        {
+          "elements": [
+            "...with the board, for what they did.",
+            "...with the city, after all these years.",
+            "...with an animal, whether it understands or not.",
+            "...with a zoo keeper, who should’ve known better.",
+            "...with those monsters who let poor Buttons die.",
+            "...in a way that the whole city will appreciate."
+          ],
+          "name": "To get even"
+        },
+        {
+          "elements": [
+            "...over the exhibit.",
+            "...over yourself, for everyone’s sake.",
+            "...before everyone finds out you don’t have it.",
+            "...for just one day.",
+            "...over an animal that refuses to be tamed.",
+            "...over the whole zoo, at last."
+          ],
+          "name": "To get control"
+        }
+      ],
+      "title": "NEEDS..."
+    },
+    "objects": {
+      "categories": [
+        {
+          "elements": [
+            "Underfed male lion",
+            "Peacock, poisoned",
+            "Star dolphin of the show",
+            "Gorilla who knows sign language",
+            "One pissed-off ostrich",
+            "“It’s a crocodile, not an alligator.”"
+          ],
+          "name": "animals"
+        },
+        {
+          "elements": [
+            "The real plans for the new zoo expansion",
+            "Lease to the original zoo grounds",
+            "D.E. Hitchcock IV’s Last Will",
+            "Flash drive with copies of the zoo’s financial records",
+            "Bad photocopy of a lawsuit against the zoo",
+            "Smudged receipt"
+          ],
+          "name": "administrative"
+        },
+        {
+          "elements": [
+            "Second-oldest koala in North America",
+            "Lioness that seems to be sleeping",
+            "Polar bear with an electronic tag",
+            "Biggest python in the tri-state area",
+            "Betsy, an elephant with a paintbrush",
+            "Half-a-dozen monkeys, all riled up"
+          ],
+          "name": "more animals"
+        },
+        {
+          "elements": [
+            "Forged credentials",
+            "Drunken voicemail message",
+            "Endangered animal, not where it should be",
+            "One animal passed off as another",
+            "Video of an expedition that didn’t go as planned",
+            "Ruined uniform"
+          ],
+          "name": "secret"
+        },
+        {
+          "elements": [
+            "Wallet with a fake ID",
+            "Large wax sculpture of a leaping dolphin",
+            "Animal’s toy, not where it should be",
+            "Camera full of incriminating photos",
+            "Keys on a broken chain",
+            "An empty cage"
+          ],
+          "name": "lost and found"
+        },
+        {
+          "elements": [
+            "Dennis, a king cobra",
+            "Ill-trained raptor without its hood",
+            "Beloved kangaroo, promised to a different zoo",
+            "A fish worth $120,000",
+            "Live mice meant for the Reptile House",
+            "Lenny and Marcus, giraffes on loan"
+          ],
+          "name": "still more animals"
+        }
+      ],
+      "title": "OBJECTS..."
+    },
+    "relationships": {
+      "categories": [
+        {
+          "elements": [
+            "Small Mammals keeper and Reptile House keeper",
+            "Dolphin trainer and seal trainer",
+            "Pachyderm Habitat keeper and Great Cats! Keeper",
+            "Ape Escape keeper and Monkeyland Keeper",
+            "Wolf Den keeper and Australian Excursion keeper",
+            "Rain Forest Adventure keeper and Safari Adventure keeper"
+          ],
+          "name": "Keepers"
+        },
+        {
+          "elements": [
+            "Board chairman and zoo custodian",
+            "Head of the department and former head of the department",
+            "Passed over for promotions today",
+            "Senior Veterinarian and the new hire",
+            "Spokesperson and intern",
+            "Volunteers hired as scapegoats"
+          ],
+          "name": "Zoo hierarchy"
+        },
+        {
+          "elements": [
+            "Animal-rights activists or sympathizers",
+            "Just elected to positions in the city’s Parks Department",
+            "Neighbors to the zoo property",
+            "Voting members of the Zoo Community Board",
+            "Losing property in the new zoo-expansion project",
+            "Zoo lover and zoo hater"
+          ],
+          "name": "Community"
+        },
+        {
+          "elements": [
+            "Spouses",
+            "The nerd and the crush",
+            "Just a simple flirtation, right?",
+            "Want to get back together but don’t want to say so",
+            "Just broke up",
+            "Divorced"
+          ],
+          "name": "Romance"
+        },
+        {
+          "elements": [
+            "The would-be thief and the one with the plan",
+            "Betrayed by a common foe",
+            "The last two who know what really happened",
+            "Partners in a fraud",
+            "The liar and the one with the evidence",
+            "Animal smugglers"
+          ],
+          "name": "Illicit"
+        },
+        {
+          "elements": [
+            "Estranged siblings",
+            "Haven’t really spoken since the case was closed",
+            "Spotlighted in the same local newspaper article",
+            "Last two reminders of the old zoo, before the renovations",
+            "Went to high school together",
+            "One rescued the other from the fire"
+          ],
+          "name": "The past"
+        }
+      ],
+      "title": "relationships..."
+    }
+  },
+  "title": "The Zoo"
+}

@@ -1,0 +1,290 @@
+{
+  "subtitle": "...IN Pinnacle City",
+  "tables": {
+    "locations": {
+      "categories": [
+        {
+          "elements": [
+            "Tsiolkovsky Crater, far side of the Moon",
+            "Summit of Mt. Everest",
+            "Experimental space station Fairweather-1",
+            "An alien world in a distant galaxy",
+            "Forgotten monastery",
+            "Geothermally-heated jungle valley in Antarctica"
+          ],
+          "name": "e xot i c"
+        },
+        {
+          "elements": [
+            "Eiffel Tower",
+            "Pyramids of Giza",
+            "White House lawn",
+            "United Nations building, New York",
+            "US-Atlantis Memorial Peace Atoll",
+            "Sydney Opera House"
+          ],
+          "name": "famous"
+        },
+        {
+          "elements": [
+            "High-rise apartment",
+            "Suburban home",
+            "Swanky party at Fairweather Industries",
+            "Pinnacle City Panthercats football stadium",
+            "The sewers beneath Pinnacle City",
+            "Top Grind coffee shop"
+          ],
+          "name": "boring"
+        },
+        {
+          "elements": [
+            "Mid-Atlantic Ridge, 100km north of Krafla, Iceland",
+            "L5 position, Earth orbit",
+            "Family mansion in Pinnacleton",
+            "Tallest skyscraper in Pinnacle City",
+            "Remote crystalline stronghold, undisclosed location",
+            "Inside Mt. Elbert, Colorado"
+          ],
+          "name": "headquarters"
+        },
+        {
+          "elements": [
+            "“My news organization is not incredibly biased!”",
+            "“This lab may be lightly guarded, but it is well funded!”",
+            "“Escape? From this super-prison? Impossible!”",
+            "“It may be illegal and we may be obvious, but the weapons still get made.”",
+            "“Some people call me criminal, but I still throw a hell of a party!”",
+            "“This abandoned theme park gives me the creeps!”"
+          ],
+          "name": "four color"
+        },
+        {
+          "elements": [
+            "...on the slippery edge of a high-rise rooftop",
+            "...at the lip of an erupting volcano, again",
+            "...on top of a speeding train, airplane, or trainplane",
+            "...in orbit, soon to plummet to Earth!",
+            "...on the blood-slick deck of a sinking ship",
+            "...in the path of a tsunami"
+          ],
+          "name": "precariously perched..."
+        }
+      ],
+      "title": "LOCATIONS..."
+    },
+    "needs": {
+      "categories": [
+        {
+          "elements": [
+            "...so that you can be Emperor",
+            "...and then destroy this miserable rock",
+            "...and bring about eternal peace",
+            "...and hand it over to your extraterrestrial masters",
+            "...to show them exactly how “useless” you really are",
+            "...to add it to your collection"
+          ],
+          "name": "to conquer the world..."
+        },
+        {
+          "elements": [
+            "...to prove that you’re still human",
+            "...to continue your species",
+            "...to make them jealous",
+            "...because you have damn well earned it",
+            "...to misdirect their well-founded suspicion",
+            "...to shake off all the horror and angst"
+          ],
+          "name": "to get laid..."
+        },
+        {
+          "elements": [
+            "...back to your own world",
+            "...before the League of Supervillains figures out what you did",
+            "...and go back to being a normal person",
+            "...from the evil forces that control your actions",
+            "...from this life of crime",
+            "...before your terrible mistake kills you like it killed them"
+          ],
+          "name": "to escape..."
+        },
+        {
+          "elements": [
+            "...and atone for past failures",
+            "...so the suffering ends with you",
+            "...so they’ll celebrate you like the hero you are",
+            "...because this is your cross to bear",
+            "...because this? Right here? It’s all your fault",
+            "...so they’ll finally admit your genius"
+          ],
+          "name": "to save the day..."
+        },
+        {
+          "elements": [
+            "...for trapping you in that hell dimension that one time",
+            "...against the small minds that called you a monster",
+            "...for hurting the people you loved",
+            "...for taking away the only thing that ever mattered",
+            "...for keeping you from your rightful reward all these years",
+            "...for humiliating you in your moment of triumph"
+          ],
+          "name": "to get revenge..."
+        },
+        {
+          "elements": [
+            "...where she went, and why",
+            "...what really happened at Fairweather",
+            "...who is under that magnificent mask",
+            "...what it is you’ve forgotten",
+            "...whether he’s worthy of your love",
+            "...who will be your new sidekick"
+          ],
+          "name": "to find out..."
+        }
+      ],
+      "title": "NEEDS..."
+    },
+    "objects": {
+      "categories": [
+        {
+          "elements": [
+            "Source of limitless, free energy",
+            "Source of superpowers",
+            "Fairweather Goliath-9,  the first sentient computer",
+            "Ancient alien artifact, just unearthed",
+            "30,000 robot civil servants, ready to be activated by the Mayor",
+            "Mind control ray with unpleasant side effects"
+          ],
+          "name": "new technology"
+        },
+        {
+          "elements": [
+            "[Cool name here] mobile",
+            "Spaceship",
+            "Time machine",
+            "Armored truck",
+            "Flying fortress",
+            "Jet pack"
+          ],
+          "name": "transport"
+        },
+        {
+          "elements": [
+            "Falling meteor!",
+            "Nuclear bomb!",
+            "Super virus!",
+            "Self-replicating nanobots!",
+            "Andromedan brain slugs!",
+            "Giantest monster ever"
+          ],
+          "name": "d e va s tat i o n"
+        },
+        {
+          "elements": [
+            "Prototype freeze ray, never tested until now",
+            "Super strength ring",
+            "Calcinator death ray",
+            "Federal court injunction",
+            "Their only weakness",
+            "The most powerful laser ever built, ever"
+          ],
+          "name": "weaponry"
+        },
+        {
+          "elements": [
+            "Encrypted data containing their true identity",
+            "Final component of the doomsday device",
+            "Antidote, but not enough",
+            "Bank account numbers in the Caymans",
+            "Super truth serum",
+            "Key to other-dimensional portal"
+          ],
+          "name": "puzzle pieces"
+        },
+        {
+          "elements": [
+            "Mask, cape and lacy underwear",
+            "Mayor’s corpse",
+            "Weaponized accordion",
+            "Statuette inscribed with ancient, evil glyphs",
+            "Sealed beaker of green, glowing sludge",
+            "Abraham Lincoln’s still-living brain"
+          ],
+          "name": "ominous"
+        }
+      ],
+      "title": "OBJECTS..."
+    },
+    "relationships": {
+      "categories": [
+        {
+          "elements": [
+            "Mentor and apprentice",
+            "“Equals” on the “team”",
+            "Forced alliance",
+            "Leader and overly ambitious second-in-command",
+            "“You have to fix everything he breaks”",
+            "...despite hideously mismatched powers"
+          ],
+          "name": "ALLIES!"
+        },
+        {
+          "elements": [
+            "Righteous defender and arch-nemesis",
+            "Champions of incompatible forms of justice",
+            "Competing for the same prize",
+            "“There can be only one”",
+            "Quarreling siblings",
+            "Vigilante and by-the-book"
+          ],
+          "name": "RIVALS!"
+        },
+        {
+          "elements": [
+            "Office co-workers",
+            "Hero/villain and the reporter obsessed with true identity",
+            "Mundane best friends, masked mortal enemies",
+            "You love them, but they only love the mask",
+            "You know each other’s darkest secret",
+            "They know your true identity and use it as leverage"
+          ],
+          "name": "SECRET IDENTITIES!"
+        },
+        {
+          "elements": [
+            "Lovers on opposite sides of the law",
+            "Soon to be married (this time for sure)",
+            "“I can’t—my superpowers would kill you.”",
+            "Mundane rivals, masked lovers",
+            "“How many times are you going to stand me up?”",
+            "You remember, they don’t—time travel makes you sad"
+          ],
+          "name": "ROMANCE!"
+        },
+        {
+          "elements": [
+            "“At last! Another one like me!”",
+            "Dimensional doppelgangers, or maybe just regular old clones",
+            "Amnesiac and the only one who knows the truth",
+            "“Our paths have crossed over the centuries”",
+            "“You made me what I am today!”",
+            "Parent and unknown progeny"
+          ],
+          "name": "ORIGIN STORIES!"
+        },
+        {
+          "elements": [
+            "Scientist and experiment",
+            "President and advisor",
+            "Military leader and personal security",
+            "Heroes of warring states",
+            "Powerful Senator and focal point of her crusade",
+            "Pinnacle City’s Mayor and the Lord of Crime"
+          ],
+          "name": "THE GOVERNMENT!"
+        }
+      ],
+      "title": "relationships..."
+    }
+  },
+  "title": "Heroes of Pinnacle City"
+}

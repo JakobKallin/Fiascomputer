@@ -1,0 +1,290 @@
+{
+  "subtitle": "...on just another dayin horseburg",
+  "tables": {
+    "locations": {
+      "categories": [
+        {
+          "elements": [
+            "Branch #11 of the First National Bank",
+            "The biennial horse show",
+            "The opera theatre",
+            "The international expo",
+            "The imperial suite of the Von Halt Hotel",
+            "The French fashion boutique"
+          ],
+          "name": "Where the money is"
+        },
+        {
+          "elements": [
+            "Central Plaza, at 12 o’ clock",
+            "The villa of Cràneo Cervantes, owner of the stable El Fragor Rojo",
+            "The parlour of Adalbert Diplomatitsch",
+            "The botanical garden",
+            "An antiques shop",
+            "The mansion of Adrien Justice, the judge"
+          ],
+          "name": "uptown"
+        },
+        {
+          "elements": [
+            "Michele Cuorlione’s illegal gambling den",
+            "The dark alley behind the opera theatre",
+            "Pier 17",
+            "A warehouse full of stolen goods",
+            "The room of Miss Paris, the boss’ girl",
+            "The office of Philippe Justice, brother of the judge"
+          ],
+          "name": "the slums"
+        },
+        {
+          "elements": [
+            "The paddock, before the fifth race",
+            "The betting office",
+            "A private suite in the VIP stands",
+            "The stalls assigned to the stable L’Ardor Giallo",
+            "The restaurant on the first floor",
+            "The jockeys’ locker room"
+          ],
+          "name": "The racetrack"
+        },
+        {
+          "elements": [
+            "Highway 37, a few miles from the border",
+            "The training track of the stable Virtus Alba",
+            "The shore of the artificial lake",
+            "The summer residence of Cranio Mercanti",
+            "Little Cesar’s diner",
+            "The oil wells of Oliver Oil"
+          ],
+          "name": "out of town"
+        },
+        {
+          "elements": [
+            "Platform Eight at the train station",
+            "The mayor’s office",
+            "The veterinarian’s waiting room",
+            "The catholic church in the Italian neighborhood",
+            "The police station",
+            "The Horseburg zoo...on just another day"
+          ],
+          "name": "public"
+        }
+      ],
+      "title": "LOCATIONS..."
+    },
+    "needs": {
+      "categories": [
+        {
+          "elements": [
+            "... from your family",
+            "... from your debtors",
+            "... from this relationship you can’t stand anymore",
+            "... from a charge for murder",
+            "... before they find out what you did",
+            "... from your past"
+          ],
+          "name": "TO GET away"
+        },
+        {
+          "elements": [
+            "... one last time",
+            "... to prove something",
+            "... to get what you want",
+            "... to rekindle an old flame",
+            "... to hurt someone (even yourself)",
+            "... to win a bet"
+          ],
+          "name": "TO GET laid"
+        },
+        {
+          "elements": [
+            "... your last race",
+            "... the respect of your family",
+            "... thanks to a good tip",
+            "... by finally betting on the right horse",
+            "... over your fears",
+            "... over the boredom of your life"
+          ],
+          "name": "TO win"
+        },
+        {
+          "elements": [
+            "... at the expense of your family",
+            "... through a profitable deal",
+            "... by committing a grisly crime",
+            "... through a deal with the mob",
+            "... by selling what you know",
+            "... by fixing a race"
+          ],
+          "name": "TO get rich"
+        },
+        {
+          "elements": [
+            "... with that bastard that ran away with the money",
+            "... with your rival",
+            "... with someone you think is lying to you",
+            "... with your bookie",
+            "... with the mob",
+            "... with someone who owes you, big time"
+          ],
+          "name": "TO get even"
+        },
+        {
+          "elements": [
+            "... from your family, by doing something unexpected",
+            "... from your superiors, by seizing the initiative",
+            "... from your love, by keeping a promise",
+            "... from the mob, by doing something you would have never done",
+            "... from everyone down at the racetrack, by cheating",
+            "... from yourself, by doing what is right...on just another day"
+          ],
+          "name": "TO get respect"
+        }
+      ],
+      "title": "NEEDS..."
+    },
+    "objects": {
+      "categories": [
+        {
+          "elements": [
+            "Ownership certificate for the purebred “Napoléon”",
+            "Formula of the drug that no test can identify... yet",
+            "Winning ticket for the third race",
+            "Diamond necklace",
+            "Bearer bonds worth half a million dollars",
+            "Leather briefcase full of dollar bills"
+          ],
+          "name": "valuable"
+        },
+        {
+          "elements": [
+            "Violin case",
+            "Starter’s gun",
+            "Jockey’s whip",
+            ".22 handgun, small enough to fit in a purse",
+            "Tommy gun",
+            "Blacksmith’s hammer"
+          ],
+          "name": "weapon"
+        },
+        {
+          "elements": [
+            "Phone call overheard by accident",
+            "Combination of a security box",
+            "“El Guapo” winning the third race",
+            "Conversations heard in a VIP stand at the racetrack",
+            "Password for that exclusive club",
+            "“Biscuit de Mer” placed in the first race"
+          ],
+          "name": "information"
+        },
+        {
+          "elements": [
+            "Corpse in the wardrobe",
+            "Pouch stuffed with drugs",
+            "Bottle of horse poison",
+            "Shirt stained with blood",
+            "Two stereotypes for 100 $ bills",
+            "Jacket with the perfume of another woman / another man"
+          ],
+          "name": "untoward"
+        },
+        {
+          "elements": [
+            "Trot derby cup from 15 years ago",
+            "Medallion with a portrait inside",
+            "Trappings of the old “Varonne”, unforgotten champion",
+            "Engagement ring",
+            "Lucky horseshoe",
+            "Signed love letter"
+          ],
+          "name": "Sentimental"
+        },
+        {
+          "elements": [
+            "Trailer for horse transport",
+            "Tractor",
+            "Bicycle",
+            "Horse  that  looks  exactly  like  the  most  promising  champion  of  the       last 10 years",
+            "Tourist hot-air balloon near the racetrack",
+            "Racing Bugatti...on just another day"
+          ],
+          "name": "transportation"
+        }
+      ],
+      "title": "OBJECTS..."
+    },
+    "relationships": {
+      "categories": [
+        {
+          "elements": [
+            "Siblings",
+            "Cousins and lovers",
+            "Distant relatives who have never met",
+            "Parent and child or step-child",
+            "Godparent and godchild",
+            "Parent-in-law and child-in-law"
+          ],
+          "name": "FAM I LY"
+        },
+        {
+          "elements": [
+            "Jockey and stable owner",
+            "Loan shark and victim",
+            "Betting buddies",
+            "Bookie and customer",
+            "Racetrack workers",
+            "Racetrack bartender and regular"
+          ],
+          "name": "At the Races"
+        },
+        {
+          "elements": [
+            "Enemies of an enemy",
+            "Drinking buddies",
+            "Sworn enemies",
+            "Friendly rivals",
+            "Former cellmates",
+            "Friends of a friend"
+          ],
+          "name": "Friendship"
+        },
+        {
+          "elements": [
+            "Secret lovers",
+            "Married",
+            "Separated",
+            "Stalker and victim",
+            "One-night stand",
+            "Former lovers"
+          ],
+          "name": "Romance"
+        },
+        {
+          "elements": [
+            "Boss and goon",
+            "Drug dealer and customer",
+            "Cop and informant",
+            "Con man and mark",
+            "Fences",
+            "Prostitute and pimp"
+          ],
+          "name": "Crime"
+        },
+        {
+          "elements": [
+            "He/she knows what I did in the past",
+            "Grew up together in another town",
+            "A debt never paid",
+            "Rivals from way back",
+            "Former business partners",
+            "Old family grudges"
+          ],
+          "name": "From the past"
+        }
+      ],
+      "title": "relationships..."
+    }
+  },
+  "title": "Horse Fever"
+}

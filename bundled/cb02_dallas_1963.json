@@ -1,0 +1,290 @@
+{
+  "subtitle": "...in DALLAS, NOVEMBER 1963",
+  "tables": {
+    "locations": {
+      "categories": [
+        {
+          "elements": [
+            "An overpass along the Dallas-Fort Worth Turnpike",
+            "Modern home in prestigious Preston Hollow neighborhood",
+            "Southland Hotel’s coffee shop",
+            "Cabin on Lake Texoma",
+            "Love Field, where daily flights to Europe have just been started",
+            "Cutie Pie’s Roadhouse"
+          ],
+          "name": "THE OUTSKIRTS"
+        },
+        {
+          "elements": [
+            "Booking room of the Dallas Central Police Station",
+            "The boiler room of the Kirby Building",
+            "Abe Weinstein’s Colony Club on Commerce Street",
+            "The studios of KLIF-FM",
+            "Cramped jail cell in the Dallas County Criminal Courts Building",
+            "An alley behind the Capri Theater"
+          ],
+          "name": "DOWNTOWN"
+        },
+        {
+          "elements": [
+            "The roof of Grover C. Chambers barber shop",
+            "A basement tenement apartment",
+            "Continental Gin Company building, shuttered in ‘62",
+            "Honest Joe’s, pawn shop at 2524 Elm, run by Rubin Goldstein",
+            "Freedmen’s Cemetery, beneath the Central Expressway",
+            "A storm sewer stuffed with plastic bags"
+          ],
+          "name": "DEEP ELLUM"
+        },
+        {
+          "elements": [
+            "Dallas Times-Herald newspaper office",
+            "“Take Her, She’s Mine!” at the Palace Theater",
+            "Joe Campisi’s Egyptian Restaurant",
+            "Jack Ruby’s Carousel Club VIP Room",
+            "Projection room of the Texas Theatre",
+            "Parkland Hospital emergency room"
+          ],
+          "name": "MAIN STREET DISTRICT"
+        },
+        {
+          "elements": [
+            "Illegal card room behind Bucky’s Bowling Alley",
+            "Boarding house in Oak Cliff",
+            "Central Congregational Church, 5600 Royal Lane, North Dallas",
+            "Sports book inside a cigar store on Belmont",
+            "Sonny Bryan’s Smokehouse BBQ on Inwood Road",
+            "Parking lot of the Cotton Bowl, home of the Dallas Cowboys"
+          ],
+          "name": "SKETCHY PLACES"
+        },
+        {
+          "elements": [
+            "The grassy knoll overlooking Dealey Plaza",
+            "Swampy ground next to the Trinity River beneath the Commerce Street overpass",
+            "The reflecting pool opposite the Book Depository",
+            "The Dal-Tex building",
+            "Sixth floor of the Texas School Book Depository",
+            "Abandoned railroad car on a side track"
+          ],
+          "name": "WEST END"
+        }
+      ],
+      "title": "LOCATIONS..."
+    },
+    "needs": {
+      "categories": [
+        {
+          "elements": [
+            "... by anyone, anywhere, to dull the pain",
+            "... by that sexy thing you’ve had your eye on",
+            "... by an exotic foreigner",
+            "... by an old lover, rekindling an old romance",
+            "... by an old lover, to further your agenda",
+            "... to end your terrible self-doubt one way or another"
+          ],
+          "name": "TO GET LAID"
+        },
+        {
+          "elements": [
+            "... about someone’s infidelity",
+            "... about your real parents",
+            "... about the mistake that haunts you",
+            "... about corrupt Dallas politics",
+            "... about someone’s criminal past",
+            "... about someone’s associations and intentions"
+          ],
+          "name": "TO GET THE TRUTH"
+        },
+        {
+          "elements": [
+            "... from Dallas, by crushing the Communists",
+            "... from yourself, by finally pulling the trigger",
+            "... from a family member, by rescuing them from ruin",
+            "... from Dallas, by standing tall for white people",
+            "... from the police, by informing on your buddies",
+            "... from your lover, by proving yourself"
+          ],
+          "name": "TO GET RESPECT"
+        },
+        {
+          "elements": [
+            "... through Texas politics",
+            "... through doing a favor  for the mob",
+            "... through pure, unadulterated blackmail",
+            "... through defending America’s ideals",
+            "... through supporting global Communism",
+            "... through murder"
+          ],
+          "name": "TO GET RICH"
+        },
+        {
+          "elements": [
+            "... with the cop who burned you",
+            "... with the Kennedy family",
+            "... with your old boss",
+            "... with the Establishment",
+            "... with a rival",
+            "... with the ideological opposition"
+          ],
+          "name": "TO GET EVEN"
+        },
+        {
+          "elements": [
+            "... of town - tonight",
+            "... from under their thumbs",
+            "... of a dangerous gambling debt",
+            "... before somebody finds out about what you did",
+            "... of a relationship with a lover",
+            "... of an obligation you can’t keep"
+          ],
+          "name": "TO GET OUT"
+        }
+      ],
+      "title": "NEEDS..."
+    },
+    "objects": {
+      "categories": [
+        {
+          "elements": [
+            "Handwritten route of JFK motorcade through downtown Dallas",
+            "“I’m For Nixon” button from 1960 presidential campaign",
+            "Dog-eared copy of the Russian newspaper, Krokodil",
+            "pro-Castro “Fair Play for Cuba Committee” organization letterhead",
+            "Stamped visa slip from the Soviet Embassy in Mexico City",
+            "Transcript of a domestic abuse emergency call to the Dallas PD"
+          ],
+          "name": "INFORMATION"
+        },
+        {
+          "elements": [
+            "Handful of $1000 chips from the Sands Hotel in Las Vegas",
+            "Amateur reel from an 8mm movie camera",
+            "Lighting equipment for the “Naughty Dallas” production, being filmed at the Colony Club and around town",
+            "Two Trans-Texas Airline tickets to Veracruz, Mexico",
+            "An abandoned baby girl in swaddling clothes",
+            "A set of near-perfect counterfeit $100 bill plates"
+          ],
+          "name": "VALUABLES"
+        },
+        {
+          "elements": [
+            "Calling card of a New Orleans private investigator",
+            "Selective Service card with the name “Alex J. Hidell”",
+            "Teamsters Union ID badge",
+            "Vegas PD cop badge",
+            "Regalia from the Black Knights of Pythias",
+            "Work ID for the Texas School Book Depository"
+          ],
+          "name": "IDENTIFICATION"
+        },
+        {
+          "elements": [
+            "Blood-spattered necktie",
+            ".45 automatic pistol with mother-of-pearl grip",
+            "Bureau-issue .38 snub-nose revolver in hideaway holster",
+            "Italian Carcano M91/38 bolt-action rifle",
+            "Sawed-off 12-Gauge double-barrel shotgun with pistol grip",
+            "Broken Dr. Pepper bottle"
+          ],
+          "name": "WEAPON"
+        },
+        {
+          "elements": [
+            "Quickie Taxi Service taxicab, #4523",
+            "Late-model black Ford limousine",
+            "Railroad handcar",
+            "Dallas Police Indian motorcycle",
+            "Columbia Fire Arrow girls bicycle with broken headlight",
+            "Huge 1959 Chevy station wagon with fins"
+          ],
+          "name": "TRANSPORTATION"
+        },
+        {
+          "elements": [
+            "Two kilos of pure heroin stuffed into a gaudy cowboy boot",
+            "Bottle of Preludin stimulant pills, name on label is ‘P. McCartney’",
+            "Wire recording of local mobsters discussing JFK’s upcoming visit",
+            "Syringes of quack anti-cancer “vaccine”",
+            "Signed topless picture of local burlesque dancer Marilyn Pope",
+            "Annotated copy of Billy James Hargiss’ book, “for Christ and against Communism”"
+          ],
+          "name": "UNTOWARD"
+        }
+      ],
+      "title": "OBJECTS..."
+    },
+    "relationships": {
+      "categories": [
+        {
+          "elements": [
+            "Federal law enforcement",
+            "Agitators, zealots, nut-cases",
+            "Professional associates",
+            "Church volunteers",
+            "Civic volunteers",
+            "Local law enforcement"
+          ],
+          "name": "COMMUNITY"
+        },
+        {
+          "elements": [
+            "Dirty cop and corrupt businessman",
+            "Pimp and prostitute",
+            "Hustler and mark",
+            "Crime boss and bag man",
+            "Outlaws on the run",
+            "Professional killers"
+          ],
+          "name": "CRIME"
+        },
+        {
+          "elements": [
+            "Young lovers",
+            "A frozen marriage",
+            "A one-time fling",
+            "Incest is never romantic",
+            "It’s all ancient history now",
+            "A happy marriage"
+          ],
+          "name": "ROMANCE"
+        },
+        {
+          "elements": [
+            "Boss and Federal inspector",
+            "Lawyer and client",
+            "Tradesman and client",
+            "Insurance salesman and client",
+            "Night shift workmates",
+            "Supervisor and employee"
+          ],
+          "name": "WORK"
+        },
+        {
+          "elements": [
+            "Aunt/uncle and nephew/niece",
+            "Estranged husband and wife",
+            "Parent and child/step-child",
+            "Cousins",
+            "Parent-in-law/son or daughter-in-law",
+            "Siblings"
+          ],
+          "name": "FAMILY"
+        },
+        {
+          "elements": [
+            "Sports figure and manager",
+            "Old fraternity or sorority friends",
+            "Nightclub owner and entertainer",
+            "Tramps passing through town",
+            "Army buddies from the Korean War",
+            "Office workers with a secret"
+          ],
+          "name": "SHIPS IN THE NIGHT"
+        }
+      ],
+      "title": "relationships..."
+    }
+  },
+  "title": "Dallas 1963"
+}

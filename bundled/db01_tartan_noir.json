@@ -1,0 +1,290 @@
+{
+  "subtitle": "...IN a city in Scotland",
+  "tables": {
+    "locations": {
+      "categories": [
+        {
+          "elements": [
+            "Tourist bed-and-breakfast",
+            "Backpacker’s hostel",
+            "Comfortable three-bedroom house",
+            "University halls of residence",
+            "Death-trap flat",
+            "Sleeping bag outside an RBS"
+          ],
+          "name": "RESIDENTIAL"
+        },
+        {
+          "elements": [
+            "Pulpit of a local church",
+            "Overnight cells in a police station",
+            "Hospital waiting room",
+            "In the middle of the park",
+            "An RBS branch",
+            "That cafe where that person wrote that book"
+          ],
+          "name": "Community"
+        },
+        {
+          "elements": [
+            "Car dealership",
+            "Deserted train station, late at night",
+            "Smashed-up Bus shelter",
+            "Airport",
+            "Down by the docks",
+            "On a tram, still locked in a warehouse"
+          ],
+          "name": "Transport"
+        },
+        {
+          "elements": [
+            "Down by the river",
+            "In a pub toilet",
+            "Behind the sex shop",
+            "In the backroom of a sauna",
+            "On the dance floor",
+            "In the underground car park"
+          ],
+          "name": "Shady places"
+        },
+        {
+          "elements": [
+            "On the Royal Mile during the Festival",
+            "At the top of the Scott Monument",
+            "On the pitch at Murrayfield Stadium",
+            "Under the city in Mary King’s Close",
+            "On the steps of Fleshmarket Close",
+            "In the back room of the Oxford Bar"
+          ],
+          "name": "Auld Reekie"
+        },
+        {
+          "elements": [
+            "Under a seat in the Theatre Royal",
+            "In the changing rooms at Ibrox",
+            "Vault in the Burrell Gallery",
+            "At the foot of the Finnieston Crane",
+            "Buried in the Necropolis",
+            "Under the Duke’s cone"
+          ],
+          "name": "Glesgae"
+        }
+      ],
+      "title": "LOCATIONS..."
+    },
+    "needs": {
+      "categories": [
+        {
+          "elements": [
+            "... cause it’s the weekend",
+            "...’cause they’re gone",
+            "...’cause it’s all gone to shite",
+            "...’cause it’s all gone right for once",
+            "...’cause it’s been a while",
+            "...’cause you can"
+          ],
+          "name": "TAE get PISHED"
+        },
+        {
+          "elements": [
+            "...on the neds who robbed you",
+            "...on the weegie who gave you that smile",
+            "...on the two-faced bastard/bitch who betrayed you",
+            "...on the bawbag who fucked it up for you",
+            "...on maw/da for what they did when you were young",
+            "...on the polis (just ‘cause)"
+          ],
+          "name": "TAE get PAY BACK"
+        },
+        {
+          "elements": [
+            "...by selling that thing you’ve been holding on to",
+            "...by doing a pal a “favour”",
+            "...by selling that story to the press",
+            "...by robbing a bank",
+            "...by making them deid",
+            "...by making it look like an accident"
+          ],
+          "name": "TAE get minted"
+        },
+        {
+          "elements": [
+            "...to the love of your life",
+            "...’cause you’ve served your time",
+            "...and start a new life",
+            "...and say what you should have said a long time ago",
+            "...before they get there first",
+            "...’cause you have no fucking clue where you’ve woken up"
+          ],
+          "name": "TAE get HAME"
+        },
+        {
+          "elements": [
+            "...who killed them",
+            "...where they’re hiding",
+            "...why they let themselves get caught",
+            "...what happened to all that money",
+            "...when they removed the evidence",
+            "...how they escaped"
+          ],
+          "name": "TAE GET TAE THE BOTTOM OF"
+        },
+        {
+          "elements": [
+            "...while they’re away",
+            "...before it’s too late",
+            "...’cause it’s been put off for far too long",
+            "...before you get caught",
+            "...before you pish yourself",
+            "...before the bomb explodes"
+          ],
+          "name": "TAE get IT DONE"
+        }
+      ],
+      "title": "NEEDS..."
+    },
+    "objects": {
+      "categories": [
+        {
+          "elements": [
+            "A “see you, Jimmy” hat",
+            "Kilt towel",
+            "CD of “traditional” music",
+            "Miniature bottle of shite whisky",
+            "Cheap knock-off rugby shirt",
+            "Mundane object with a university logo stamped on it"
+          ],
+          "name": "Tourist tat"
+        },
+        {
+          "elements": [
+            "Haggis/fish supper with chippy sauce",
+            "Rock-hard bar of tablet",
+            "Ice-cold can of Bru",
+            "Crate of Tennent’s lager",
+            "Bottle of Buckie",
+            "18-year old single malt"
+          ],
+          "name": "Food and Drink"
+        },
+        {
+          "elements": [
+            "Wedding ring",
+            "Cross on a silver chain",
+            "The medal you won that time",
+            "Passworded laptop",
+            "Pregnancy test",
+            "Set of keys (“This key here, this key is a mystery”)"
+          ],
+          "name": "Personal"
+        },
+        {
+          "elements": [
+            "Couple of joints",
+            "Plate of hash brownies",
+            "Couple of bags of powder",
+            "Two dozen ecstasy tablets",
+            "Veritable shitload of heroin",
+            "Brown-papered package (“the boss said don’t open it”)"
+          ],
+          "name": "Drugs"
+        },
+        {
+          "elements": [
+            "Replica weapon, probably historical",
+            "Bottle of rat poison",
+            "Car",
+            "Broken Buckie bottle",
+            "Illegal handgun",
+            "A ceremonial sgian-dubh, tucked in a sock"
+          ],
+          "name": "Weapons"
+        },
+        {
+          "elements": [
+            "Burned Rangers/Celtic shirt",
+            "Padlocked chest of adventurous sex toys",
+            "Briefcase, bulging with £1 notes",
+            "Signed album by the Proclaimers",
+            "Human turd",
+            "Clown mask"
+          ],
+          "name": "What the Fuck?"
+        }
+      ],
+      "title": "OBJECTS..."
+    },
+    "relationships": {
+      "categories": [
+        {
+          "elements": [
+            "Siblings",
+            "Cousins",
+            "Parent and (step) child",
+            "In-laws",
+            "Curious youngster and that older relative we don’t talk about",
+            "Unknowingly related"
+          ],
+          "name": "Family"
+        },
+        {
+          "elements": [
+            "Work colleagues",
+            "Drinking pals",
+            "Mates since school/college",
+            "Friends with far too much sexual tension",
+            "Friends with benefits",
+            "House mates"
+          ],
+          "name": "Friendship"
+        },
+        {
+          "elements": [
+            "Spouses",
+            "Ex-spouses",
+            "Life-long crush",
+            "One-night standees",
+            "Lovers",
+            "Former lovers"
+          ],
+          "name": "Romance"
+        },
+        {
+          "elements": [
+            "Pub landlord/worker and regular",
+            "Doctor and patient",
+            "Teacher and pupil",
+            "Tour guide and tourist",
+            "Office worker and boss",
+            "Escort and client"
+          ],
+          "name": "Civilian Work"
+        },
+        {
+          "elements": [
+            "Drug dealer and supplier",
+            "Small-time thieves/burglars",
+            "Neds with a proud set of ASBOs",
+            "Ex-convict and parole officer",
+            "Corrupt CEO/government official and employee",
+            "Crime boss and underling"
+          ],
+          "name": "Crime"
+        },
+        {
+          "elements": [
+            "Journalist and photographer/editor/source",
+            "CID/uniformed polis officer and superior/partner/suspect",
+            "Special branch investigator and suspect",
+            "Ex-armed forces and contact",
+            "Nosey amateur and contact",
+            "Post-mortem physician and contact"
+          ],
+          "name": "Investigation"
+        }
+      ],
+      "title": "relationships..."
+    }
+  },
+  "title": "Tartan Noir"
+}

@@ -1,0 +1,290 @@
+{
+  "subtitle": "...IN Poppleton Terrace",
+  "tables": {
+    "locations": {
+      "categories": [
+        {
+          "elements": [
+            "Secret room, drywalled in",
+            "Shed packed with cardboard boxes",
+            "A child’s bedroom, untouched for twenty three years",
+            "Storm drain at the intersection of Breezeway and Piccolo",
+            "Toilet tank in the guest bathroom under the stairs",
+            "In a packing crate, buried in the yard"
+          ],
+          "name": "CLOSE QUARTERS"
+        },
+        {
+          "elements": [
+            "Cul-de-sac at the end of Avanti Way",
+            "Two identically-painted houses on Piccolo Lane",
+            "Poppleton Terrace community center and meeting room",
+            "Out-of-place mansion on Vecchio Drive",
+            "Where the fire was",
+            "The House Where People Always Come And Go"
+          ],
+          "name": "THE OLD END"
+        },
+        {
+          "elements": [
+            "Breezeway Avenue house with tin-foiled windows",
+            "Yard with something written on it in weed killer",
+            "Freedom Place, Street of the Year",
+            "The House With Too Many Animals",
+            "Corner of Freedom and Piccolo, where neighbors meet",
+            "Chris Nasser’s Certified Wildlife Habitat garden"
+          ],
+          "name": "THE NEW END"
+        },
+        {
+          "elements": [
+            "Drainage canal behind Poppleton Terrace",
+            "The gazebo in Poppleton Park",
+            "Bike path beneath the powerlines",
+            "Poppleton Terrace III, a model home and 56 empty lots",
+            "Circular clearing in the woods where nothing grows",
+            "Roadside memorial on State Road 217"
+          ],
+          "name": "WALKABLE"
+        },
+        {
+          "elements": [
+            "Law Offices of Cockburn and Lilley, LLC",
+            "Men’s bathroom at Poppleton Mall",
+            "Law Enforcement Regional Intelligence Fusion Center",
+            "The Well Dressed Lady",
+            "Chicken Hut #6310, over in Redbud Court",
+            "Michelle’s Tavern"
+          ],
+          "name": "D R IVA B L E"
+        },
+        {
+          "elements": [
+            "Tricked-out basement home theater",
+            "Garage converted into a long-term nursing care facility",
+            "Long-occupied house without a stick of furniture in it",
+            "Attic full of electronic equipment",
+            "The best kitchen in Poppleton Terrace",
+            "Living room, with a telescope looking across the street"
+          ],
+          "name": "BEHIND CLOSED DOORS"
+        }
+      ],
+      "title": "LOCATIONS..."
+    },
+    "needs": {
+      "categories": [
+        {
+          "elements": [
+            "...Chris Nasser’s bed",
+            "...whatever those people are into",
+            "...the Homeowners Association leadership",
+            "...the house that seems sort of abandoned",
+            "...somebody else’s business",
+            "...the library, to figure out what you saw"
+          ],
+          "name": "TO GET INTO"
+        },
+        {
+          "elements": [
+            "...of Chris Nasser’s bed",
+            "...of an irritating commitment to a neighbor",
+            "...your grill and have the whole neighborhood over",
+            "...of the lawn and garden committee",
+            "...your gun again",
+            "...with the Homeowners Association lockbox"
+          ],
+          "name": "TO GET OUT"
+        },
+        {
+          "elements": [
+            "...from an unpleasant debt",
+            "...from the homeowners association’s rules",
+            "...from the memory of something you should not have seen",
+            "...beer",
+            "...advice from a licensed professional",
+            "...of a relationship turned sour"
+          ],
+          "name": "TO GET FREE"
+        },
+        {
+          "elements": [
+            "...by aggressively blending in",
+            "...by acquiring a final recruit",
+            "...by subverting the Homeowners Association",
+            "...by replacing the leader",
+            "...by completing final assembly",
+            "...by burying the evidence"
+          ],
+          "name": "TO GET THE PLAN IN MOTION"
+        },
+        {
+          "elements": [
+            "...the accident",
+            "...100 signatures on your petition to theHomeowners Association",
+            "...seeing something you should never have seen",
+            "...the embarrassment of living next to a pig sty",
+            "...being left out, betrayed and abandoned",
+            "...nameless fear that may soon have a name"
+          ],
+          "name": "TO GET OVER"
+        },
+        {
+          "elements": [
+            "...with those people",
+            "...more support for the revised garbage policy",
+            "...by spreading rumors",
+            "...hedges, even if you have to trim them yourself",
+            "...with the whole Nasser family",
+            "...by blowing the lid off this thing"
+          ],
+          "name": "TO GET EVEN"
+        }
+      ],
+      "title": "NEEDS..."
+    },
+    "objects": {
+      "categories": [
+        {
+          "elements": [
+            "Sweaty baseball cap with something tucked in the brim",
+            "Aegis brand Lineman’s telephone handset",
+            "Municipal garbage truck",
+            "Dave Weatherford",
+            "Annotated copy of Major Donald Keyhoe’s Flying Saucers Are Real",
+            "A wide open wireless router"
+          ],
+          "name": "NEIGHBORHOOD WATCH"
+        },
+        {
+          "elements": [
+            "Calcination chamber, fully prepared",
+            "Inert Wave Shaper",
+            "Outline of Plan written in Frühneuhochdeutsch, Early New High German",
+            "Object 7721",
+            "Sorcha-1 and Sorcha-2",
+            "Velvet drapes, with inky wrongness beyond"
+          ],
+          "name": "PLAN RELATED"
+        },
+        {
+          "elements": [
+            "Uninstalled hot tub",
+            "Precisely manicured but vaguely offensive topiary",
+            "Stihl 10-foot pole pruner chainsaw",
+            "Home theater components still in boxes",
+            "Shrink-wrapped block containing one million dollars",
+            "DeWalt cordless nail gun"
+          ],
+          "name": "HOME IMPROVEMENT"
+        },
+        {
+          "elements": [
+            "Remains of Ford Probe, on blocks, in front yard",
+            "One liter of Tetrabutylammonium Hydroxide/methanol solution, packed in nitrogen",
+            "Framed portrait of Adolph Hitler",
+            "Corpse of a relative",
+            "Cracked foundation filled with termites",
+            "Wagner power sprayer and buckets of Chinese Red exterior paint"
+          ],
+          "name": "HOME DEGREDATION"
+        },
+        {
+          "elements": [
+            "Federal wiretap and search warrant",
+            "Unmailed letter to the Homeowners Association",
+            "Green Touch Landscaping truck",
+            "Foreclosure notice",
+            "Surveyor’s stakes on the wrong side of a property line",
+            "Discrete weatherproof case attached to something with magnets"
+          ],
+          "name": "DISTANT AND PROFESSIONAL"
+        },
+        {
+          "elements": [
+            "Disturbing Japanese import",
+            "Shotgun with home-made silencer taped to the barrel",
+            "Dental appliance, partially melted",
+            "Lock-defeating bump key",
+            "100 hours of grainy digital surveillance data",
+            "Love note written on the back of a Green Touch Landscaping bill"
+          ],
+          "name": "UP CLOSE AND PERSONAL"
+        }
+      ],
+      "title": "OBJECTS..."
+    },
+    "relationships": {
+      "categories": [
+        {
+          "elements": [
+            "President and Vice President",
+            "Treasurer and thief",
+            "Co-authors of the revised garbage policy",
+            "Standards committee chair and the neighbor with no standards",
+            "“We’re honestly trying to work this out like two adults”",
+            "Secretary and former Secretary"
+          ],
+          "name": "HOMEOWNERS ASSOCIATION"
+        },
+        {
+          "elements": [
+            "...a deep friendship",
+            "...a heavy burden",
+            "...a sexually-transmitted disease",
+            "...forbidden fruit",
+            "...gossip over the fence",
+            "...mutual suspicions"
+          ],
+          "name": "SHARING"
+        },
+        {
+          "elements": [
+            "Leader and loyal right hand",
+            "Recruiter and likely prospect",
+            "Leader and minion",
+            "Minion and accidental observer",
+            "Outsiders who want in",
+            "Minions who want out"
+          ],
+          "name": "THE PLAN"
+        },
+        {
+          "elements": [
+            "Home business partners",
+            "Professional rivals",
+            "Service worker and customer",
+            "Secretly unemployed",
+            "Professional and client",
+            "Co-workers"
+          ],
+          "name": "BUSINESS"
+        },
+        {
+          "elements": [
+            "...that are basically strangers",
+            "...at war",
+            "...with a mutual problem",
+            "...and friends!",
+            "...but not for long",
+            "...one private, the other nosy"
+          ],
+          "name": "NEIGHBORS"
+        },
+        {
+          "elements": [
+            "Caregiver and invalid",
+            "Parent and child",
+            "“When you are friends with Chris Nasser, you are family!”",
+            "Golden child and black sheep",
+            "“Our therapist suggested this arrangement”",
+            "Husband and husband"
+          ],
+          "name": "FAM I LY"
+        }
+      ],
+      "title": "relationships..."
+    }
+  },
+  "title": "Home Invasion"
+}

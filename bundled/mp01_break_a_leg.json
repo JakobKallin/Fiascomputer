@@ -1,0 +1,290 @@
+{
+  "subtitle": "...IN THE THEATRE",
+  "tables": {
+    "locations": {
+      "categories": [
+        {
+          "elements": [
+            "Box office",
+            "Cash bar",
+            "Lobby",
+            "Atop the marquee",
+            "Bathroom",
+            "General admission seating"
+          ],
+          "name": "FRONT OF HOUSE"
+        },
+        {
+          "elements": [
+            "The grid (rafters above the stage)",
+            "Dressing rooms",
+            "Tech booth",
+            "Prop room",
+            "Green room",
+            "Director’s office"
+          ],
+          "name": "BACKSTAGE"
+        },
+        {
+          "elements": [
+            "Parking lot and valet stand",
+            "Convenience store",
+            "Back alley, marked with a warning",
+            "Smoky stairwell",
+            "Thrift shop",
+            "The dealer’s house"
+          ],
+          "name": "THE NEIGHBORHOOD"
+        },
+        {
+          "elements": [
+            "Tiny studio apartment",
+            "Van parked behind the theatre",
+            "Your parent’s house",
+            "Four bedrooms, seven people, no problem",
+            "A greasy couch",
+            "“How did you afford this place?”"
+          ],
+          "name": "PLACE TO CRASH"
+        },
+        {
+          "elements": [
+            "Out front with the smokers",
+            "Under a table, accidentally or on purpose",
+            "Bathroom, with or without sex currently happening",
+            "Behind the Golden Tee machine",
+            "“Holy shit, there’s more tequila back here!”",
+            "The techie table"
+          ],
+          "name": "MICHELLE’S TAVERN"
+        },
+        {
+          "elements": [
+            "The director’s loft apartment",
+            "High end nightclub called KNOLL",
+            "The Chicken Hut",
+            "A muddy field off County Road Sixteen",
+            "Grover Cleveland High School",
+            "Somebody’s too-small apartment"
+          ],
+          "name": "CAST PARTY"
+        }
+      ],
+      "title": "LOCATIONS..."
+    },
+    "needs": {
+      "categories": [
+        {
+          "elements": [
+            "...once a show, every show",
+            "...to show everyone who is boss",
+            "...to get the part",
+            "...to maintain your reputation",
+            "...for the first time",
+            "...to come out of the closet"
+          ],
+          "name": "TO GET LAID"
+        },
+        {
+          "elements": [
+            "...for being passed over",
+            "...by sabotaging the show",
+            "...for the humiliation you suffer daily",
+            "...on the one who broke your heart",
+            "...for your misspelled name in the fucking program",
+            "...on the director"
+          ],
+          "name": "TO GET REVENGE"
+        },
+        {
+          "elements": [
+            "...on the actor who can never find her light",
+            "...on the playwright that keeps cutting your scenes",
+            "...on that wealthy patron who thinks they call the shots",
+            "...on that one particular reviewer",
+            "...on the bastards who won’t cut your check",
+            "...on the small-minded people who don’t appreciate innovative, quality theatre when they see it"
+          ],
+          "name": "TO GET MORE REVENGE"
+        },
+        {
+          "elements": [
+            "...because this is your moment and you deserve it",
+            "...and prove the doubters wrong",
+            "...so you can finally make real art",
+            "...so your parents will accept you",
+            "...so that everyone knows your name – Fame!",
+            "...to be just like [insert famous person here]"
+          ],
+          "name": "TO GET FAMOUS"
+        },
+        {
+          "elements": [
+            "...of this terrible show",
+            "...of this terrible career",
+            "...of this terrible town",
+            "...of this terrible contract",
+            "...of this terrible relationship",
+            "...of this terrible costume"
+          ],
+          "name": "TO GET OUT"
+        },
+        {
+          "elements": [
+            "...from everyone, by doing this role justice",
+            "...from everyone, by atoning for a dreadful mistake",
+            "...for yourself, by finally treading the boards",
+            "...from the press, by getting a good review",
+            "...or not, either way, this is art so who cares?",
+            "...because you’ll die without it"
+          ],
+          "name": "TO GET RESPECT"
+        }
+      ],
+      "title": "NEEDS..."
+    },
+    "objects": {
+      "categories": [
+        {
+          "elements": [
+            "Antique wheelchair",
+            "Porcelain Buddha statue that must be smashed on stage nightly",
+            "Alcohol—lots and lots of alcohol",
+            "Live animal",
+            "Human skull",
+            "Two hundred highly flammable Christmas trees"
+          ],
+          "name": "PROPS"
+        },
+        {
+          "elements": [
+            "A revolver loaded with blanks",
+            "A big box of swords with no lock on it",
+            "A totally safe grenade",
+            "Gloves with claws, stolen from a touring production of Cats",
+            "Nunchucks",
+            "Anti-aircraft gun left over from a production of Mister Roberts"
+          ],
+          "name": "WEAPONS"
+        },
+        {
+          "elements": [
+            "Poorly-wired lighting instrument",
+            "Sandbag",
+            "Glow tape—lots and lots of glow tape",
+            "Trap door",
+            "Rain machine",
+            "Giant red fire-retardant teaser curtain"
+          ],
+          "name": "TECHNICAL"
+        },
+        {
+          "elements": [
+            "The community marijuana stash",
+            "A sex DVD starring someone in the cast",
+            "A severed finger",
+            "PUBLIC SAFETY – CONDEMNED notice",
+            "Pregnancy test",
+            "Secret shrine to Julie Taymor"
+          ],
+          "name": "DUBIOUS"
+        },
+        {
+          "elements": [
+            "The next show’s unreleased cast list",
+            "Keys to the theatre",
+            "Director’s mobile phone number",
+            "Stage manager’s prompt book",
+            "Bad review, as yet unpublished",
+            "The real reason the last actor quit"
+          ],
+          "name": "VALUABLE"
+        },
+        {
+          "elements": [
+            "Stephen Sondheim’s autograph",
+            "Tear-stained love letter",
+            "Security blanket",
+            "A director’s moment of kindness, captured on film",
+            "Flowers from opening night",
+            "Somebody else’s Tony award"
+          ],
+          "name": "SENTIMENTAL"
+        }
+      ],
+      "title": "OBJECTS..."
+    },
+    "relationships": {
+      "categories": [
+        {
+          "elements": [
+            "“We are show people!”",
+            "“Apparently they’re cousins but don’t mention it.”",
+            "Current semi-legal partners",
+            "Not-so-current spouses",
+            "Might as well be family",
+            "Parent and child"
+          ],
+          "name": "FAM I LY"
+        },
+        {
+          "elements": [
+            "“We’re both wearing black and wearing headsets. So no, we’re not actors, but thanks for asking.”",
+            "Actor and inferior actor",
+            "Artistes",
+            "Director and functionary (playwright, cast, crew, designer)",
+            "Co-producers",
+            "“ Volu nteers ”"
+          ],
+          "name": "WORK"
+        },
+        {
+          "elements": [
+            "For the good of the production",
+            "Drinking buddies",
+            "Best worst friends",
+            "‘Til the bitter end",
+            "User and used",
+            "“We’re friends? News to me, but if she says so...”"
+          ],
+          "name": "FRIENDSHIP"
+        },
+        {
+          "elements": [
+            "Showmance!",
+            "Director and most recent conquest",
+            "Thespian and non-thespian",
+            "“It’s just a crush. Nothing serious.”",
+            "Secret lovers",
+            "One night stand"
+          ],
+          "name": "ROMANCE"
+        },
+        {
+          "elements": [
+            "Went to school together",
+            "Bad (stage) blood",
+            "Former theatrical business partners",
+            "Former child actors",
+            "“We’ve never met, but our reputations precede us.”",
+            "“You’ll remember me when I’m famous, bitches!”"
+          ],
+          "name": "HISTORY"
+        },
+        {
+          "elements": [
+            "Alcoholic and sponsor",
+            "Dubious side project",
+            "Diva and ingénue",
+            "Bitter rivals",
+            "Community theatre/summer stock players",
+            "Mentor and protégé"
+          ],
+          "name": "COMMUNITY"
+        }
+      ],
+      "title": "relationships..."
+    }
+  },
+  "title": "Break a Leg"
+}

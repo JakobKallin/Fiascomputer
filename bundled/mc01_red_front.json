@@ -1,0 +1,290 @@
+{
+  "subtitle": "...IN the Red Front",
+  "tables": {
+    "locations": {
+      "categories": [
+        {
+          "elements": [
+            "Airport departure lounge",
+            "Autobahn petrol station",
+            "The Central Station",
+            "U-Bahn station",
+            "Multi-storey carpark",
+            "Aboard a river boat"
+          ],
+          "name": "T r av e l"
+        },
+        {
+          "elements": [
+            "Squat in Neukölln, Berlin",
+            "One bedroom apartment in a high-rise block",
+            "Historical townhouse in Lübeck",
+            "Treehouse",
+            "Suburban house",
+            "Designer villa of Stefan’s parents"
+          ],
+          "name": "Residences"
+        },
+        {
+          "elements": [
+            "Sennelager British Army base",
+            "Bitburg US airbase",
+            "Abandoned rocketry test range",
+            "Checkpoint Charlie",
+            "German Army depot",
+            "A neglected bunker"
+          ],
+          "name": "M ilitary"
+        },
+        {
+          "elements": [
+            "Berlin TV tower",
+            "The Black Forest",
+            "Hamburg’s red light district",
+            "Hofbräuhaus Munich",
+            "Neuschwanstein Castle",
+            "Kölner Dom cathedral in Cologne"
+          ],
+          "name": "Tourist Attractions"
+        },
+        {
+          "elements": [
+            "Paris, for an arms deal",
+            "Beirut, to make contacts",
+            "New York, to meet “The Colonel”",
+            "Copenhagen, for a romantic liaison",
+            "Moscow, to receive “special training”",
+            "Prague, to record a message on tape"
+          ],
+          "name": "Abroad"
+        },
+        {
+          "elements": [
+            "The Libyan Embassy",
+            "Forest near the border",
+            "An Aldi supermarket",
+            "University lecture theatre",
+            "Sewage treatment plant",
+            "Biblis Nuclear Power Station"
+          ],
+          "name": "Random"
+        }
+      ],
+      "title": "LOCATIONS..."
+    },
+    "needs": {
+      "categories": [
+        {
+          "elements": [
+            "... on the Foreign Ministry",
+            "... on the Americans",
+            "... on a police officer",
+            "... on one of your mates who fucked your friend",
+            "... on society",
+            "... on your parents"
+          ],
+          "name": "To get revenge"
+        },
+        {
+          "elements": [
+            "... through a hijacking",
+            "... through a kidnapping",
+            "... through an assassination",
+            "... through a bombing",
+            "... through a media stunt",
+            "... through a suicide mission"
+          ],
+          "name": "To gain publicity"
+        },
+        {
+          "elements": [
+            "... before you’re killed",
+            "... before the Big Event",
+            "... of a dangerous relationship",
+            "... to lead a normal life",
+            "... before someone gets killed",
+            "... before you’re exposed as an informant"
+          ],
+          "name": "To get out"
+        },
+        {
+          "elements": [
+            "... from organised crime",
+            "... from a national government",
+            "... from Big Business",
+            "... through blackmail/extortion",
+            "... through robbery",
+            "... through forgery"
+          ],
+          "name": "To get funding"
+        },
+        {
+          "elements": [
+            "... by puncturing Western complacency",
+            "... by standing up for the weak",
+            "... by direct violent action",
+            "... by resistance",
+            "... by exposing their lies",
+            "... by sacrificing your mates"
+          ],
+          "name": "To change society"
+        },
+        {
+          "elements": [
+            "... by being the first",
+            "... by being transgressive",
+            "... by action not talk",
+            "... by talk not action",
+            "... by changing history",
+            "... by not giving a shit"
+          ],
+          "name": "To be avant-garde"
+        }
+      ],
+      "title": "NEEDS..."
+    },
+    "objects": {
+      "categories": [
+        {
+          "elements": [
+            "A couple of MP5s",
+            "Some hand grenades",
+            "U.S. M-6 bayonet",
+            "A K- 47",
+            "Czechoslovak explosives and timer",
+            "Anthrax cultures"
+          ],
+          "name": "Weapons"
+        },
+        {
+          "elements": [
+            "100,000 Ostmarks",
+            "Six fake passports",
+            "$1m in traveler’s cheques",
+            "Four 400 oz gold bars",
+            "Rolex Cosmograph Daytona watch",
+            "One kg of uncut cocaine"
+          ],
+          "name": "Valuables"
+        },
+        {
+          "elements": [
+            "Address of the Foreign Minister’s holiday home in Gstaad",
+            "C60 tape holding a secretly recorded conversation",
+            "Brown leather bag with “Top Secret” documents",
+            "Piece of microfilm",
+            "Name of a traitor within the group",
+            "Blueprint of the Bundeskanzler’s residence"
+          ],
+          "name": "Information"
+        },
+        {
+          "elements": [
+            "Beat up VW Kombi van",
+            "Black bulletproof Mercedes-Benz 600",
+            "Luxury yacht",
+            "Vespa scooter",
+            "Public transport",
+            "Volkswagen Golf GTI"
+          ],
+          "name": "Transport"
+        },
+        {
+          "elements": [
+            "Nagra IV-S portable professional audio recorder",
+            "Linn Sondek Turntable",
+            "Atari Pong game",
+            "Three-piece suit",
+            "Sony Betamax SL-7200 video cassette recorder",
+            "Heidelberger printing press"
+          ],
+          "name": "Gear"
+        },
+        {
+          "elements": [
+            "The briefcase that everyone seems to want",
+            "Yellowcake uranium from Nigeria",
+            "Piece of moonstone",
+            "Signed Tangerine Dream t-shirt",
+            "Apollo space suit",
+            "Apple I user manual"
+          ],
+          "name": "Strange"
+        }
+      ],
+      "title": "OBJECTS..."
+    },
+    "relationships": {
+      "categories": [
+        {
+          "elements": [
+            "Former university flatmates",
+            "Did national service together",
+            "Grew up together",
+            "Met at anti-nuclear demo",
+            "Did time together",
+            "Co-founders of a cell"
+          ],
+          "name": "Friendship"
+        },
+        {
+          "elements": [
+            "Secret lovers",
+            "Divorced",
+            "Married",
+            "Illicit relationship",
+            "Siblings",
+            "Love triangle"
+          ],
+          "name": "Romance"
+        },
+        {
+          "elements": [
+            "Doctor and patient",
+            "Lecturer and student",
+            "Shop steward and factory worker",
+            "Steelworkers",
+            "Unemployed",
+            "Customer and salesperson"
+          ],
+          "name": "Work"
+        },
+        {
+          "elements": [
+            "The last cell all died, but we survived",
+            "Splinter faction",
+            "Guerilla-trained abroad",
+            "Former hostage and captor",
+            "Responsible for an atrocity",
+            "Assassins"
+          ],
+          "name": "Terror"
+        },
+        {
+          "elements": [
+            "Union officials",
+            "Communist Party members",
+            "Anarchists",
+            "Syndicalists",
+            "Peace movement activists",
+            "Pundits"
+          ],
+          "name": "Politics"
+        },
+        {
+          "elements": [
+            "Painters",
+            "Poets",
+            "Novelists",
+            "Rock musicians",
+            "Underground publishers",
+            "Radical politicians"
+          ],
+          "name": "Sub-Culture"
+        }
+      ],
+      "title": "relationships..."
+    }
+  },
+  "title": "Red Front"
+}

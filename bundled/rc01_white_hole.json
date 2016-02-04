@@ -1,0 +1,290 @@
+{
+  "subtitle": "...TOO NEAR A WHITE HOLE",
+  "tables": {
+    "locations": {
+      "categories": [
+        {
+          "elements": [
+            "B4 Monitoring",
+            "B8 Armory, dripping with xenomorph residue",
+            "C9 Combat holo-training creche",
+            "C17 Records",
+            "B2 Friendly interrogation suite",
+            "B5 Intel-Sec Commander’s office"
+          ],
+          "name": "I N T E L- S E C"
+        },
+        {
+          "elements": [
+            "A1 Command Center-control helm",
+            "A2 Captain’s ready room",
+            "A5 Briefing room",
+            "A1 Command Center-comm station",
+            "A1 Command Center-tactical operations",
+            "A19 Weapons System controls"
+          ],
+          "name": "command DECK"
+        },
+        {
+          "elements": [
+            "C21 Tachyon’s Bar and Grille",
+            "D13 Foam showers",
+            "F7 Ax’Tularian blood worm chamber",
+            "F40 Admiral Xyvqups quarters",
+            "E2 Engineering bunks",
+            "E15 Arboretum"
+          ],
+          "name": "living quarters"
+        },
+        {
+          "elements": [
+            "Dimly-lit corridor on G-deck",
+            "West Pylon",
+            "H1 Quantum Core",
+            "Drive Conduit #2",
+            "G10 Waste Compactor",
+            "Televator shaft"
+          ],
+          "name": "sys-works"
+        },
+        {
+          "elements": [
+            "J9 Escape Pod wreckage",
+            "J1 Forward repair bay",
+            "J23 Parts and supplies locker",
+            "J20 Ordinance storage area",
+            "J21 Flight holo-training creche",
+            "J30 Flight track and aft vehicle airlock"
+          ],
+          "name": "flight deck"
+        },
+        {
+          "elements": [
+            "K19 Lavatory, torn apart by xenomorph",
+            "K18 Ambassador Qlipat’s cell",
+            "K1 Security area",
+            "K12 Torture room",
+            "K6 Solitary confinement",
+            "K2 Sense-dep chamber"
+          ],
+          "name": "holding cells"
+        }
+      ],
+      "title": "LOCATIONS..."
+    },
+    "needs": {
+      "categories": [
+        {
+          "elements": [
+            "...by finding the proof at last",
+            "...so that you can go home",
+            "...in order to get reinstated",
+            "...even though you’re guilty",
+            "...and forgiven by the only one whose forgiveness matters",
+            "...by any means necessary"
+          ],
+          "name": "to be exonerated"
+        },
+        {
+          "elements": [
+            "...for framing you",
+            "...even if it was “just an accident”",
+            "...and make sure she sees it happen",
+            "...as slowly as possible",
+            "...and make sure someone else takes the blame",
+            "...so that the voices stop"
+          ],
+          "name": "to punish them"
+        },
+        {
+          "elements": [
+            "...regardless of which little people you have to kill",
+            "...through hard work and honest effort",
+            "...and send your wealth to the Temple of Ungu",
+            "...so you can pay the ransom",
+            "...enough to hire an army of mercenaries",
+            "...and leave this horrifying galaxy behind"
+          ],
+          "name": "to get rich"
+        },
+        {
+          "elements": [
+            "...with the one person/clone/android you care about",
+            "...after settling one last score",
+            "...before your treachery is discovered",
+            "...the murderous xenomorph on your trail",
+            "...even if everyone else dies",
+            "...and start all over again"
+          ],
+          "name": "to escape"
+        },
+        {
+          "elements": [
+            "...your own starship",
+            "...an army of pissed-off clones",
+            "...a squad of very professional androids",
+            "...a pirate ship, filled with plunder",
+            "...Star Station Sigma",
+            "...others to listen to you, just this once"
+          ],
+          "name": "to command"
+        },
+        {
+          "elements": [
+            "...At the Daluan Citadel on Yemekzi IV",
+            "...even if you won’t be forgiven",
+            "...before you plunge into the void",
+            "...for crimes too heinous to name",
+            "...by soaking your hands in their blood",
+            "...even though, whatever, you don’t even feel that bad about it"
+          ],
+          "name": "to atone"
+        }
+      ],
+      "title": "NEEDS..."
+    },
+    "objects": {
+      "categories": [
+        {
+          "elements": [
+            "Gluon pistol",
+            "Phaser blade",
+            "Voice projectile harness",
+            "Monofilament nunchaku",
+            "Kruk’Chel ceremonial blade",
+            "Stasis gun (do not fire the stasis gun)"
+          ],
+          "name": "weapons"
+        },
+        {
+          "elements": [
+            "Sentience Locator Beam",
+            "Gently modified Radiation Warning Badge",
+            "Unreliable Quantum Flux Sensor",
+            "Biomedical analyzer",
+            "Vacuum Locator Device",
+            "Probability Calculation Engine"
+          ],
+          "name": "sensors"
+        },
+        {
+          "elements": [
+            "Personal Cloaking Device with a power problem",
+            "Sound Emission Minimizer",
+            "Surveillance drone",
+            "Holographic Image Manipulator",
+            "Sensor Dampener",
+            "Dark Field Emitter"
+          ],
+          "name": "stealth"
+        },
+        {
+          "elements": [
+            "Damaged enviro-suit",
+            "Admiral Xyvqup’s dress uniform",
+            "Kruk’Chel battle armor",
+            "Scavenger’s rags, covered in someone’s blood",
+            "Skiff pilot’s helmet",
+            "Mask of the Prophet"
+          ],
+          "name": "attire"
+        },
+        {
+          "elements": [
+            "“Theoretical” Thant-Weck quason particle",
+            "Cloned fetus",
+            "Laser-whip they used",
+            "Xenomorph-chewed corpse",
+            "Hologram recording of eyewitness testimony",
+            "Radiological anomaly scans"
+          ],
+          "name": "evidence"
+        },
+        {
+          "elements": [
+            "Star map to Daluan Citadel",
+            "Quantum flux inducer (do not activate a quantum flux inducer)",
+            "Psychic photo of her smile",
+            "Metal cylinder containing a scalp",
+            "Crate of Ax’Tularian “wine”",
+            "Blade of the Prophet"
+          ],
+          "name": "talismans"
+        }
+      ],
+      "title": "OBJECTS..."
+    },
+    "relationships": {
+      "categories": [
+        {
+          "elements": [
+            "Meek subordinate and abusive superior",
+            "Manipulative schemers",
+            "All-knowing bartender and hard-drinking engineer",
+            "Hotshot rivals",
+            "Frenzied addict and medical officer who supplies the stuff",
+            "Endlessly patient mentor and arrogant protégé"
+          ],
+          "name": "Crew members"
+        },
+        {
+          "elements": [
+            "Murderer and witness",
+            "Space pirate and rival smuggler",
+            "Syndicate boss and cyborg muscle",
+            "“We clean up the mess. No one finds out.”",
+            "Honor among thieves",
+            "Innocent convict and accuser"
+          ],
+          "name": "crime"
+        },
+        {
+          "elements": [
+            "Members of the Star cult",
+            "Faithful who hate one another",
+            "Emissaries to the Temple of Ungu",
+            "Agnostic and Unguite proselytizer",
+            "Leader of the Star cult and zealous defender",
+            "Star cult convert and apostate"
+          ],
+          "name": "religion"
+        },
+        {
+          "elements": [
+            "Sibling rivalry",
+            "Married to the same person",
+            "You’d be parent and child if android’s had children",
+            "Zero-gravity sex doesn’t mean we’re married (does it?)",
+            "Clones",
+            "Åx’tularian blood bond"
+          ],
+          "name": "family"
+        },
+        {
+          "elements": [
+            "War hero and deserter",
+            "Former enemies but enemies no longer",
+            "“Medal or not, I know you were a coward”",
+            "Bound by atrocities",
+            "Fanatic and traitor",
+            "Conscientious objector and prisoner of war"
+          ],
+          "name": "war"
+        },
+        {
+          "elements": [
+            "Same small town, same backwater planet",
+            "“We discovered the thing together.”",
+            "Fast-talking con artist and stoic problem-solver",
+            "Grizzled space veteran and wide-eyed greenhorn",
+            "“You could say we’re shore leave buddies.”",
+            "Opposite in every way (every way) but fast friends"
+          ],
+          "name": "comrades"
+        }
+      ],
+      "title": "relationships..."
+    }
+  },
+  "title": "White Hole"
+}

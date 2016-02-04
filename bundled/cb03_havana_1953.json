@@ -1,0 +1,290 @@
+{
+  "subtitle": "...IN Havana",
+  "tables": {
+    "locations": {
+      "categories": [
+        {
+          "elements": [
+            "VIP table next to Frank Sinatra’s floorshow at Capri Casino",
+            "Crowded cellar rhumba dance club, off Tin Pan Alley",
+            "Smoke-filled newsroom of the Diario Alerta newspaper",
+            "Feared security room of the Montmartre Casino",
+            "Outdoor stage at the Tropicana",
+            "Masonic building on Carlos III Avenue"
+          ],
+          "name": "Havana Proper"
+        },
+        {
+          "elements": [
+            "Bridal suite in the Hotel Nacional, wired for sound",
+            "Cafe table attached to a hydraulic lift leading to the basement",
+            "Fausto Theatre at the corner of Prado and Colon",
+            "Switchboard room at the Hotel Sevilla Biltmore",
+            "Sloppy Joe’s Bar, innovator of the eponymous sandwich",
+            "Guest car park at the Telegrafo Hotel"
+          ],
+          "name": "Prado Prominade"
+        },
+        {
+          "elements": [
+            "Miramar Yacht Club, attended by waiters in white jackets",
+            "Thatched roof cabana on “La Concha” public beach",
+            "Gentlemen’s locker room at the Vedado Tennis Club",
+            "Lobby of Dona Marina’s palatial bordello",
+            "Beachside grilled seafood vendor, who sees everything",
+            "Betting windows at the Fronton Jai-Alai courts"
+          ],
+          "name": "Seaside Malecon"
+        },
+        {
+          "elements": [
+            "Hemingway’s seat at the Floridita, “Cradle of the Daiquiri”",
+            "Basement of the Columbus Cathedral",
+            "Gran Teatro de la Habana, home of the National Opera",
+            "Stone battlement of the old La Fuerza fortress",
+            "Heavily-guarded Cuban National Bank",
+            "“Misericord” (discipline room) in Santa Clara Convent"
+          ],
+          "name": "Old Havana"
+        },
+        {
+          "elements": [
+            "Aunt Nina club on San Martin St., “attended by pretty girls”",
+            "Flophouse dive with a spy hole into the adjoining room",
+            "CIA safehouse in a seedy apartment building",
+            "Crowded and bloody cockfight in a back-alley",
+            "Casa Marina, luxurious and notorious house of ill-fame",
+            "Bus station at Calle San Lazaro"
+          ],
+          "name": "Barrio Colon"
+        },
+        {
+          "elements": [
+            "Fidel Castro’s guerrilla encampment in the hills",
+            "Leopard cage at the Zoological Park",
+            "Stag film screening room at the Shanghai Theatre",
+            "“Xanadu”, palatial DuPont family estate on an isolated beach",
+            "Cheap seats at the Tropic Park baseball stadium",
+            "Abandoned off-shore oil rig owned by Zapata Petroleum"
+          ],
+          "name": "Outside of Havana"
+        }
+      ],
+      "title": "LOCATIONS..."
+    },
+    "needs": {
+      "categories": [
+        {
+          "elements": [
+            "...of Cuba, forever",
+            "...of your “prison”",
+            "...of your obligations",
+            "...of the Family",
+            "...from under their thumb",
+            "...of sight"
+          ],
+          "name": "To Get Out"
+        },
+        {
+          "elements": [
+            "...with the Batista government",
+            "...with a business partner",
+            "...with the Americans",
+            "...with the secret police",
+            "...with Meyer Lansky, “the Mob’s accountant”",
+            "...with a rival"
+          ],
+          "name": "To Get EVEN"
+        },
+        {
+          "elements": [
+            "...through the Mob",
+            "...by eliminating competition",
+            "...by any means necessary",
+            "...by fleecing the rich tourists",
+            "...by running guns to the guerrillas",
+            "...from a spin of the roulette wheel"
+          ],
+          "name": "To Get Rich"
+        },
+        {
+          "elements": [
+            "...from your family",
+            "...from the citizens of Cuba",
+            "...from your lover",
+            "...from Fidel Castro, guerilla leader",
+            "...from your kids",
+            "...from the voices inside your head"
+          ],
+          "name": "To Get Respect"
+        },
+        {
+          "elements": [
+            "...about what happened to your brother",
+            "...about what goes on in that vile place",
+            "...about General Batista’s secret police",
+            "...about why she left you",
+            "...about Cuba’s past",
+            "...about the Mob’s dirty dealings"
+          ],
+          "name": "To GET THE TRUTH"
+        },
+        {
+          "elements": [
+            "...the papers that will prove your innocence",
+            "...your lover, for just one night",
+            "...the person who made your father disappear",
+            "...a rich American",
+            "...enough drugs to make your forget",
+            "...the guns that will set Cuba free"
+          ],
+          "name": "To Get Ahold Of"
+        }
+      ],
+      "title": "NEEDS..."
+    },
+    "objects": {
+      "categories": [
+        {
+          "elements": [
+            "Pictures of high officials in flagrante with the local “talent”",
+            "Fashion mannequin stuffed full of high-grade marijuana",
+            "Portable film camera hidden inside a Spanish Bible",
+            "Grainy B&W snuff film involving the Chief of Police",
+            "Black book of cabaret girls’ names/numbers with star ratings",
+            "Autopsy photos of “missing” Mafia don"
+          ],
+          "name": "Untoward"
+        },
+        {
+          "elements": [
+            "Off-white ‘52 Pontiac two-door with a body in the trunk",
+            "WW2 German U-Boat, sunk in shallow water",
+            "1949 Harley-Davidson cop bike, low on gas",
+            "“Pilar” the finest fishing boat in the harbor",
+            "Street merchant’s push-cart with a false bottom",
+            "Motorized float, decorated with ostrich feathers for Carnival"
+          ],
+          "name": "Transportation"
+        },
+        {
+          "elements": [
+            "Hand-crank generator, used for police “conversations”",
+            "Crate of .45 US M3 “grease gun” submachine guns",
+            "Bottle of Veuve-Cliquot champagne, on ice",
+            "German SS combat dagger, with blood groove",
+            "Bacardi rum bottle full of ether",
+            "Russian fully automatic 9mm Stechkin APS pistol"
+          ],
+          "name": "Weapon"
+        },
+        {
+          "elements": [
+            "Mobster Meyer Lansky’s address book, some names scratched out",
+            "Map of US nuclear weapon sites in Florida",
+            "Payoff list of local officials, with names and prices",
+            "Hand-drawn map to a guerrilla arms cache in the mountains",
+            "Dictaphone sound recording machine",
+            "Cipher book from the Soviet embassy"
+          ],
+          "name": "Information"
+        },
+        {
+          "elements": [
+            "Bag of uncut diamonds in a cold ice chest",
+            "Winning numbers for tomorrow’s lottery",
+            "Handful of $1000 chips from the San Souci casino",
+            "Jewel-encrusted box of handmade Partagas cigars",
+            "Pair of Havana Tropicana craps dice, always roll 7 or 11",
+            "Rolex GMT-Master watch; repair tag says “Che Guevara”"
+          ],
+          "name": "Valuables"
+        },
+        {
+          "elements": [
+            "Calling card of U.S. stripper “Bubbles” Darlene",
+            "Cuban Secret Police ID card for Bernard Barker",
+            "Surgeon’s medical ID from Nacional Hospital",
+            "Cuban visa for “Jack Rubenstein”, marked as “informer”",
+            "Stolen paybook for Swedish sailor; ship is docked in port",
+            "Soviet diplomatic ID, marked “Do Not Question or Hinder”"
+          ],
+          "name": "Identification"
+        }
+      ],
+      "title": "OBJECTS..."
+    },
+    "relationships": {
+      "categories": [
+        {
+          "elements": [
+            "Step-siblings",
+            "Ne’er-do-well cousins",
+            "Estranged couple",
+            "Separated at birth",
+            "Father/mother and eldest son",
+            "Aunt/uncle and nephew/niece"
+          ],
+          "name": "Family"
+        },
+        {
+          "elements": [
+            "Newspaper writer and “source”",
+            "Model and photographer",
+            "Front desk employee and nemesis",
+            "Entertainer and favorite customer",
+            "Doctor and patient",
+            "Musicians"
+          ],
+          "name": "Work"
+        },
+        {
+          "elements": [
+            "“What are we smuggling this time?”",
+            "Tour guide and tourist",
+            "Retirees",
+            "Money burning a hole in their pockets",
+            "Political exiles",
+            "Looking for the “real” Havana"
+          ],
+          "name": "Visitors"
+        },
+        {
+          "elements": [
+            "What happens in Havana...",
+            "Unrequited love",
+            "Newlyweds",
+            "Reunited lovers",
+            "Lothario and innocent",
+            "True believers in love"
+          ],
+          "name": "Romance"
+        },
+        {
+          "elements": [
+            "Pickpocket and fence",
+            "Mob boss and underling",
+            "Criminal on the run and private dick",
+            "Casino cheaters",
+            "Corporate executives",
+            "Loan shark and debtor"
+          ],
+          "name": "Crime"
+        },
+        {
+          "elements": [
+            "Diplomats",
+            "Boss and sycophant",
+            "Secret policeman and informant",
+            "Bureaucrats",
+            "CIA case officer and double agent",
+            "Secretarial pool"
+          ],
+          "name": "Government"
+        }
+      ],
+      "title": "relationships..."
+    }
+  },
+  "title": "Havana 1953"
+}

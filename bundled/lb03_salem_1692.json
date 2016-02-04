@@ -1,0 +1,290 @@
+{
+  "subtitle": "...in colonial salem",
+  "tables": {
+    "locations": {
+      "categories": [
+        {
+          "elements": [
+            "Meeting house",
+            "Court house",
+            "Charter Street cemetery",
+            "Town common",
+            "Prison",
+            "Town Bridge"
+          ],
+          "name": "In Salem Town"
+        },
+        {
+          "elements": [
+            "Gedney’s “Ship Tavern”",
+            "Ingersoll’s ordinary, a place for food and lodging",
+            "Training field",
+            "Gallows Hill",
+            "Reverend’s parsonage",
+            "Old meeting house"
+          ],
+          "name": "Elsewhere in Salem Town"
+        },
+        {
+          "elements": [
+            "Witch Hill",
+            "The “Seven Men’s Bounds” tree",
+            "The ferry",
+            "Jeggle’s Island",
+            "Orchard Farm",
+            "The docks"
+          ],
+          "name": "Outskirts"
+        },
+        {
+          "elements": [
+            "Slave’s quarters",
+            "The woods",
+            "Sealed well",
+            "Barn loft where that boy died",
+            "A locked shed",
+            "Deserted Indian camp"
+          ],
+          "name": "Forbidden Places"
+        },
+        {
+          "elements": [
+            "Stables",
+            "Farm with dead crops",
+            "Fishing boat",
+            "Iron works in Andover",
+            "Dodge’s Grist Mill",
+            "Sailing vessel, leaving soon"
+          ],
+          "name": "Places of Toil"
+        },
+        {
+          "elements": [
+            "Boston",
+            "Ipswich",
+            "On the ship from England",
+            "London",
+            "Plymouth Colony",
+            "New Amsterdam"
+          ],
+          "name": "The World Beyond"
+        }
+      ],
+      "title": "LOCATIONS..."
+    },
+    "needs": {
+      "categories": [
+        {
+          "elements": [
+            "...by proving you’re not a witch",
+            "...and tarnish someone else’s",
+            "...using blackmail",
+            "...no matter the price",
+            "...by betraying your own blood",
+            "...in front of the grand jury"
+          ],
+          "name": "To clear your name"
+        },
+        {
+          "elements": [
+            "...by rooting out witchcraft",
+            "...by punishing displays of pride",
+            "...by making an example",
+            "...by beating the Devil out of someone",
+            "...by steadfastly resisting this temptation",
+            "...by converting the heathens"
+          ],
+          "name": "To be a Good Christian"
+        },
+        {
+          "elements": [
+            "...by passing on your earthly possessions to your children",
+            "...by arranging a proper marriage",
+            "...by upholding tradition",
+            "...by preserving Salem Village",
+            "...by protecting the weak",
+            "...by serving authority"
+          ],
+          "name": "To be a Good Steward"
+        },
+        {
+          "elements": [
+            "...no matter how much pain you cause",
+            "...from a loved one",
+            "...even if it kills them",
+            "...by exposing your own secrets",
+            "...to preserve another’s honor",
+            "...about a rival"
+          ],
+          "name": "To get the Truth"
+        },
+        {
+          "elements": [
+            "...by stealing another’s property",
+            "...above a friend’s",
+            "...by bearing false witness",
+            "...to benefit your family",
+            "...by destroying another’s reputation",
+            "...by marrying for money"
+          ],
+          "name": "To Raise your Station"
+        },
+        {
+          "elements": [
+            "...by corrupting the youth",
+            "...by practicing witchcraft",
+            "...by giving in to lust",
+            "...by perverting Church doctrine",
+            "...by aiding heretics",
+            "...by betraying loved ones"
+          ],
+          "name": "To Succumb to the Devil"
+        }
+      ],
+      "title": "NEEDS..."
+    },
+    "objects": {
+      "categories": [
+        {
+          "elements": [
+            "”Voodoo” poppet",
+            "Witch’s ointment",
+            "Tattered grimoire",
+            "Divining rod",
+            "Gilded Catholic crucifix",
+            "Rosary"
+          ],
+          "name": "Blasphemous Articles"
+        },
+        {
+          "elements": [
+            "Chief Justice’s seal",
+            "Witch cake",
+            "A board and 2 tons of heavy stones",
+            "Testimony of the afflicted",
+            "Court clerk’s tools",
+            "Heavy manacles"
+          ],
+          "name": "Court"
+        },
+        {
+          "elements": [
+            "Steamy letters",
+            "Canteen of rum",
+            "Women’s underclothes",
+            "Samuel Pepys’ copy of the idle roguish book, L’escholle de filles",
+            "Silk imitation of a lady’s “marigold”",
+            "Wooden dildo"
+          ],
+          "name": "Bawdy Articles"
+        },
+        {
+          "elements": [
+            "Lectern with a hidden compartment",
+            "Marionette fashioned to appear as an apparition",
+            "Powdered wig with bloodstains inside",
+            "Hidden love poem",
+            "Buried box",
+            "Diary page admitting a child’s father was an Indian"
+          ],
+          "name": "Shitte with Secrets"
+        },
+        {
+          "elements": [
+            "Deed to a large estate",
+            "Fine wool cloak",
+            "Personal library",
+            "Cloak clasp from the village beauty",
+            "Calfskin gloves with strange markings",
+            "Clay pipe with a peculiar odor"
+          ],
+          "name": "Symbols of Status"
+        },
+        {
+          "elements": [
+            "Scythe",
+            "Musket",
+            "Hangman’s noose",
+            "Fire iron",
+            "A xe",
+            "Sergeant’s halberd"
+          ],
+          "name": "Weapons"
+        }
+      ],
+      "title": "OBJECTS..."
+    },
+    "relationships": {
+      "categories": [
+        {
+          "elements": [
+            "Siblings",
+            "Aunt/uncle and niece/nephew",
+            "Married into same family",
+            "Cousins",
+            "Colonist and relative from England",
+            "Parent and child"
+          ],
+          "name": "Family"
+        },
+        {
+          "elements": [
+            "Grand jurors",
+            "Defender and accused",
+            "Sheriff and delinquent",
+            "Accuser and accused",
+            "Cellmates",
+            "Chief Justice and prosecutor"
+          ],
+          "name": "In the Court"
+        },
+        {
+          "elements": [
+            "Minister and parishioner",
+            "Fake witch and “real” witch",
+            "Believer and skeptic",
+            "Witch hunters",
+            "Deacons",
+            "Secret catholic and close friend"
+          ],
+          "name": "Faith"
+        },
+        {
+          "elements": [
+            "Goodman and goodwife",
+            "Repressed lust",
+            "Unrequited affection",
+            "Adulterers",
+            "Parents of illegitimate child",
+            "Widows/widowers"
+          ],
+          "name": "Wedlock and Sin"
+        },
+        {
+          "elements": [
+            "Landowners",
+            "Teacher and student",
+            "Master and slave",
+            "Doctor and patient",
+            "Fallen women",
+            "Members of the feuding Putnam and Porter families"
+          ],
+          "name": "Society"
+        },
+        {
+          "elements": [
+            "Former minister of Salem and his last tie to the town",
+            "Current and former owners of an estate",
+            "XKiller and witness",
+            "Experimented with witchcraft as children",
+            "Converts to the Puritan faith",
+            "Grew up together in England"
+          ],
+          "name": "History"
+        }
+      ],
+      "title": "relationships..."
+    }
+  },
+  "title": "Salem 1692"
+}

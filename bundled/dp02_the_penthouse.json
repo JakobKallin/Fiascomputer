@@ -1,0 +1,290 @@
+{
+  "subtitle": "...IN Sal’s penthouse",
+  "tables": {
+    "locations": {
+      "categories": [
+        {
+          "elements": [
+            "Helicopter pad with a helicopter fueled and ready to fly",
+            "Infinity pool",
+            "Balcony with a superb view (and a telescope)",
+            "Jacuzzi, currently full of supermodels",
+            "Ten-foot-high champagne and chocolate fountain",
+            "Inflatable ball-pit filled with tulip buds"
+          ],
+          "name": "ABOVE"
+        },
+        {
+          "elements": [
+            "Open bar, serving alcohol, hashish, opium, and cocaine",
+            "Solarium—the source of the wrist-thick vines that have been trained to grow into every room",
+            "Bathroom—gold, mirrors, black marble, and halogen lights",
+            "Bedroom—orange silk sheets on a bed the size of a lawn",
+            "Lemur habitat",
+            "Panic room"
+          ],
+          "name": "INSIDE"
+        },
+        {
+          "elements": [
+            "Passenger elevator, a festival of teakwood and brass",
+            "The unit below—also owned by Salman, but he keeps it empty",
+            "Private underground parking garage—absolutely pristine",
+            "Stairwell, littered with bird poop and discarded half-bricks",
+            "Supply closet—rusting barrels are stacked to the ceiling",
+            "Boiler room—the dirt floor in the corner has been dug up"
+          ],
+          "name": "DOWNSTAIRS"
+        },
+        {
+          "elements": [
+            "Kitchen, full of harried cooks prepare plate after plate of shrimp",
+            "Electrical closet—huge cables feed into giant, humming breakers.  There is much more power available here than seems necessary.",
+            "Staff quarters—cramped and dark",
+            "Service elevator—busy bringing supplies to the kitchen",
+            "Walk-in freezer, chock-full of smoked sablefish",
+            "Wine cellar—1,200 bottles in stock, right off the kitchen"
+          ],
+          "name": "EMPLOYEES ONLY"
+        },
+        {
+          "elements": [
+            "Harbor—just jammed full of yachts",
+            "Carthage Racetrack—some bad rumors about this place",
+            "“This guy I know.  He’s the real shit!  What was his name?”",
+            "Down by the fountain, where the kids hang out",
+            "In one of the organ pipes at the Cathedral",
+            "“Le Doigt Degoutant”—don’t go there alone or after dark"
+          ],
+          "name": "NEARBY"
+        },
+        {
+          "elements": [
+            "Natural Sevens Casino—straight out of a Bond movie",
+            "Karé(ment), a bar popular with celebrities and the jet set",
+            "Moods. a nightclub with a tradition of senseless violence",
+            "Black Legend, a dark, smoky bar featuring American soul music",
+            "Mme. Sheffield’s flat—high-end prostitutes since 1996",
+            "Antonio’s place—for all intents and purposes, an opium den"
+          ],
+          "name": "NIGHTLIFE"
+        }
+      ],
+      "title": "LOCATIONS..."
+    },
+    "needs": {
+      "categories": [
+        {
+          "elements": [
+            "...but no one can know you did it",
+            "...and everyone must know you did it",
+            "...for the insult",
+            "...for turning stool pigeon",
+            "...for acting so superior all the time",
+            "...for being richer"
+          ],
+          "name": "TO GET EVEN"
+        },
+        {
+          "elements": [
+            "...of my wasted life and into something really meaningful for a change",
+            "...of this Ponzi scheme",
+            "...of a contract",
+            "...of this fire",
+            "...from under the thumb of controlling relatives",
+            "...of the country, before certain crimes come to light"
+          ],
+          "name": "TO GET OUT"
+        },
+        {
+          "elements": [
+            "...by robbing from the rich and giving to the poor",
+            "...by destroying the incriminating evidence",
+            "...by my savagery",
+            "...as the smartest person in the room",
+            "...enough to become famous",
+            "...as the person who can fix any situation"
+          ],
+          "name": "TO ENHANCE A REPUTATION"
+        },
+        {
+          "elements": [
+            "...in a threesome",
+            "...so I can finally get control",
+            "...and find true love",
+            "...and fan the flames of jealousy",
+            "...with someone my relatives will hate",
+            "...with a relative"
+          ],
+          "name": "TO GET LAID"
+        },
+        {
+          "elements": [
+            "...richer than that guy, at least",
+            "...and pay off some debts",
+            "...at her expense",
+            "...by getting my name put back in the will again",
+            "...in the next fifteen minutes",
+            "...and have enough to win him back"
+          ],
+          "name": "TO GET RICHER"
+        },
+        {
+          "elements": [
+            "...about how to make these fantastic drugs",
+            "...about why these people are following me",
+            "...about where the money comes from",
+            "...about what people think of me",
+            "...about who that person really is",
+            "...about next year’s model"
+          ],
+          "name": "TO GET THE TRUTH"
+        }
+      ],
+      "title": "NEEDS..."
+    },
+    "objects": {
+      "categories": [
+        {
+          "elements": [
+            "Furious Russian prostitute with an impenetrable accent",
+            "Wood plane—its blade is matted with blood and human hair",
+            "DVD video of a U.S. diplomat tripping his balls off",
+            "Glass jug of Vietnamese snake wine—a cobra floats inside",
+            "Thomas Kinkade painting of a sad-faced clown beating a child",
+            "Donald Trump, naked and unconscious"
+          ],
+          "name": "UNTOWARD"
+        },
+        {
+          "elements": [
+            "26 very large numbers neatly written on hotel stationery",
+            "Passports for Switzerland, Panama, and St. Kitts",
+            "GPS coordinates of a spot within Buckingham Palace",
+            "Clever forgery of a Monaco Urban Police Division badge",
+            "Codes providing full access to INTERPOL’s crime databases",
+            "Irrefutable evidence of trafficking in endangered lemurs"
+          ],
+          "name": "INFORMATION"
+        },
+        {
+          "elements": [
+            "French cavalry sabre (c. 1804)—sharper than hell",
+            "Huge box of professional-grade fireworks",
+            "Seven-foot single-fluke harpoon",
+            "Nickel-plated steel guillotine, brilliantly burnished",
+            "Shellfish allergy",
+            "An entourage"
+          ],
+          "name": "WEAPONS"
+        },
+        {
+          "elements": [
+            "Formula 1 racing hovercraft.  $50,000.  Top speed:  80 mph.",
+            "MTT Turbine motorcycle.  $185,000.  Top speed:  242 mph.",
+            "Phoenix 1000 submarine.  $78M.  Living space:  5,000 sq. ft.",
+            "The yacht Calamine IV.  $210M.  Length:  457 ft.",
+            "Bicycle Lance Armstrong rode for his first Tour win",
+            "Porsche 550 Spyder that James Dean died in, fully restored"
+          ],
+          "name": "TRANSPORTATION"
+        },
+        {
+          "elements": [
+            "1,600 lbs. of illicit ivory",
+            "36 doses of “Cel”--a new drug that triples pleasure and pain",
+            "Infallible system for winning at roulette",
+            "Zsa Zsa Gabor’s plastinated corpse",
+            "TLN device--can synthesize small amounts of any compound",
+            "One-of-a-kind nude self-portrait of Picasso"
+          ],
+          "name": "VALUABLES"
+        },
+        {
+          "elements": [
+            "Pornographic ice sculpture",
+            "Exquisitely uncomfortable couch covered with real lemur skin",
+            "Photo of Salman embracing Barack Obama and Lindsay Lohan",
+            "Honorary PhD certificate from Yale",
+            "Life-sized pink marble statue of Superman",
+            "Child’s sled with “Rosebud” printed on it (certified authentic prop from the movie Citizen Kane)"
+          ],
+          "name": "SENTIMENTAL"
+        }
+      ],
+      "title": "OBJECTS..."
+    },
+    "relationships": {
+      "categories": [
+        {
+          "elements": [
+            "Went to private school together",
+            "Friends with benefits",
+            "Friendship ended after one humiliated the other",
+            "“We met once at a gallery opening or the opera or some shit.”",
+            "Owes the other one a big favor",
+            "Bromance"
+          ],
+          "name": "Friendship"
+        },
+        {
+          "elements": [
+            "Cousins",
+            "Parent and child",
+            "Siblings",
+            "In-laws",
+            "Step-parent and step-child",
+            "Husband and wife"
+          ],
+          "name": "FAMILY"
+        },
+        {
+          "elements": [
+            "Drug dealer and drug manufacturer",
+            "Grave robber and dealer in antiquities",
+            "Serial killer and admirer",
+            "Together, successfully stole from a Swiss diamond merchant",
+            "Cop and “a person of interest in an ongoing investigation”",
+            "“We just love setting fires.  Don’t we, honey?”"
+          ],
+          "name": "CRIME"
+        },
+        {
+          "elements": [
+            "Celebrity and celebrity impersonator",
+            "Olympic luge bronze-medalist and obsessive fan",
+            "Opera soloist and conductor",
+            "Professor of rainforest psychopharmacology and student",
+            "Professor of kite-boarding and student",
+            "VIP and bodyguard"
+          ],
+          "name": "COMMUNITY"
+        },
+        {
+          "elements": [
+            "Infatuation",
+            "First date",
+            "Revulsion",
+            "Lust",
+            "Jealousy",
+            "Heartbreak"
+          ],
+          "name": "ROMANCE"
+        },
+        {
+          "elements": [
+            "Trust fund manager and beneficiary",
+            "Inventor and potential investor",
+            "Wealthy relative and inheritor",
+            "Debtor and repo man",
+            "CEO and stunningly attractive personal assistant",
+            "Salesperson and potential lead"
+          ],
+          "name": "MONEY"
+        }
+      ],
+      "title": "relationships..."
+    }
+  },
+  "title": "The Penthouse"
+}

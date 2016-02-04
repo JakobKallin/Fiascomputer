@@ -1,0 +1,290 @@
+{
+  "subtitle": "...in FLYOVER COUNTRY",
+  "tables": {
+    "locations": {
+      "categories": [
+        {
+          "elements": [
+            "Community Health Clinic",
+            "Crandall’s Seed Cleaner Service",
+            "The Windmill Diner",
+            "Parts Plus",
+            "Centro de la Justicia Social",
+            "Clipper Bank and Trust"
+          ],
+          "name": "EAST BRANCH ROAD"
+        },
+        {
+          "elements": [
+            "The old ConAgra grain elevator",
+            "Victory Electrical Cooperative",
+            "Farmer’s Tool and Equipment",
+            "West Branch IGA grocery",
+            "The brand-new Progress Ethanol plant",
+            "Shab’s Bar"
+          ],
+          "name": "WEST BRANCH ROAD"
+        },
+        {
+          "elements": [
+            "The drainage ditch “party cave”",
+            "An abandoned farmstead, dishes still on the table",
+            "The dog-fighting ring at the end of a long dirt road",
+            "Deer-hunting swamp",
+            "The swimming hole",
+            "A shallow grave in a neglected sunflower field"
+          ],
+          "name": "SUCKER CREEK"
+        },
+        {
+          "elements": [
+            "The fireworks stand at the Jaguar Road intersection",
+            "The Olsen place, 700 acres in corn",
+            "Roads and the skeletons of houses; a sign saying “Starfield Acres”",
+            "E.A. Hutchinson High School",
+            "A split-level ranch with twenty cars parked in the front yard",
+            "The Byrd place, foreclosed, crops tended by neighbors"
+          ],
+          "name": "COUNTY ROAD SIXTEEN"
+        },
+        {
+          "elements": [
+            "Freight hangar and FAA/TSA offices",
+            "Terminal building and airport offices",
+            "Control tower above the terminal",
+            "Maintenance hangar and power plant overhaul facility",
+            "Construction trailer at the end of Runway Two",
+            "Fire Department garage at the end of Runway One"
+          ],
+          "name": "GATEWAY COUNTY AIRPORT"
+        },
+        {
+          "elements": [
+            "A chicken coop, converted into a studio apartment",
+            "The tractor garage and tool shed",
+            "A one hundred acre cornfield",
+            "The six bedroom house with swimming pool",
+            "The trailers out back where the migrant workers live",
+            "A garbage dump leaking chemicals into Sucker Creek"
+          ],
+          "name": "THE LOWELL FARM"
+        }
+      ],
+      "title": "LOCATIONS..."
+    },
+    "needs": {
+      "categories": [
+        {
+          "elements": [
+            "... with the guy who humiliated you",
+            "... with a neighbor",
+            "... with a cop",
+            "... with the whole county, which brought you to this point",
+            "... with the scum who are dealing drugs in your town",
+            "... with that bitch Marcie Lowell"
+          ],
+          "name": "TO GET EVEN"
+        },
+        {
+          "elements": [
+            "... of a huge fucking obligation",
+            "... of paying taxes on 500 acres of rotting soybeans",
+            "... of a relationship",
+            "... of a deal out at the airport that’s gone sour",
+            "... of your ill-chosen words to the cartel representative",
+            "... of this county, to escape family and tradition"
+          ],
+          "name": "TO GET OUT"
+        },
+        {
+          "elements": [
+            "...  good with your rich, sick uncle",
+            "... shape, so you can impress Marcie Lowell",
+            "... the door at Centro de la Justicia Social, for a meal and a cot",
+            "... bed with the cops, by dropping a dime on someone",
+            "... deep with the serious guys in the Escalade up from Juárez",
+            "... trouble like you used to, with your buddies, back in the day"
+          ],
+          "name": "TO GET IN"
+        },
+        {
+          "elements": [
+            "... with the incomparable Marcie Lowell",
+            "... and prove you are finally free",
+            "... because the alternative is real bad",
+            "... with a freaky Mexican",
+            "... to seal the deal",
+            "... and make a baby, for real this time"
+          ],
+          "name": "TO GET IT ON"
+        },
+        {
+          "elements": [
+            "... through building a runway out of shit materials",
+            "... through selling a baby",
+            "... through harvesting another farmer’s crop",
+            "... through forging a document",
+            "... through stealing farm machinery",
+            "... through shorting a drug dealer"
+          ],
+          "name": "TO GET RICH"
+        },
+        {
+          "elements": [
+            "... about Centro de la Justicia Social’s agenda",
+            "... about the dirty contract for the new runway",
+            "... about Marcie Lowell",
+            "... about the weird guy who is harassing your mom",
+            "... about your real parents",
+            "... about what goes on behind the grain elevators some nights"
+          ],
+          "name": "TO GET THE TRUTH"
+        }
+      ],
+      "title": "NEEDS..."
+    },
+    "objects": {
+      "categories": [
+        {
+          "elements": [
+            "An insulated organ transport bag",
+            "A love letter written in broken Spanish",
+            "Printouts of an Internet conversation",
+            "Crime scene photographs",
+            "A newspaper story from twenty years ago",
+            "Weird chemical apparatus tucked away in a barn"
+          ],
+          "name": "JUICY"
+        },
+        {
+          "elements": [
+            "Tricked out late model SUV",
+            "Big block pickup with a lift kit",
+            "Ford Taurus with government plates",
+            "Farm-All tractor with a hay wagon",
+            "Broken down old corn truck",
+            "Mexican tour bus"
+          ],
+          "name": "TRANSPORTATION"
+        },
+        {
+          "elements": [
+            "Cattle prod",
+            ".22 hunting rifle",
+            "A jar of home-canned peaches laced with Atrazine",
+            "Antique sled cutter blade",
+            "100 gallon tank of anhydrous ammonia",
+            "Chinese-made AKM assault rifle"
+          ],
+          "name": "WEAPONS"
+        },
+        {
+          "elements": [
+            "Rabid raccoon",
+            "Unforeseen prosthetic limb",
+            "Blazing crop fire",
+            "Unopened legal notice",
+            "150 mile-per-hour category F-2 tornado",
+            "Pieces of a car’s brake system in a trash can"
+          ],
+          "name": "TRAUMATIC"
+        },
+        {
+          "elements": [
+            "A wedding ring with a big fucking rock",
+            "Brand new John Deere 9870 STS combine with corn row header",
+            "Pickup truck loaded with drugs",
+            "55,000 bushels of soybeans",
+            "ATM card with the PIN number written on the back",
+            "Impounded cargo at gateway County Airport"
+          ],
+          "name": "VALUABLES"
+        },
+        {
+          "elements": [
+            "Note from father to son",
+            "Antique grandfather clock with a hidden compartment",
+            "Adoption certificate",
+            "Live hand grenade brought back from Vietnam",
+            "Child’s treasure map",
+            "Family Bible"
+          ],
+          "name": "SENTIMENTAL"
+        }
+      ],
+      "title": "OBJECTS..."
+    },
+    "relationships": {
+      "categories": [
+        {
+          "elements": [
+            "Grew up on neighboring farms",
+            "Mutual outcasts",
+            "Best friends",
+            "Extremely unlikely friends",
+            "Keepers of a dark secret",
+            "Church friends (social enemies)"
+          ],
+          "name": "FRIENDSHIP"
+        },
+        {
+          "elements": [
+            "You think you’re kin, but you aren’t",
+            "Siblings",
+            "Parent and child",
+            "Cousins",
+            "Parent and son or daughter-in-law",
+            "You don’t think you’re kin, but you are"
+          ],
+          "name": "FAMILY"
+        },
+        {
+          "elements": [
+            "Cooking the books on a building contract",
+            "Farm machinery thief and fence",
+            "Arsonist and arson-obsessed vigilante",
+            "Methamphetamine entrepreneurs",
+            "Marijuana importer and dealer",
+            "Farm subsidy fraud perpetrator and government official"
+          ],
+          "name": "crime"
+        },
+        {
+          "elements": [
+            "Athletes (touring bicyclists, runners, rec league team sports)",
+            "Church folk (youth group, outreach, lay minister, secretary)",
+            "Civil Air Patrol members",
+            "Centro de la Justicia Social volunteers",
+            "Town part-time staff",
+            "Police officer and paid informant"
+          ],
+          "name": "OUT AND ABOUT"
+        },
+        {
+          "elements": [
+            "Married, to each other",
+            "High school sweethearts who parted ways",
+            "This one time, drunk, in a soybean field",
+            "Unhealthy obsession",
+            "Passionate lovers",
+            "Weird romance"
+          ],
+          "name": "romance"
+        },
+        {
+          "elements": [
+            "Part-time farm hands",
+            "Construction, out at the county airport",
+            "Wealthy farmer and OSHA inspector",
+            "Commuters with jobs in town",
+            "Salesman and customer",
+            "Professional and client (doctor, lawyer, banker, dealer, dentist)"
+          ],
+          "name": "work"
+        }
+      ],
+      "title": "relationships..."
+    }
+  },
+  "title": "Flyover"
+}

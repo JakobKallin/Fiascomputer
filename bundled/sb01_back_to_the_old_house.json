@@ -1,0 +1,290 @@
+{
+  "subtitle": "...IN the old house",
+  "tables": {
+    "locations": {
+      "categories": [
+        {
+          "elements": [
+            "Elevator",
+            "Ghost train",
+            "The rear of the last night bus",
+            "Old burnt-out car in the woods",
+            "Clinging to the back of a demon",
+            "Tandem bicycle"
+          ],
+          "name": "Transport"
+        },
+        {
+          "elements": [
+            "Caravan you grew up in",
+            "Behind the big iron gate at the scrapyard",
+            "Behind the bins at a service station",
+            "Room where all the killing will happen",
+            "Room where all the kissing did happen",
+            "Top floor of the Crestmoor, Upper West Side, New York City"
+          ],
+          "name": "Crime Scenes"
+        },
+        {
+          "elements": [
+            "...in a beautiful sun-lit garden",
+            "...under the monster’s bed",
+            "...and death on the stairs",
+            "...at a terrible performance",
+            "...in the little box",
+            "...in the tunnels under the house"
+          ],
+          "name": "Darkness"
+        },
+        {
+          "elements": [
+            "At the crossroads",
+            "On the bridge",
+            "Immediately after the accident",
+            "At another funeral",
+            "...the hospital incinerator",
+            "In the long, dark trenches"
+          ],
+          "name": "Outside"
+        },
+        {
+          "elements": [
+            "An impossible beach",
+            "In the fire of burning souls",
+            "In a rowboat with a dead hare",
+            "Inside a hologram of her bedroom",
+            "Lost in television",
+            "Trapped under the ice"
+          ],
+          "name": "Between the Cracks"
+        },
+        {
+          "elements": [
+            "Radio room",
+            "Cupboard under the stairs",
+            "Basement pump room",
+            "Forgotten attic Wunderkammer",
+            "Dark stairway to the battlefield",
+            "”Feeding paraphernalia” room"
+          ],
+          "name": "Home Comforts"
+        }
+      ],
+      "title": "LOCATIONS..."
+    },
+    "needs": {
+      "categories": [
+        {
+          "elements": [
+            "...the family, whatever the consequences",
+            "...lies to the hunters",
+            "...a prisoner, or on a prisoner",
+            "...something very big into something very small",
+            "...intercepted data to an addict",
+            "...one pet to another pet"
+          ],
+          "name": "TO FEED"
+        },
+        {
+          "elements": [
+            "...a trap to set us free",
+            "...an addition to the house",
+            "...a machine that will do our work long after we are gone",
+            "...a bridge that might take us truly home",
+            "...furnishings from flat-packed kits",
+            "...an exact replica of something incredibly complicated"
+          ],
+          "name": "TO BUILD"
+        },
+        {
+          "elements": [
+            "...on the family",
+            "...on a murderer",
+            "...on a coward",
+            "...on a traitor",
+            "...on the one who forgave you",
+            "...on the one who brought you back"
+          ],
+          "name": "TO GET REVENGE"
+        },
+        {
+          "elements": [
+            "...the pain from the wound and/or operation",
+            "...dangerous emissions",
+            "...the food supply",
+            "...the volume",
+            "...an overwhelming sense of guilt, grief or shame",
+            "...the crowds that seem to be gathering"
+          ],
+          "name": "TO CONTROL"
+        },
+        {
+          "elements": [
+            "...the lie that holds everything together",
+            "...your own skeletons",
+            "...your naked flesh to the baying mob",
+            "...a parasite",
+            "...the truth about what they did to you",
+            "...what’s really on the menu"
+          ],
+          "name": "TO EXPOSE"
+        },
+        {
+          "elements": [
+            "...until Tuesday",
+            "...by the mourners",
+            "...by the voices",
+            "...by the family",
+            "...by the Old Ones",
+            "...by your victims"
+          ],
+          "name": "TO BE LOVED"
+        }
+      ],
+      "title": "NEEDS..."
+    },
+    "objects": {
+      "categories": [
+        {
+          "elements": [
+            "Leftovers from the feast",
+            "An unhappy meal",
+            "Sound and vision",
+            "Fresh, warm, and wriggling",
+            "In a black plastic bag in the back of the wardrobe",
+            "Soul soup"
+          ],
+          "name": "Food and drink"
+        },
+        {
+          "elements": [
+            "Feeding equipment",
+            "Radio that broadcasts the dreams of the dead",
+            "Humming medical pump",
+            "Walk-in freezer with multiple padlocks",
+            "Huge archaic switchboard",
+            "Camera that puts the dead people back"
+          ],
+          "name": "Appliances"
+        },
+        {
+          "elements": [
+            "Comfy chair",
+            "Regrettable contracts",
+            "Hidden CCTV",
+            "Surgical instruments",
+            "Instruction manual",
+            "Projector of an unusual sort"
+          ],
+          "name": "Working from home"
+        },
+        {
+          "elements": [
+            "Last Will & Testament",
+            "Box of old letters",
+            "Cage",
+            "“Get better” medicine",
+            "Faulty generator",
+            "Valiu m ha r poon"
+          ],
+          "name": "dangerous"
+        },
+        {
+          "elements": [
+            "Photographs that should stay hidden",
+            "Diary that should never be read",
+            "Costume that should not be worn",
+            "Partially completed to-do list",
+            "Tragic confessional letter",
+            "Doorway connecting physically unconnected places"
+          ],
+          "name": "Hidden"
+        },
+        {
+          "elements": [
+            "Chunks of meat",
+            "Scars",
+            "Murder weapon",
+            "Cattle prod with “happy smiles” scratched on its casing",
+            "Bottle of tears",
+            "Dirty skeleton in an old sports bag"
+          ],
+          "name": "Keepsakes"
+        }
+      ],
+      "title": "OBJECTS..."
+    },
+    "relationships": {
+      "categories": [
+        {
+          "elements": [
+            "Benefactor and impostor",
+            "Protector and unprotected",
+            "Blackmailer and victim",
+            "Bully and bullied",
+            "Buyer and seller",
+            "Agent and double agent"
+          ],
+          "name": "b e t raya l"
+        },
+        {
+          "elements": [
+            "Feeder and fed",
+            "Jailor and jailed",
+            "Clown and machinist",
+            "Master and servant",
+            "Butcher and meat-hook",
+            "Nurse and patient"
+          ],
+          "name": "obligation"
+        },
+        {
+          "elements": [
+            "Childhood accomplices",
+            "...in name only",
+            "Parent and child",
+            "Auntie Beryl and Uncle Death",
+            "“It made us from the same old bones”",
+            "Rival/devoted siblings"
+          ],
+          "name": "family"
+        },
+        {
+          "elements": [
+            "Amnesiac and fantasist",
+            "Ancient child and imaginary friend",
+            "“We dream the same dream”",
+            "Hunter and hunted",
+            "“It landed in the desert and we took it home”",
+            "One heard the voices, one made the plan"
+          ],
+          "name": "in dreams"
+        },
+        {
+          "elements": [
+            "Concerned neighbor and neighbor from Hell",
+            "Radio DJ and creepy folk musician",
+            "Paranormal investigator and podcaster",
+            "Law enforcement officer and fugitive",
+            "Photographer and victim",
+            "Washed up celebrity and notorious graffiti artist"
+          ],
+          "name": "local news"
+        },
+        {
+          "elements": [
+            "Chef and meal",
+            "Plumber and saboteur",
+            "Architect and builder",
+            "Decorator and debt collector",
+            "Cleaner and dirt",
+            "Gravedigger and murderer"
+          ],
+          "name": "household chores"
+        }
+      ],
+      "title": "relationships..."
+    }
+  },
+  "title": "Back to the Old House"
+}

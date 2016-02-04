@@ -1,0 +1,290 @@
+{
+  "subtitle": "...ABOARD USS SADDLEBACK",
+  "tables": {
+    "locations": {
+      "categories": [
+        {
+          "elements": [
+            "The chart table of USS Saddleback, an unusual chart on display",
+            "The deck of a Cannon-class Destroyer Escort USS Eldridge",
+            "Hunted, depth-charged, leaking, sinking",
+            "On the surface, an island on the horizon, dinghies on deck",
+            "Hell itself, or a reasonable facsimile",
+            "The sunken wreck of a German E-Boat"
+          ],
+          "name": "THE MISSION - FLASHBACK"
+        },
+        {
+          "elements": [
+            "Franklin Delano Roosevelt’s motorcade",
+            "The Five Fathom Club, a Groton dive bar",
+            "A heavily guarded concrete bunker labeled ZEBRA PRIME",
+            "Research pressure chamber #1",
+            "In an alley, with an Admiral",
+            "Temporary duty barracks, heavy with dread"
+          ],
+          "name": "GROTON NAVAL BASE  - FLASHBACK"
+        },
+        {
+          "elements": [
+            "Ruins of an ancient temple",
+            "Underground, with guns blazing",
+            "German facility",
+            "Strange pinnacle",
+            "Driftwood shelter awash in blood",
+            "Above a mass grave"
+          ],
+          "name": "THE ISLAND - FLASHBACK"
+        },
+        {
+          "elements": [
+            "The surreal, silent engine room",
+            "Crammed inside a blood-stained torpedo tube",
+            "Partially-flooded pump room",
+            "Officers’ mess, now living up to its name",
+            "Radio operator’s station, from which creepy noises emanate",
+            "The should-be-empty-now conning tower"
+          ],
+          "name": "WHERE WE DO THINGS"
+        },
+        {
+          "elements": [
+            "Torpedo room, with a primed “fish” rolling on the deck",
+            "Under a filthy rack",
+            "Fresh water tank, where this thing should not be floating",
+            "Ship’s pantry, curiously empty",
+            "Improvised sick bay in officer’s country",
+            "Inside the leaking oil sump"
+          ],
+          "name": "WHERE WE KEEP THINGS"
+        },
+        {
+          "elements": [
+            "The now burnt-out Captain’s quarters",
+            "Outside, in crushing deep water",
+            "In the black water tank",
+            "In the #3 forward torpedo tube, forcibly jammed shut",
+            "Ancient-looking steamer trunk with all the padlocks",
+            "Battery room crawlspace"
+          ],
+          "name": "WHERE WE CURRENTLY AVOID"
+        }
+      ],
+      "title": "LOCATIONS..."
+    },
+    "needs": {
+      "categories": [
+        {
+          "elements": [
+            "... what happened to the Captain’s quarters that night",
+            "... the scratching on the hull",
+            "... Objective Zebra’s real objective",
+            "... the sudden illness sweeping the crew",
+            "... the thing that happened on the island",
+            "... what’s in the fucking box"
+          ],
+          "name": "TO GET THE TRUTH ABOUT"
+        },
+        {
+          "elements": [
+            "... the Captain of USS Saddleback",
+            "... the crew",
+            "... your dark master",
+            "... your overbearing father, may he rest in peace",
+            "... yourself",
+            "... your secret ex-lover aboard the Saddleback"
+          ],
+          "name": "TO GET RESPECT FROM"
+        },
+        {
+          "elements": [
+            "... you didn’t exactly follow orders regarding Objective Zebra",
+            "... there is a German agent aboard",
+            "... you just killed a fellow sailor",
+            "... drunk men sometimes don’t do all the safety checks",
+            "... you are responsible for this mess - all of it",
+            "... you know far more about the mission than anyone guesses"
+          ],
+          "name": "TO HIDE THAT"
+        },
+        {
+          "elements": [
+            "... those lousy Kraut bastards waiting for us up there",
+            "... your stupid brother, the family golden boy",
+            "... yourself for a change",
+            "... Lieutenant Joshua Sheppard",
+            "... George, who else?",
+            "... your own terror and loneliness"
+          ],
+          "name": "TO FINALLY TAKE CARE OF"
+        },
+        {
+          "elements": [
+            "... to Cuxhaven, Lower Saxony, your ancestral home",
+            "... to your family farm, to marry your pregnant girlfriend",
+            "... from this steam pipe you’re unfortunately handcuffed to",
+            "... from this stinking air and these stinking people",
+            "... from whatever is out there lurking in the depths",
+            "... with the ritual"
+          ],
+          "name": "TO GET AWAY"
+        },
+        {
+          "elements": [
+            "... the Captain what he did to your dad, right before you kill him",
+            "... the Navy what happened with Objective Zebra",
+            "... everybody about the ghosts, and what they want",
+            "... the Chosen One he must prepare",
+            "... your superior officer to fuck off",
+            "... the scientist what you added to his bag back on the island"
+          ],
+          "name": "TO TELL"
+        }
+      ],
+      "title": "NEEDS..."
+    },
+    "objects": {
+      "categories": [
+        {
+          "elements": [
+            "Colt M1911 pistol",
+            "M3A1 “grease gun”",
+            "Big old galley knife",
+            "Signal flare",
+            "Marlin spike",
+            "Aluminum pan of battery acid"
+          ],
+          "name": "WEAPONS"
+        },
+        {
+          "elements": [
+            "Over-used and damaged electrical saw",
+            "A weirdly clean hammer",
+            "Gigantic pipefitter’s wrench",
+            "”Momsen lung” submarine escape system",
+            "Depth gage",
+            "Unusual surgical instruments"
+          ],
+          "name": "TOOLS"
+        },
+        {
+          "elements": [
+            "Cockwheel for torpedo tube #3",
+            "Radio’s microphone",
+            "Captain’s uniform",
+            "Pills, lots of pills",
+            "Half the boat’s food supply",
+            "Keys to the weapon locker"
+          ],
+          "name": "MISSING AND UNACCOUNTED FOR"
+        },
+        {
+          "elements": [
+            "Unreliable compass with shattered glass",
+            "Oil-stained and generally dog-eared bible",
+            "Signed Art Tatum record with a personal note",
+            "Straight razor, flecks of dried blood on the blade",
+            "Diary written in a dead language",
+            "Carefully concealed bottle of whiskey"
+          ],
+          "name": "STRANGE COMFORT"
+        },
+        {
+          "elements": [
+            "Photo of a woman and two kids, “München, 1932” handwritten",
+            "Photograph of a ghost aboard a submarine, marked SECRET",
+            "Oil painting of the Saddlebacks’ previous officers",
+            "Erotic magazine, annotated in code",
+            "Set of instructions for demon summoning",
+            "Navy Cross in a velvet-lined box"
+          ],
+          "name": "MEMORIES"
+        },
+        {
+          "elements": [
+            "Strange idol, bathed in deep sea muck",
+            "List of 13 names, including the recently killed, some crossed off",
+            "Broken hatch door with marks of fists in the metal",
+            "Sealed orders",
+            "The Shroud of Turin",
+            "Diary of the cook, explaining that he poisoned everybody on board"
+          ],
+          "name": "DISTURBING"
+        }
+      ],
+      "title": "OBJECTS..."
+    },
+    "relationships": {
+      "categories": [
+        {
+          "elements": [
+            "Friendly enemies",
+            "Officer and the crewman who seduced his love",
+            "Inspiring leader of men and his simpering toady",
+            "Fought side by side in the last war",
+            "Lazy fool and tough old veteran",
+            "Hard-case and the one who demoted him"
+          ],
+          "name": "CHAIN OF COMMAND"
+        },
+        {
+          "elements": [
+            "Ignorant farm boys",
+            "Gung-ho lunatics",
+            "Up for the same promotion",
+            "“You were both specially selected based on unique talents”",
+            "Odd-men-out on a tight-knit boat",
+            "Lovers"
+          ],
+          "name": "CREW"
+        },
+        {
+          "elements": [
+            "Secret agent and Navy intelligence operative",
+            "Occultist and Navy cameraman",
+            "“Doctor” and Navy handler",
+            "Secret agent and double agent",
+            "Cultists",
+            "Physicist and Navy liaison"
+          ],
+          "name": "RE: OBJECTIVE ZEBRA"
+        },
+        {
+          "elements": [
+            "Shipboard enemies, shore leave friends",
+            "Rivals in love",
+            "We killed a man and he haunts us",
+            "We saved a life and lived to regret it",
+            "Through “coincidence” always paired",
+            "One shot the other, over something silly"
+          ],
+          "name": "OLD BONDS"
+        },
+        {
+          "elements": [
+            "Bad boys, roughnecks, and roustabouts",
+            "His criminal past would get him booted from the navy; only I know",
+            "Bully and weak sister",
+            "Leaders of rival shipboard gangs",
+            "Murderer and the guy he thought he killed",
+            "Victims of the boat’s master grifter"
+          ],
+          "name": "CRIMINAL PAST"
+        },
+        {
+          "elements": [
+            "Brothers",
+            "Competitive cousins",
+            "Father and son, despite regulations",
+            "Blood brothers",
+            "Brothers-in-law",
+            "Mutual orphans who volunteered together"
+          ],
+          "name": "FAMILY"
+        }
+      ],
+      "title": "relationships..."
+    }
+  },
+  "title": "Objective Zebra"
+}

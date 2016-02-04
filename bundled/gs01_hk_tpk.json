@@ -1,0 +1,290 @@
+{
+  "subtitle": "...Before the handover",
+  "tables": {
+    "locations": {
+      "categories": [
+        {
+          "elements": [
+            "Cunningly hidden, highly explosive drug lab",
+            "Dockside warehouse full of smuggled goods",
+            "Airport hangar, with an idling Learjet LJ-45",
+            "Slaughterhouse where problems... disappear",
+            "Bustling police station",
+            "Benny Chan’s auto shop"
+          ],
+          "name": "OF CRIMINAL INTENT"
+        },
+        {
+          "elements": [
+            "Hospital full of innocents",
+            "Two apartments with balconies that see each other",
+            "Art museum, currently hosting a most valuable collection",
+            "Dragon boat festival",
+            "Embassy dinner for international business",
+            "A dove-filled church"
+          ],
+          "name": "WHERE PATHS CROSS"
+        },
+        {
+          "elements": [
+            "Jimmy Ting’s bar",
+            "Heavenly Orchid escort house",
+            "Lucky Nines casino (with live music!)",
+            "Thirtieth floor penthouse suite",
+            "At the end of the pier",
+            "Crippled Li’s noodle stand, just outside the precinct house"
+          ],
+          "name": "WHERE BUSINESS CAN GET DONE"
+        },
+        {
+          "elements": [
+            "Boats in Kowloon Bay",
+            "Rooftop shantytowns of Tai Kok Tsui",
+            "Helicopter pad on a tower rooftop",
+            "Old Master Tsao’s Teahouse",
+            "The Night Market",
+            "Bridge. Truck. Rush hour."
+          ],
+          "name": "WHERE VIOLENCE TENDS TO OCCUR"
+        },
+        {
+          "elements": [
+            "Star ferry",
+            "Happy Valley racecourse",
+            "Victoria Peak—on the tram",
+            "Bird Market, Kowloon",
+            "Giant Buddha of Po Lin Monastery",
+            "Man Mo Temple"
+          ],
+          "name": "LANDMARKS"
+        },
+        {
+          "elements": [
+            "Chung King tenements",
+            "The Yao family shrine, high up on the hillside",
+            "The sets for a new martial arts epic",
+            "Police academy graduation",
+            "A crowded double-decker streetcar",
+            "Three Moons Temple in the old neighborhood"
+          ],
+          "name": "ODDITIES"
+        }
+      ],
+      "title": "LOCATIONS..."
+    },
+    "needs": {
+      "categories": [
+        {
+          "elements": [
+            "...by framing someone your enemy loves",
+            "...for all those years in prison",
+            "...on those who forced you out",
+            "...by burning it all down",
+            "...by gently taking the reins of power",
+            "...for what happened to Uncle Mao"
+          ],
+          "name": "TO GET REVENGE"
+        },
+        {
+          "elements": [
+            "...so you can finally lead your own crew",
+            "...from your dead father",
+            "...From Brother Lao of the Hundred Circle Gang",
+            "...or die trying",
+            "...by proving you can take it",
+            "...by pulling the biggest score ever"
+          ],
+          "name": "TO GET RESPECT"
+        },
+        {
+          "elements": [
+            "...about that night in Two Doves Alley",
+            "...about why they shot you in the head",
+            "...about what happened to the girl in the photograph",
+            "...about who knows",
+            "...about how Wong got back to town before you",
+            "...about why they didn’t shoot you in the head"
+          ],
+          "name": "TO GET THE TRUTH"
+        },
+        {
+          "elements": [
+            "...in the month you have left to live",
+            "...and prove you can be trusted again",
+            "...because you promised her as she died that you would",
+            "...even though you know a double-cross is coming",
+            "...and show these heartless bastards the meaning of honor",
+            "...because you have nothing left"
+          ],
+          "name": "TO GET SQUARED AWAY"
+        },
+        {
+          "elements": [
+            "...of a dangerous gambling debt",
+            "...of a relationship that has turned weird",
+            "...of Hong Kong before the handover",
+            "...before somebody finds out what you did",
+            "...that deal with the slaughterhouse and these 500 pig carcasses",
+            "...of this teahouse before the cops arrive"
+          ],
+          "name": "TO GET OUT"
+        },
+        {
+          "elements": [
+            "...so you can pay for the surgery",
+            "...so they won’t shoot you in the kneecaps",
+            "...so both of you can disappear",
+            "...so you can make your play for power",
+            "...and destroy that son of a bitch in the process",
+            "...without your parents finding out how you did it"
+          ],
+          "name": "TO GET RICH"
+        }
+      ],
+      "title": "NEEDS..."
+    },
+    "objects": {
+      "categories": [
+        {
+          "elements": [
+            "Rare custom-made sniper rifle with even rarer ammo",
+            ".45 that’s killed... everyone",
+            "Ancient, rusty, lucky revolver",
+            "Derringer on a wrist slide—one shot, make it count",
+            "Well-used sawed-off shotgun",
+            "Gym bag. Full of guns."
+          ],
+          "name": "Guns"
+        },
+        {
+          "elements": [
+            "Beat-up machete",
+            "Bomb with a twitchy trigger",
+            "Twin pearl-handled butterfly knives",
+            "Unlimited supply of rocket-propelled grenades",
+            "“Not a hammer—the hammer.”",
+            "Venom of a coral sea snake"
+          ],
+          "name": "Not guns"
+        },
+        {
+          "elements": [
+            "Mickey Zhao’s left thumb, on ice",
+            "Security video revealing who really robbed Benny Chan",
+            "Coded notebook detailing numerous sins",
+            "Timetable of International Security Agency armored cars",
+            "A witnesses real name and location",
+            "The mole’s mobile phone with all his contacts"
+          ],
+          "name": "information"
+        },
+        {
+          "elements": [
+            "One dozen blank, genuine US passports",
+            "Twenty million in diamonds, surrounded by guys with guns",
+            "Plates for a perfect 500 Euro note",
+            "Mercedes in the kidnap job (victim optional)",
+            "Rare bird worth millions",
+            "Shipment of children’s toys, stuffed with heroin"
+          ],
+          "name": "valuable"
+        },
+        {
+          "elements": [
+            "An ambulance, a pregnant lady, and a pissed-off doctor",
+            "Paraglider stowed on the roof of the Bank of China tower",
+            "Four hundred cop cars",
+            "Motorcycle, still revving",
+            "Two speedboats",
+            "Waiting limousine"
+          ],
+          "name": "transportation"
+        },
+        {
+          "elements": [
+            "Dice, the owner of which cannot be killed—or so they say",
+            "Napkin with a lipstick kiss and a disconnected phone number",
+            "Sad harmonica tune",
+            "One wedding dress, never used",
+            "Blood-stained locket, inscribed with a children’s rhyme",
+            "Luckiest deck of playing cards in Hong Kong"
+          ],
+          "name": "sentimental"
+        }
+      ],
+      "title": "OBJECTS..."
+    },
+    "relationships": {
+      "categories": [
+        {
+          "elements": [
+            "Impatient boss and talented, moody gunman",
+            "Punks out to make their name",
+            "Mortal rivals jockeying for the same big score",
+            "Cop and the untouchable criminal",
+            "“Sure I’m on the take. Good thing you’ve got money.”",
+            "Visiting foreign “consultant” and local host"
+          ],
+          "name": "crime"
+        },
+        {
+          "elements": [
+            "Siblings on opposite sides of the law",
+            "Powerful boss and nephew who gets no respect",
+            "Unknowingly related—closely related",
+            "Parent and child, both lying",
+            "Always in older sibling’s shadow",
+            "Orphans, bound by a deadly secret"
+          ],
+          "name": "family"
+        },
+        {
+          "elements": [
+            "“Our loved ones were killed by the same people”",
+            "Debt of honor",
+            "Mentor and student",
+            "The Kai-Tak job, when some of the score went missing",
+            "Survivors of the epic shootout",
+            "“If not for you, I would have gotten away with it”"
+          ],
+          "name": "history"
+        },
+        {
+          "elements": [
+            "Star-crossed lovers",
+            "Obsessed crush and unknowing object",
+            "Estranged but bound by fate",
+            "Contenders for the same heart",
+            "Earth-shattering sex, that one time, long ago, far away",
+            "Newlyweds, one with a secret"
+          ],
+          "name": "ROMANCE"
+        },
+        {
+          "elements": [
+            "Adulterers, one with a dangerous spouse in play",
+            "Addict and supplier",
+            "The sex is good, but money changes hands every time",
+            "Blackmailer and mark",
+            "Partners in addiction",
+            "Trusting boss and backstabbing lieutenant"
+          ],
+          "name": "SIN"
+        },
+        {
+          "elements": [
+            "Assassin and beloved target",
+            "Killer and victim who survived",
+            "Citizen and (maybe) ghost",
+            "Amnesiac and secret keeper",
+            "Could be twins, but not even related",
+            "Savant with skills and the one who knows how to trigger them"
+          ],
+          "name": "STRANGE"
+        }
+      ],
+      "title": "relationships..."
+    }
+  },
+  "title": "HK TPK"
+}

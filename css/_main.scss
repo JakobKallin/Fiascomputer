@@ -1,0 +1,1312 @@
+@import 'defaults';
+@import 'defs';
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    @include flex(column, $horizontal: stretch);
+    overflow: auto;
+    background-color: $background-color;
+}
+
+main > .page {
+    position: relative;
+}
+
+.loading .page:not(.splash-page) {
+    display: none;
+}
+
+html {
+    font-family: Georgia, serif;
+}
+
+@mixin menu-button($image) {
+    @include plain-button;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    background-image: $image;
+    background-repeat: no-repeat;
+    background-position: 0.5rem center;
+    background-size: auto 1rem;
+}
+
+header {
+    position: relative;
+    z-index: 2;
+    color: $white;
+    background-color: $black;
+    font-family: $heading-font;
+    @include flex(row, $vertical: center);
+
+    #app-title {
+        position: relative;
+        overflow: hidden;
+        flex: 1;
+        padding: 0.5rem;
+        
+        &:after {
+            display: block;
+            content: "";
+            position: absolute;
+            right: 0;
+            top: 0;
+            height: 100%;
+            width: 2rem;
+            background-image: linear-gradient(to right, transparent, black);
+            pointer-events: none;
+        }
+    }
+
+    #help-button {
+        @include menu-button(url("/images/help.svg"));
+        padding-left: 1.5rem;
+    }
+
+    #menu-button {
+        @include menu-button(url("/images/menu.svg"));
+    }
+
+    #menu {
+        position: absolute;
+        right: 0;
+        top: 100%;
+        padding: 0.75rem;
+        color: $white;
+        background-color: $black;
+        @include shadow;
+
+        .menu-item + .menu-item {
+            margin-top: 0.75rem;
+        }
+
+        select {
+            padding: 0.25rem;
+        }
+    }
+    
+    button {
+        @include plain-button;
+    }
+}
+
+html.fullscreen {
+    #enter-fullscreen-menu-item {
+        display: none;
+    }
+}
+
+html:not(.fullscreen) {
+    #leave-fullscreen-menu-item {
+        display: none;
+    }
+}
+
+[data-help=true] #help-button {
+    @include menu-button(url("/images/cross-white.svg"));
+}
+
+[data-menu=true] #menu-button {
+    @include menu-button(url("/images/cross-white.svg"));
+}
+
+[data-menu=false] #menu {
+    display: none;
+}
+
+.splash-page {
+    @include flex(column);
+    @include vertical-margin(auto);
+    @include horizontal-margin(auto);
+
+    .splash-message {
+        @include heading;
+    }
+    
+    @media (max-width: 40em) {
+        .splash-message {
+            font-size: 0.75rem;
+        }
+    }
+}
+
+.intro-page {
+    @include flex(column);
+    @include vertical-margin(auto);
+    
+    .document {
+        @include horizontal-margin(auto);
+        flex: 1;
+        position: relative;
+        max-width: 40rem;
+        padding: 2rem;
+        text-align: center;
+        background-color: $yellow-card-background-color;
+        @include shadow;
+    }
+
+    .heading {
+        font-family: $heading-font;
+        color: $text-red;
+    }
+    
+    .welcome {
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+
+    @media (max-width: 40em) {
+        .heading {
+            font-size: 1rem;
+        }
+        
+        .welcome {
+            font-size: 0.75em;
+        }
+    }
+    
+    @media (min-width: 40em) {
+        .heading {
+            font-size: 3rem;
+        }
+        
+        .welcome {
+            font-size: 0.5em;
+        }
+    }
+
+    .introduction {
+        max-width: 50rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        
+        p + p {
+            margin-top: 1rem;
+        }
+        
+        a {
+            display: inline;
+            color: $blue;
+            text-decoration: underline;
+        }
+    }
+
+    .start {
+        display: inline-block;
+        @include plain-button;
+        @include button;
+        padding: 1rem;
+    }
+    
+    .close-button {
+        @include plain-button;
+        @include close-button;
+    }
+    
+    .credits {
+        @include horizontal-margin(auto);
+        margin-top: 1rem;
+        padding: 1rem;
+        text-align: center;
+        color: $heading-color;
+        font-family: $heading-font;
+        line-height: 1.5;
+        font-size: 0.75rem;
+        
+        a {
+            display: inline;
+            color: $white;
+            border-bottom: 1px solid $white;
+            padding-bottom: 2px;
+        }
+        
+        p + p {
+            margin-top: 1rem;
+        }
+    }
+}
+
+.add-playset-page {
+    @include vertical-margin(auto);
+    max-width: 40rem;
+    align-self: center;
+    text-align: center;
+    padding: 1rem;
+    
+    .heading {
+        @include heading;
+        margin-bottom: 2rem;
+    }
+    
+    .add-playset-method-list {
+        text-align: center;
+
+        label, span, input[type=file] {
+            color: white;
+        }
+    }
+
+    .add-playset-method + .add-playset-method {
+        margin-top: 1.5rem;
+
+        &:before {
+            display: block;
+            content: "or";
+            margin-bottom: 1.5rem;
+            font-family: $heading-font;
+            color: $heading-color;
+        }
+    }
+
+    .add-playset-file-button {
+        @include plain-button;
+        @include button;
+        padding: 1rem;
+    }
+
+    .add-playset-drag-drop-field {
+        display: block;
+        padding: 2rem;
+        border: 3px dashed $heading-color;
+        font-family: $heading-font;
+        background-color: $dark-background-color;
+    }
+
+    &.drag {
+        .add-playset-drag-drop-field {
+            background-color: $black;
+        }
+
+        * {
+            pointer-events: none;
+        }
+    }
+    
+    .tip {
+        font-size: 0.75rem;
+        margin-top: 2rem;
+        font-family: $heading-font;
+        color: $heading-color;
+        line-height: 2;
+        
+        a {
+            display: inline-block;
+            color: $white;
+            text-decoration: underline;
+        }
+    }
+}
+
+.playsets-page {
+    flex: 1;
+    @include flex(column, $horizontal: center);
+    overflow: auto;
+
+    h2 {
+        @include heading;
+        margin-top: 2rem;
+        margin-bottom: 1.25rem;
+    }
+
+    .playsets {
+        @include flex(row,
+            $horizontal: center,
+            $vertical: stretch,
+            $horizontal-spacing: 1.5rem,
+            $vertical-spacing: 1.5rem,
+            $multiline: true
+        );
+    }
+
+    .playset,
+    .add-playset {
+        @include flex(row, $vertical: stretch);
+        overflow: visible;
+        position: relative;
+    }
+
+    .playset.deleted .playset-link {
+        opacity: 0.25;
+    }
+
+    .playset.deleted:hover:after {
+        content: "Recover";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        @include flex(column, $horizontal: center, $vertical: center);
+        font-family: $heading-font;
+        color: $white;
+        pointer-events: none;
+    }
+
+    .playset-link,
+    .add-playset-link {
+        flex: 1;
+        @include flex(column, $horizontal: center);
+        @include button($border: true);
+        text-align: center;
+    }
+
+    .add-playset-link {
+        &:before {
+            display: flex;
+            width: 8rem;
+            height: 12rem;
+            align-items: center;
+            justify-content: center;
+            content: "+";
+            font-size: 8rem;
+        }
+    }
+
+    .playset-thumbnail {
+        display: block;
+        width: auto;
+        height: 12rem;
+    }
+
+    .playset-name,
+    .add-playset-label {
+        flex: 1;
+        @include flex(column, $horizontal: center, $vertical: center);
+        width: 8rem;
+        padding: 0.5rem;
+        font-size: 0.75rem;
+        font-family: $heading-font;
+        line-height: 1.5;
+    }
+}
+
+.playsets-page.loading {
+    .add-playset:before {
+        align-self: center;
+        display: block;
+        content: "";
+        margin-right: 1.5rem;
+        width: 2rem;
+        height: 1rem;
+        border: 0.375rem solid $heading-color;
+        border-bottom-width: 0;
+        border-radius: 2rem 2rem 0 0;
+        animation-duration: 0.75s;
+        animation-name: spin;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        transform-origin: bottom;
+    }
+}
+
+.players-page {
+    @include vertical-margin(auto);
+    
+    @include flex(column,
+        $horizontal: center,
+        $vertical-spacing: 1rem
+    );
+
+    @media (max-width: 40em) {
+        padding: 2rem;
+    }
+
+    @media (min-width: 40em) {
+        padding: 1rem;
+    }
+
+    h2 {
+        @include heading;
+    }
+
+    .links {
+        @include flex(row, $vertical: center, $horizontal: center);
+        flex-wrap: wrap;
+    }
+
+    .players-link {
+        @include button;
+        margin: 1rem;
+        padding: 1rem;
+        font-family: $heading-font;
+        font-size: 1.5rem;
+        text-align: center;
+
+        &:before {
+            display: block;
+            content: "";
+            width: 5rem;
+            height: 7rem;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 1rem;
+            background-repeat: no-repeat;
+            background-size: auto 3rem;
+        }
+    }
+
+    #players-link-3:before {
+        background-image:
+            url("/images/player-white.svg"),
+            url("/images/player-white.svg"),
+            url("/images/player-white.svg");
+        background-position: center top, right bottom, left bottom;
+    }
+
+    #players-link-4:before {
+        background-image:
+            url("/images/player-white.svg"),
+            url("/images/player-white.svg"),
+            url("/images/player-white.svg"),
+            url("/images/player-white.svg");
+        background-position: left top, right top, right bottom, left bottom;
+    }
+
+    #players-link-5:before {
+        width: 7rem;
+        background-image:
+            url("/images/player-white.svg"),
+            url("/images/player-white.svg"),
+            url("/images/player-white.svg"),
+            url("/images/player-white.svg"),
+            url("/images/player-white.svg");
+        background-position: left top, right top, right bottom, left bottom, center center;
+    }
+}
+
+@mixin connector($top: false, $right: false, $bottom: false, $left: false) {
+    @include line-through(
+        $top: $top,
+        $right: $right,
+        $bottom: $bottom,
+        $left: $left,
+        $color: $shadow-color,
+        $width: 1rem
+    );
+}
+
+@media (min-width: 40em) {
+    $slot-width: 20rem;
+    
+    .setup-page {
+        flex: 1;
+        @include flex(column, $vertical: center, $horizontal: stretch);
+
+        .pairs-outer {
+            flex: 1;
+            overflow: auto;
+        }
+
+        .pairs {
+            @include flex(row, $multiline: true, $vertical: stretch);
+        }
+
+        .pair {
+            align-self: center;
+            padding: 1rem;
+        }
+        
+        .player, .pair {
+            min-width: $slot-width;
+        }
+    }
+
+    .players-3 .setup-page {
+        .pairs {
+            min-width: 3 * $slot-width;
+        }
+        
+        .player,
+        .pair {
+            width: 33.33%;
+        }
+
+        #pair-1 { order: 1; }
+        #pair-2 { order: 3; }
+        #pair-3 { order: 5; }
+
+        #player-1 { order: 4; }
+        #player-2 { order: 2; }
+        #player-3 { order: 6; }
+
+        #player-1 {
+            @include connector($right: true, $top: true);
+        }
+
+        #player-2 {
+            @include connector($left: true, $right: true);
+        }
+
+        #player-3 {
+            @include connector($left: true, $top: true);
+        }
+    }
+
+    .players-4 .setup-page {
+        .pairs {
+            min-width: 4 * $slot-width;
+        }
+        
+        .player,
+        .pair {
+            width: 25%;
+        }
+
+        #pair-1 { order: 1; }
+        #pair-2 { order: 3; }
+        #pair-3 { order: 6; }
+        #pair-4 { order: 8; }
+
+        #player-1 { order: 5; }
+        #player-2 { order: 2; }
+        #player-3 { order: 4; }
+        #player-4 { order: 7; }
+
+        #player-1 {
+            @include connector($right: true, $top: true);
+        }
+
+        #player-3 {
+            @include connector($left: true, $bottom: true);
+        }
+
+        #player-2,
+        #player-4 {
+            @include connector($left: true, $right: true);
+        }
+    }
+
+    .players-5 .setup-page {
+        .pairs {
+            min-width: 5 * $slot-width;
+        }
+        
+        .player,
+        .pair {
+            width: 20%;
+        }
+
+        #pair-1 { order: 1; }
+        #pair-2 { order: 3; }
+        #pair-3 { order: 5; }
+        #pair-4 { order: 9; }
+        #pair-5 { order: 7; }
+
+        #player-1 { order: 6; }
+        #player-2 { order: 2; }
+        #player-3 { order: 4; }
+        #player-4 { order: 10; }
+        #player-5 { order: 8; }
+
+        #player-1 {
+            @include connector($right: true, $top: true);
+        }
+
+        #player-4 {
+            @include connector($left: true, $top: true);
+        }
+
+        #player-2,
+        #player-3,
+        #player-5 {
+            @include connector($left: true, $right: true);
+        }
+    }
+}
+
+@media (max-width: 40em) {
+    .setup-page {
+        padding: 0.5rem;
+
+        .pairs {
+            @include flex(column, $horizontal: stretch);
+        }
+
+        #player-1 { order: 1; }
+        #pair-1 { order: 2; }
+        #player-2 { order: 3; }
+        #pair-2 { order: 4; }
+        #player-3 { order: 5; }
+        #pair-3 { order: 6; }
+        #player-4 { order: 7; }
+        #pair-4 { order: 8; }
+        #player-5 { order: 9; }
+        #pair-5 { order: 10; }
+
+        #player-1 {
+            padding-top: 0;
+            &:before {
+                margin-top: 0;
+            }
+        }
+    }
+}
+
+.players-3 .setup-page {
+    #pair-4 { display: none; }
+    #pair-5 { display: none; }
+    #player-4 { display: none; }
+    #player-5 { display: none; }
+}
+
+.players-4 .setup-page {
+    #pair-5 { display: none; }
+    #player-5 { display: none; }
+}
+
+.setup-page {
+    overflow: auto;
+    text-align: center;
+
+    .playset {
+        @include flex(row, $horizontal: center, $vertical: center);
+
+        &:hover {
+            .edit {
+                opacity: 1;
+            }
+        }
+    }
+
+    .playset-name {
+        order: 2;
+        font-size: 2rem;
+        font-family: $heading-font;
+        color: $heading-color;
+
+        .playset-name-text {
+            @include editable(transparentize($heading-color, 0.75));
+            vertical-align: middle;
+        }
+
+        position: relative;
+        .edit {
+            @include edit-button;
+            display: inline;
+            margin-left: 0;
+            position: static;
+            vertical-align: middle;
+        }
+    }
+    
+    #player-count-control-box {
+        order: 1;
+    }
+    
+    #randomize-button-box {
+        order: 3;
+    }
+
+    #randomize-button {
+        @include plain-button;
+        @include button;
+        padding: 1rem;
+    }
+    
+    #player-count-control {
+        font-family: $heading-font;
+        padding: 0.25rem;
+    }
+    
+    @media (max-width: 40em) {
+        .playset {
+            flex-wrap: wrap;
+        }
+        
+        #player-count-control-box {
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+        
+        #randomize-button-box {
+            z-index: 1;
+            width: 100%;
+            margin-top: 1rem;
+        }
+    }
+    
+    @media (min-width: 40em) {
+        .playset {
+            flex-shrink: 0;
+            padding: 1rem;
+            justify-content: space-between;
+        }
+        
+        #player-count-control-box {
+            margin-right: 1rem;
+        }
+        
+        #randomize-button-box {
+            margin-left: 1rem;
+        }
+    }
+
+    .relationship {
+        margin-bottom: 1rem;
+    }
+
+    .relationship, .specified-detail {
+        @include flex(column, $horizontal: stretch, $vertical-spacing: 1rem);
+        position: relative;
+    }
+
+    .item {
+        padding: 1rem;
+        background-color: hsl(50, 60%, 60%);
+        @include shadow;
+    }
+
+    .relationship-heading,
+    .detail-heading {
+        font-family: $heading-font;
+        font-size: 0.75rem;
+        color: hsl(0, 100%, 35%);
+    }
+
+    .unspecified-detail {
+        @include flex(column, $horizontal: stretch, $vertical-spacing: 1rem);
+
+        .detail-control {
+            flex: 1;
+            @include plain-button;
+            @include button;
+            padding: 0.5rem;
+        }
+
+        .need-control {
+            background-color: $dark-red-background-color;
+            border-color: $dark-red-background-color;
+        }
+
+        .location-control {
+            background-color: $dark-green-background-color;
+            border-color: $dark-green-background-color;
+        }
+
+        .object-control {
+            background-color: $dark-blue-background-color;
+            border-color: $dark-blue-background-color;
+        }
+    }
+
+    .detail:not(.need):not(.location):not(.object) {
+        .specified-detail {
+            display: none;
+        }
+    }
+
+    .detail.need, .detail.location, .detail.object {
+        .unspecified-detail {
+            display: none;
+        }
+    }
+
+    .detail.need {
+        background-color: $red-card-background-color;
+    }
+
+    .detail.location {
+        background-color: $green-card-background-color;
+    }
+
+    .detail.object {
+        background-color: $blue-card-background-color;
+    }
+
+    .category,
+    .element {
+        @include flex(row, $vertical: center, $horizontal-spacing: 1rem);
+        justify-content: space-between;
+    }
+
+    .name {
+        @include editable(transparentize($white, 0.5));
+
+        &:hover,
+        &:focus {
+            text-decoration: underline;
+        }
+    }
+
+    .relationship-category,
+    .detail-category {
+        font-family: $heading-font;
+    }
+
+    .relationship-category-die,
+    .relationship-element-die,
+    .detail-category-die,
+    .detail-element-die {
+        @include plain-button;
+        font-family: Dice, sans-serif;
+        font-size: 1.5rem;
+        line-height: 1;
+        border-radius: 0.5rem;
+        background-color: $white;
+    }
+
+    .relationship-element-name,
+    .detail-element-name {
+        font-size: 1.25rem;
+    }
+
+    .player {
+        @include flex(column, $horizontal: center, $vertical: center);
+        font-size: 1.5rem;
+        padding: 0.5rem;
+
+        &:hover {
+            .edit {
+                opacity: 1;
+            }
+        }
+    }
+
+    .player-image {
+        width: auto;
+        height: 6rem;
+        border: 1rem solid $background-color;
+        background-color: $background-color;
+    }
+
+    .player-name-outer {
+        background-color: $background-color;
+        border: 1rem solid $background-color;
+        border-top: 0;
+
+        position: relative;
+        .edit {
+            @include edit-button;
+        }
+    }
+
+    .player-name {
+        color: $heading-color;
+        font-family: $heading-font;
+        @include editable(transparentize($heading-color, 0.75));
+    }
+
+    .remove {
+        @include plain-button;
+        visibility: hidden;
+
+        img {
+            height: 1.25em;
+            vertical-align: middle;
+        }
+    }
+
+    .detail-type {
+        position: relative;
+    }
+
+    .detail-type .remove {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    
+    .detail-type:hover .remove,
+    .detail-type:focus .remove,
+    .removable.relationship-category:hover .remove,
+    .removable.relationship-category:focus .remove,
+    .removable.relationship-element:hover .remove,
+    .removable.relationship-element:focus .remove,
+    .removable.detail-category:hover .remove,
+    .removable.detail-category:focus .remove,
+    .removable.detail-element:hover .remove,
+    .removable.detail-element:focus .remove {
+        visibility: visible;
+    }
+
+    
+    @media (max-width: 40em) {
+        .detail-type .remove,
+        .removable.relationship-category .remove,
+        .removable.relationship-element .remove,
+        .removable.detail-category .remove,
+        .removable.detail-element .remove {
+            visibility: visible !important;
+        }
+    }
+}
+
+.table-page {
+    flex: 1 0;
+    @include flex(row, $horizontal: center, $vertical: center);
+
+    .table {
+        flex: 1;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: stretch;
+        max-width: 80rem;
+        padding: 2rem;
+        background-color: $yellow-card-background-color;
+        @include shadow;
+    }
+
+    .table-subtitle {
+        order: 3;
+    }
+
+    .table-title,
+    .table-subtitle {
+        align-self: center;
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: $heading-font;
+        color: $text-red;
+    }
+
+    .table-title {
+        margin-bottom: 1.5rem
+    }
+
+    .table-subtitle {
+        margin-top: 0.75rem;
+        .table-subtitle-text {
+            @include editable(transparentize($white, 0.5));
+        }
+        position: relative;
+        .edit { @include edit-button; }
+        &:hover .edit { opacity: 1; }
+    }
+
+    @media (min-width: 50em) {
+        .categories {
+            @include columns(2, 1rem);
+            counter-reset: category;
+        }
+
+        .category {
+            -webkit-column-break-inside: avoid;
+            page-break-inside: avoid;
+            break-inside: avoid;
+        }
+    }
+
+    .category {
+        counter-increment: category;
+    }
+
+    // Counters are not incremented for elements with `display: none`, so we
+    // only hide the descendants here. We also apply margins only on the
+    // descendants, so that this element does not take up space when disabled.
+    .category.disabled > * {
+        display: none;
+    }
+
+    .category-name {
+        font-size: 1.125rem;
+        font-family: $heading-font;
+        margin-bottom: 0.75rem;
+        
+        .category-link {
+            @include plain-button;
+            display: inline;
+
+            text-align: left;
+            border-bottom: 1px solid transparent;
+
+            &:before {
+                content: counter(category) " ";
+            }
+
+            &[href]:hover,
+            &[href]:focus {
+                border-bottom-color: $black;
+            }
+        }
+        
+        position: relative;
+        .edit { @include edit-button(inside); }
+        &:hover .edit { opacity: 1; }
+    }
+
+    .elements {
+        margin-bottom: 0.75rem;
+        counter-reset: element;
+    }
+
+    .element-name {
+        counter-increment: element;
+        @include die-item;
+
+        .element-link {
+            display: inline;
+            @include die-bullet(element);
+
+            &[href]:hover,
+            &[href]:focus {
+                text-decoration: underline;
+            }
+        }
+        
+        position: relative;
+        .edit { @include edit-button(inside); }
+        &:hover .edit { opacity: 1; }
+    }
+
+    .close-button {
+        @include close-button;
+    }
+
+    .table-title,
+    .table-subtitle,
+    .category-link,
+    .element-link {
+        @include editable(transparentize($white, 0.5));
+    }
+}
+
+.table-page.single-category {
+    .categories {
+        @include columns(1);
+    }
+
+    .category-name {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .element-name {
+        font-size: 1.5em;
+    }
+}
+
+.playset-preview-page {
+    flex: 1;
+    align-self: stretch;
+    overflow: auto;
+    
+    .playset-name {
+        @include heading;
+        align-self: center;
+
+        .playset-name-text {
+            @include editable(transparentize($heading-color, 0.75));
+            vertical-align: middle;
+        }
+        
+        position: relative;
+        .edit {
+            @include edit-button;
+            display: inline;
+            margin-left: 0;
+            position: static;
+            vertical-align: middle;
+        }
+
+        &:hover {
+            .edit {
+                opacity: 1;
+            }
+        }
+    }
+
+    .links {
+        @include flex(column, $horizontal: center);
+    }
+
+    .play-link,
+    .resume-link,
+    .credits-link,
+    .delete-link {
+        @include button;
+        display: inline-block;
+        padding: 1rem;
+    }
+
+    .play-link,
+    .resume-link {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 40em) {
+    .playset-preview-page {
+        padding-top: 1rem;
+        
+        @include flex(column,
+            $vertical-spacing: 1rem,
+            $horizontal: stretch
+        );
+
+        .playset-page {
+            display: block;
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+        
+        .pages-outer {
+            order: 3;
+        }
+        
+        .links {
+            order: 2;
+        }
+
+        .credits-link,
+        .delete-link {
+            margin-top: 1rem;
+        }
+        
+        #playset-cover-page-link {
+            display: none;
+        }
+    }
+}
+
+@media (min-width: 40em) {
+    .playset-preview-page {
+        padding: 2rem;
+
+        @include flex(column,
+            $horizontal: stretch,
+            $vertical-spacing: 1rem
+        );
+
+        .pages-outer {
+            flex: 1;
+            overflow: auto;
+            position: relative;
+        }
+
+        .pages-inner {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            font-size: 0;
+            text-align: center;
+        }
+
+        .playset-page-link {
+            display: inline;
+            vertical-align: middle;
+            
+            &[href] {
+                cursor: zoom-in;
+            }
+        }
+
+        .playset-page {
+            display: inline-block;
+            width: auto;
+            height: 100%;
+            background-color: $white; // For PDFs with transparent backgrounds.
+        }
+        
+        .credits-link,
+        .delete-link {
+            // Fixed in order to prevent overflow when :active pseudoclass applies.
+            position: fixed;
+            margin: 2rem;
+            bottom: 0;
+        }
+
+        .credits-link {
+            left: 0;
+        }
+
+        .delete-link {
+            right: 0;
+        }
+    }
+}
+
+.help-page {
+    @include flex(row, $horizontal: center);
+    @include vertical-margin(auto);
+    
+    .document {
+        flex: 1;
+        position: relative;
+        max-width: 60rem;
+        padding: 2rem;
+        background-color: $yellow-card-background-color;
+        @include shadow;
+    }
+    
+    .title {
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: $heading-font;
+        color: $text-red;
+    }
+    
+    h3 {
+        font-family: $heading-font;
+        font-size: 1.25rem;
+        color: $text-red;
+        margin-bottom: 1rem;
+    }
+    
+    h4 {
+        font-family: $heading-font;
+        margin-bottom: 1rem;
+    }
+    
+    p {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    em {
+        font-style: italic;
+    }
+    
+    a {
+        display: inline;
+        color: $blue;
+        text-decoration: underline;
+    }
+    
+    .close-button {
+        @include plain-button;
+        @include close-button;
+    }
+}
+
+.back {
+    position: absolute;
+    left: 0;
+    top: 0;
+    @include plain-button;
+    @include button;
+    padding: 1rem;
+    margin: 1rem; // Beware that flex mixin margins may apply here.
+}
+
+@media (max-width: 40em) {
+    .back {
+        display: none;
+    }
+    
+    .edit {
+        opacity: 1 !important;
+    }
+    
+    .page:not(.table-page) .edit {
+        position: static !important;
+        display: inline !important;
+        margin: 0 !important;
+        vertical-align: middle;
+    }
+}

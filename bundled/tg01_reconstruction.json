@@ -1,0 +1,290 @@
+{
+  "subtitle": "...DURING RECONSTRUCTION",
+  "tables": {
+    "locations": {
+      "categories": [
+        {
+          "elements": [
+            "The main house",
+            "The stables",
+            "The old Smithwick place, gone to ruin",
+            "The river fields",
+            "The old slave’s quarters",
+            "The whipping tree"
+          ],
+          "name": "THE MAYNARD PLANTATION"
+        },
+        {
+          "elements": [
+            "The Kanawha Canal",
+            "The former Confederate capitol building",
+            "Libby Hill",
+            "Freedman’s Bureau office",
+            "Hollywood Cemetery",
+            "The ruins along Carey Street"
+          ],
+          "name": "RICHMOND, VIRGINIA"
+        },
+        {
+          "elements": [
+            "The sharecroppers’ shanty town",
+            "Ned Parson’s mill",
+            "The tangled banks of the Chickahominy River",
+            "The old Williams homestead, meeting place of the KKK",
+            "The prosperous WynneFarm",
+            "The ancient Chickahominy indian village and burial ground"
+          ],
+          "name": "NEAR MECHANICSVILLE"
+        },
+        {
+          "elements": [
+            "The Wilderness Tavern",
+            "Woodville Mine",
+            "The ruins of Higgerson Farm",
+            "A scrub oak thicket with a skeleton in it",
+            "The Wilderness Run",
+            "The unfinished railroad"
+          ],
+          "name": "THE WILDERNESS"
+        },
+        {
+          "elements": [
+            "The general store",
+            "A circus tent whorehouse",
+            "Mount Zion Baptist Church",
+            "The old schoolhouse",
+            "Dr. Jaldon’s office",
+            "The woodpile behind the smithy"
+          ],
+          "name": "SPOTSYLVANIA"
+        },
+        {
+          "elements": [
+            "Drewry’s Bluff",
+            "Wilson’s Wharf",
+            "Fort Powhatan",
+            "Rockett’s Shipyard, or what’s left of it",
+            "The Locks",
+            "Tredegar Iron Works"
+          ],
+          "name": "THE JAMES RIVER"
+        }
+      ],
+      "title": "LOCATIONS..."
+    },
+    "needs": {
+      "categories": [
+        {
+          "elements": [
+            "...of the south, fast",
+            "...of the Army",
+            "...of this dangerous relationship",
+            "...of this new kind of slavery",
+            "...of a heavy obligation and matter of honor",
+            "...of a humiliating debt about to come due"
+          ],
+          "name": "TO GET OUT"
+        },
+        {
+          "elements": [
+            "...with a talkative former lover",
+            "...with a sibling",
+            "...with a businessman",
+            "...with a military officer",
+            "...with Benjamin Maynard, your former master",
+            "...with the striped banner and all its prideful little men"
+          ],
+          "name": "TO GET EVEN"
+        },
+        {
+          "elements": [
+            "...through outrageous theft",
+            "...through an advantageous marriage",
+            "...through blackmail",
+            "...through smuggling",
+            "...through the murder of kin",
+            "...through sound investments and hard work"
+          ],
+          "name": "TO GET RICH"
+        },
+        {
+          "elements": [
+            "...from kin",
+            "...from superiors and officers of justice and arbitration",
+            "...from your own battered and broken self",
+            "...from your old friends who have discounted you",
+            "...from your many feckless lovers",
+            "...from Ned Parson"
+          ],
+          "name": "RESPECT"
+        },
+        {
+          "elements": [
+            "...about your brother’s actions at Chancellorsville",
+            "...about the mistake that haunts you",
+            "...about the money",
+            "...about the baby",
+            "...about the business deal and the papers you signed",
+            "...about that night in Atlanta and what came of it"
+          ],
+          "name": "THE TRUTH"
+        },
+        {
+          "elements": [
+            "...from the one you admire from afar",
+            "...to seal the deal, fair and square",
+            "...because you don’t want to be a virgin no more",
+            "...for revenge",
+            "...because it is all you have to offer",
+            "...that is wrong, all wrong"
+          ],
+          "name": "Some SEX"
+        }
+      ],
+      "title": "NEEDS..."
+    },
+    "objects": {
+      "categories": [
+        {
+          "elements": [
+            "An 1891 Springfield rifle, well used",
+            "A 12-pounder Napoleon cannon",
+            "A cast iron frying pan",
+            "A cavalry saber with a missing tip",
+            "A Le Mat revolver",
+            "A fire-hardened pointed stick"
+          ],
+          "name": "WEAPON"
+        },
+        {
+          "elements": [
+            "A corpse in the altogether",
+            "Naked photographs of women and men",
+            "A brothel token with a name scratched on it",
+            "An unlucky horseshoe",
+            "A Ku Klux Klan hood and cloak",
+            "A chastity belt"
+          ],
+          "name": "SHAMEFUL"
+        },
+        {
+          "elements": [
+            "Deed to Lionel Thibodeaux’s plantation on the James River",
+            "Twenty two pounds of gold nuggets from a forgotten local mine",
+            "Fifty thousand dollars in U.S. currency",
+            "Four hundred bales of premium cotton",
+            "A silver tea set made by Paul Revere",
+            "Your grandmother’s engagement ring"
+          ],
+          "name": "VALUABLE"
+        },
+        {
+          "elements": [
+            "Enrollment list for the Richmond Klan",
+            "Documents concerning Mr. Lincoln’s assassination",
+            "Miss Millie’s little black book of customers and their desires",
+            "General Sherman’s illegitimate child",
+            "A strangely accurate almanac",
+            "The true family history of your neighbor"
+          ],
+          "name": "NOTEWORTHY"
+        },
+        {
+          "elements": [
+            "The fastest horse in Chesterfield County",
+            "A fancy carriage beyond all station and means",
+            "A sharecropper’s buckboard",
+            "A beautifully appointed train car",
+            "A flat-bottomed river barge",
+            "A busted old blockade-runner"
+          ],
+          "name": "TRAnSPORTATION"
+        },
+        {
+          "elements": [
+            "Letter from a dead soldier",
+            "A lock of a child’s hair tied with black ribbon",
+            "The flowers from a wedding long past",
+            "The family Bible",
+            "Old Shep, faithful companion and loyal friend",
+            "The rabbit’s foot that saved your life"
+          ],
+          "name": "SENTIMENTAL"
+        }
+      ],
+      "title": "OBJECTS..."
+    },
+    "relationships": {
+      "categories": [
+        {
+          "elements": [
+            "Father and son",
+            "Brothers",
+            "An “unspoken relationship” between former master and slave",
+            "Betrothed couple",
+            "Husband and wife",
+            "Uncle and nephew or niece"
+          ],
+          "name": "FAMILY"
+        },
+        {
+          "elements": [
+            "Former property owners",
+            "Landowner and sharecropper",
+            "Merchant and hired hand",
+            "Former soldiers on opposite sides of during the war",
+            "Carpetbagger and devastated landowner",
+            "Doctor and patient"
+          ],
+          "name": "WORK"
+        },
+        {
+          "elements": [
+            "Ku Klux Klan member and target",
+            "Blackmailer and victim",
+            "Former overseer and slave",
+            "Thieves",
+            "Gamblers",
+            "Snake oil salesman and sucker"
+          ],
+          "name": "CRIME"
+        },
+        {
+          "elements": [
+            "Neighbors",
+            "Lifelong friends, long separated",
+            "Hated rivals",
+            "Political opponents",
+            "Manipulator and victim",
+            "Social adversaries"
+          ],
+          "name": "FRIENDSHIP"
+        },
+        {
+          "elements": [
+            "Secret lovers",
+            "Unrequited love",
+            "Jealous lovers",
+            "Couple in an arranged marriage",
+            "Dead romance",
+            "A respectably courting couple"
+          ],
+          "name": "ROMANCE"
+        },
+        {
+          "elements": [
+            "Freedman’s Bureau official and ex-slave",
+            "Community organizer and prime example of injustice",
+            "Wealthy gentleman and his wealthier wife",
+            "Community patriarch and matriarch",
+            "Radical Republican and Redeemer",
+            "Notorious local ne’er-do-wells"
+          ],
+          "name": "COMMUNITY"
+        }
+      ],
+      "title": "relationships..."
+    }
+  },
+  "title": "Reconstruction"
+}

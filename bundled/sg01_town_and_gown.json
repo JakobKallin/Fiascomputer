@@ -1,0 +1,290 @@
+{
+  "subtitle": "...at a small-townuniversity",
+  "tables": {
+    "locations": {
+      "categories": [
+        {
+          "elements": [
+            "Geoffrey Morris Library",
+            "Barnham Student Union",
+            "Lewis Building (history, English, and poly sci)",
+            "Old Main clock tower",
+            "Lamarck Science Building",
+            "Cooper Administration Building"
+          ],
+          "name": "East Campus"
+        },
+        {
+          "elements": [
+            "McKay Sports Complex",
+            "Student health building",
+            "Bridge across the ravine to East Campus",
+            "Vickery Field",
+            "Campus maintenance building",
+            "Cafeteria and coffee shop"
+          ],
+          "name": "West Campus"
+        },
+        {
+          "elements": [
+            "Sammy’s, a dive bar",
+            "Twice Read used bookstore and textbook reseller",
+            "Pizza Shack (“We Deliver!”)",
+            "Gas ‘n Sip",
+            "Brown Sack liquor store",
+            "Bucket o’ Cluck fast food"
+          ],
+          "name": "Elm Street Near Campus"
+        },
+        {
+          "elements": [
+            "The gravel pit",
+            "An old double-wide trailer (abandoned)",
+            "Inked In tattoo parlor",
+            "The town junkyard",
+            "Pleasures strip club",
+            "The back forty (ponds and densely-packed trees)"
+          ],
+          "name": "Down By the River"
+        },
+        {
+          "elements": [
+            "YMCA",
+            "The County Courthouse",
+            "First Christian Church",
+            "National Guard Armory",
+            "Ned’s Auto Repair and Parts",
+            "Footloose sub shop"
+          ],
+          "name": "Town Proper"
+        },
+        {
+          "elements": [
+            "Fraternity and sorority row",
+            "Clark House for foreign exchange students",
+            "Geoffrey Morris Student Housing (shiny and new)",
+            "Lewis Dorm (old and run-down)",
+            "Starlight Apartments",
+            "Cheap vinyl-sided houses down County Road 12...at a small-town"
+          ],
+          "name": "Housing"
+        }
+      ],
+      "title": "LOCATIONS..."
+    },
+    "needs": {
+      "categories": [
+        {
+          "elements": [
+            "...with an ex who fucked you over",
+            "...with your bitterest rival",
+            "...more fucked up tonight than last night",
+            "...with a faculty member",
+            "...fewer class hours than last semester",
+            "...with that rat bastard the mayor"
+          ],
+          "name": "To Get Even"
+        },
+        {
+          "elements": [
+            "...of town before metaphorical chickens come home to roost",
+            "...of a hastily-made promise that’s going to come back to bite you",
+            "...of that one class you totally shouldn’t have signed up for",
+            "...of tomorrow night’s shift, because it’s party time",
+            "...from under all of this student debt",
+            "...of responsibility for a terrible mistake"
+          ],
+          "name": "To get out"
+        },
+        {
+          "elements": [
+            "...to a fraternity/sorority",
+            "...good with a faculty member",
+            "...trouble one last time before you leave",
+            "...bed with the town’s corrupt mayor",
+            "...to the university, even if it kills you",
+            "...on whatever the YMCA’s got going on"
+          ],
+          "name": "To get in"
+        },
+        {
+          "elements": [
+            "...because it’s time you popped your cherry",
+            "...by that smokin’ hot girl you’re always seeing around",
+            "...because revenge is best served cold",
+            "...to relive better times",
+            "...by as many people as possible",
+            "...to hold up your end of the bargain"
+          ],
+          "name": "To get laid"
+        },
+        {
+          "elements": [
+            "...by embezzling school funds",
+            "...by stealing some totally sick stuff",
+            "...by killing someone old",
+            "...by cheating a drug dealer",
+            "...by beating the shit out of someone",
+            "...by becoming an Internet millionaire"
+          ],
+          "name": "To get rich"
+        },
+        {
+          "elements": [
+            "...about what happened down by the gravel pit",
+            "...about what the school is hiding",
+            "...about the accident",
+            "...about what happened to the vanished students",
+            "...about someone’s cheating ways",
+            "...about what the YMCA people are really up to...at a small-town"
+          ],
+          "name": "To get the truth"
+        }
+      ],
+      "title": "NEEDS..."
+    },
+    "objects": {
+      "categories": [
+        {
+          "elements": [
+            "Fetish gear/furry costume",
+            "List of students’ Social Security numbers",
+            "Poorly-made fake ID",
+            "Incriminating chat logs",
+            "Thirty unpaid campus parking tickets",
+            "Private list of donors to the mayor"
+          ],
+          "name": "Troublesome"
+        },
+        {
+          "elements": [
+            "Segway",
+            "Shiny red Audi convertible",
+            "Bicycle with a bike lock whose keys are lost",
+            "Often-patched canoe",
+            "Old beat-up Buick LeSabre",
+            "VW Microbus with expired tags"
+          ],
+          "name": "Transportation"
+        },
+        {
+          "elements": [
+            "Piano wire garrote",
+            "Home-made nitroglycerine from chem lab",
+            "Five foot pole with a litter spike",
+            "A thirty-ought-six rifle",
+            "Pepper spray and rape whistle",
+            "Pure grain alcohol in a full two-liter bottle"
+          ],
+          "name": "Weapons"
+        },
+        {
+          "elements": [
+            "Roommate who died",
+            "Deep budget cuts for the university",
+            "Failing grade that could cost a scholarship",
+            "Town petition to curtail the university’s expansion",
+            "Tire fire",
+            "Errors in a school transcript"
+          ],
+          "name": "Truly Unfortunate"
+        },
+        {
+          "elements": [
+            "$100,000 in non-sequential bills",
+            "Deed to property near the school",
+            "Rare maps from the library’s collection",
+            "Pile of completed term papers (just add an author’s name)",
+            "YMCA payroll checks",
+            "Bricks of hash hidden inside five large hay bales"
+          ],
+          "name": "Valuables"
+        },
+        {
+          "elements": [
+            "Mis-addressed love note",
+            "Tattoo",
+            "The only copy of a senior thesis on a thumb drive",
+            "Dad’s Purple Heart",
+            "Tarnished silver wedding ring",
+            "STD test results...at a small-town"
+          ],
+          "name": "Personal"
+        }
+      ],
+      "title": "OBJECTS..."
+    },
+    "relationships": {
+      "categories": [
+        {
+          "elements": [
+            "Grader and class member",
+            "Classmates",
+            "ROTC cadets",
+            "Tutor and tutee",
+            "Sports star and groupie",
+            "Activities council (bringing in bands, planning campus parties)"
+          ],
+          "name": "School"
+        },
+        {
+          "elements": [
+            "Shitty on-campus job (library, cafeteria, history department)",
+            "Bar manager and bartender",
+            "Campus maintenance, repair, and grounds-keeping",
+            "Tattoo artist and client",
+            "Shitty off-campus job (probably fast food)",
+            "Campus Security"
+          ],
+          "name": "Work"
+        },
+        {
+          "elements": [
+            "Roomies",
+            "Freaks and geeks",
+            "Fraternity/sorority",
+            "Drinking buddies",
+            "Neophyte Marxist revolutionaries",
+            "Online friends (MMORPG, forums)"
+          ],
+          "name": "Friendship"
+        },
+        {
+          "elements": [
+            "Married",
+            "Fuck buddies",
+            "Crazy exes",
+            "Passionate lovers",
+            "This one time, drunk, after the big game",
+            "Open relationship/poly"
+          ],
+          "name": "Romance"
+        },
+        {
+          "elements": [
+            "Grade fixers",
+            "Petty thief and fence",
+            "Drug supplier and on-campus dealer",
+            "Doing the university’s dirty work",
+            "Providers of fine Mary Jane",
+            "Bookie and game fixer"
+          ],
+          "name": "Crime"
+        },
+        {
+          "elements": [
+            "Church members",
+            "“Keep Our Town Clean!” litter pick-up group",
+            "Big Brothers / Big Sisters",
+            "City advisory council on school/town relations",
+            "YMCA volunteers",
+            "Rec league"
+          ],
+          "name": "Around Town"
+        }
+      ],
+      "title": "relationships..."
+    }
+  },
+  "title": "Town and Gown"
+}

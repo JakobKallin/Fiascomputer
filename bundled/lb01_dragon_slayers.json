@@ -1,0 +1,290 @@
+{
+  "subtitle": "...IN A LAND OF MYTH",
+  "tables": {
+    "locations": {
+      "categories": [
+        {
+          "elements": [
+            "Buxom Wench Inn & Tavern",
+            "Lord Trammel’s Keep",
+            "Temple of Peace",
+            "Secret headquarters of the Split Penny thieves’ guild",
+            "Market Square",
+            "Forge of Tzory, the blacksmith"
+          ],
+          "name": "In the Town"
+        },
+        {
+          "elements": [
+            "Tower of Flixnord the wizard",
+            "The troll’s bridge",
+            "Boggy Barrow",
+            "The crossroads",
+            "Abandoned farmstead",
+            "Magic gate to the dungeon"
+          ],
+          "name": "On the Outskirts"
+        },
+        {
+          "elements": [
+            "Witch’s hut",
+            "Faerie circle",
+            "Wood elf camp",
+            "Ogres’ den",
+            "Cave of Visions",
+            "Hekrabar, the mad druid’s grove"
+          ],
+          "name": "In the Wild"
+        },
+        {
+          "elements": [
+            "Tunnel entrance",
+            "Orc den",
+            "Slave pens",
+            "Altar to dark gods",
+            "Refuse pit",
+            "Secret room"
+          ],
+          "name": "Dungeon—Upper Level"
+        },
+        {
+          "elements": [
+            "Pool of Souls",
+            "Trapped corridor",
+            "Hall of illusions",
+            "Arcane library",
+            "Maze of caverns",
+            "Dragon’s lair"
+          ],
+          "name": "Dungeon—Lower Level"
+        },
+        {
+          "elements": [
+            "Small village (now a burnt ruin)",
+            "Military academy (massacred in a major war) ",
+            "Wizard mentor’s cottage (looted after his death)",
+            "Cave holding hidden treasure (if you still have the map)",
+            "Your first dungeon (now collapsed and full of corpses)",
+            "Town where people called you heroes (until you got them killed)"
+          ],
+          "name": "From the Past"
+        }
+      ],
+      "title": "LOCATIONS..."
+    },
+    "needs": {
+      "categories": [
+        {
+          "elements": [
+            "...by defending the little guy",
+            "...to that one special person",
+            "...in a mentor’s eyes ",
+            "...so you can lord over everybody else",
+            "...who nobody will fuck with",
+            "...in the public’s eyes, even if you really aren’t"
+          ],
+          "name": "To be a Hero"
+        },
+        {
+          "elements": [
+            "...because they ruined your life",
+            "...and enslave them",
+            "...and they’re all enemies",
+            "...and use them for necromantic experiments",
+            "...slowly and painfully",
+            "...just to get a moment’s peace"
+          ],
+          "name": "To Crush your Enemies"
+        },
+        {
+          "elements": [
+            "...by killing every monster you see",
+            "...through shady dealings",
+            "...even if it means nobody else gets a share",
+            "...of forbidden lore",
+            "...to fund a private army",
+            "...so you never have to adventure again"
+          ],
+          "name": "To Amass a Hoard"
+        },
+        {
+          "elements": [
+            "...with everybody else’s treasure",
+            "...after one last quest",
+            "...before they realize who you really work for",
+            "...once you’ve used up this town",
+            "...to follow rumors to your next adventure",
+            "...literally, using a spell or maybe a catapult"
+          ],
+          "name": "To Fly"
+        },
+        {
+          "elements": [
+            "...by marrying a royal heir",
+            "...on a throne of your enemies’ skulls",
+            "...forever",
+            "...an army of undead",
+            "...and impose your type of justice",
+            "...and make others do the work for you"
+          ],
+          "name": "To Rule"
+        },
+        {
+          "elements": [
+            "...with wenches",
+            "...in drink",
+            "...in rampant thievery",
+            "...in forbidden rituals",
+            "...in bloodshed",
+            "...in tavern brawls"
+          ],
+          "name": "To Overindulge"
+        }
+      ],
+      "title": "NEEDS..."
+    },
+    "objects": {
+      "categories": [
+        {
+          "elements": [
+            "Flaming sword (sword of cataclysmic combustion)",
+            "Poisoned dagger (dirk of vicious viper’s venom)",
+            "Big-ass iron warhammer",
+            "Ancient elven bow",
+            "Dragonbane blade (broadsword of scaly slaughter)",
+            "Catapult"
+          ],
+          "name": "Weapons"
+        },
+        {
+          "elements": [
+            "Soul-stealing scepter (scepter of severed souls)",
+            "Sentient spear (longspear of wise council, or Arthur)",
+            "Cursed blade (cutlass of cruel calamity)",
+            "Seeking arrow (arrow of absolutely accurate archery)",
+            "Betrayer’s axe (greataxe of pliant perfidy)",
+            "Staff of resurrection with one charge left"
+          ],
+          "name": "More Weapons"
+        },
+        {
+          "elements": [
+            "Enchanting Charm",
+            "Transformative Polymorph",
+            "Spectral Ward",
+            "Demonic Summoning",
+            "Trapping Paralysis",
+            "Exploding Lightning"
+          ],
+          "name": "Spells"
+        },
+        {
+          "elements": [
+            "Invisibility cloak",
+            "Crystal ball of future sight",
+            "Crown of fearlessness",
+            "Mystery potion (nobody knows what it does)",
+            "Impervious chain shirt",
+            "Pocket magic doorway"
+          ],
+          "name": "Magic Items"
+        },
+        {
+          "elements": [
+            "Mounted troll’s head",
+            "Genie bottle",
+            "Dragon’s flame sac",
+            "Tome of dark rituals",
+            "Gold ring on a mummy’s severed finger",
+            "Massive pile of gold coins"
+          ],
+          "name": "Trophies"
+        },
+        {
+          "elements": [
+            "Strange charm left with a foundlng (maybe one of the characters)",
+            "Invitation to a prestigious order",
+            "Statue of a deity (with a hidden compartment)",
+            "Old ally polymorphed into a toad",
+            "Cask of 800-year-old dwarven booze",
+            "Royal lady’s garter"
+          ],
+          "name": "Sentimental"
+        }
+      ],
+      "title": "Arms and Arcana..."
+    },
+    "relationships": {
+      "categories": [
+        {
+          "elements": [
+            "Siblings",
+            "Parent / child who was raised by others",
+            "Unrequited lovers",
+            "Spouses in an arranged marriage",
+            "Linked by blood ritual",
+            "Orphan / caretaker"
+          ],
+          "name": "Family and Romance"
+        },
+        {
+          "elements": [
+            "Assassin / target",
+            "Rescuer / rescuee",
+            "Employer / henchman",
+            "Former cellmates",
+            "Master / defeated foe turned into servant",
+            "Bounty hunter / bounty"
+          ],
+          "name": "Adventure"
+        },
+        {
+          "elements": [
+            "Creator / golem",
+            "Master / thrall",
+            "Sorcerer / apprentice",
+            "Diabolist / intended sacrificial victim",
+            "Simulacrum / real person",
+            "Werewolf in human form / werewolf in wolf form"
+          ],
+          "name": "Magic"
+        },
+        {
+          "elements": [
+            "Same non-human race (elf, dwarf, etc.)",
+            "Tribemates",
+            "Worshipers of the same god",
+            "Bound by a blood ritual",
+            "Outcasts",
+            "Members of the same guild"
+          ],
+          "name": "Culture"
+        },
+        {
+          "elements": [
+            "Longtime adventuring companions",
+            "Drinking buddies",
+            "Reluctant allies",
+            "New blood / veteran adventurer",
+            "Leader / wannabe leader",
+            "Vicious scoundrel / pacifist healer"
+          ],
+          "name": "Fellowship"
+        },
+        {
+          "elements": [
+            "Same battalion",
+            "Mercenaries",
+            "Fought for different sides",
+            "You each have a scar the other gave you",
+            "Fighter / coward",
+            "“You killed my father”"
+          ],
+          "name": "War"
+        }
+      ],
+      "title": "relationships..."
+    }
+  },
+  "title": "Dragon Slayers"
+}

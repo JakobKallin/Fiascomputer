@@ -1,0 +1,345 @@
+<!doctype html>
+<html spellcheck="false" data-menu="false" data-help="false" class="loading">
+    <head>
+        <meta charset="UTF-8">
+        <title>Fiascomputer | Create and visualize Fiasco setups</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="description" content="Create and visualize setups for the Fiasco tabletop RPG with this free web app">
+        <script src="/libraries/pdf.js"></script>
+        <script src="/bundle.js"></script>
+        <link rel="stylesheet" href="/css/red.css" title="Fiasco Red">
+        <link rel="alternate stylesheet" href="/css/blue.css" title="Companion Blue">
+        <link rel="alternate stylesheet" href="/css/green.css" title="Town Green">
+        <link rel="alternate stylesheet" href="/css/gray.css" title="Plain Gray">
+    </head>
+    <body>
+        <header>
+            <h1 id="app-title"><a href="/">Fiascomputer</a></h1>
+            <a href="/help" id="help-button">Help</a>
+            <button id="menu-button">Menu</button>
+            <ul id="menu">
+                <li class="menu-item">
+                    <a href="/playsets">Select playset</a>
+                </li>
+                <li class="menu-item">
+                    <a href="/add-playset">Add playset</a>
+                </li>
+                <li class="menu-item" id="enter-fullscreen-menu-item">
+                    <button type="button" id="enter-fullscreen-control">Enter fullscreen</button>
+                </li>
+                <li class="menu-item" id="leave-fullscreen-menu-item">
+                    <button type="button" id="leave-fullscreen-control">Leave fullscreen</button>
+                </li>
+                <li class="menu-item">
+                    <select id="theme-control">
+                        <option value="red">Fiasco Red</option>
+                        <option value="blue">Companion Blue</option>
+                        <option value="green">Town Green</option>
+                        <option value="gray">Plain Gray</option>
+                    </select>
+                </li>
+            </ul>
+        </header>
+        <main>
+            <div id="setup" class="page setup-page">
+                <div class="playset">
+                    <h2 class="playset-name">
+                        <span class="playset-name-text">Playset</span>
+                        <button type="button" class="edit">
+                            <img src="/images/pencil-white.svg" alt="Edit">
+                        </button>
+                    </h2>
+                    <div id="player-count-control-box">
+                        <select id="player-count-control">
+                            <option value="3">3 players</option>
+                            <option value="4">4 players</option>
+                            <option value="5">5 players</option>
+                        </select>
+                    </div>
+                    <div id="randomize-button-box">
+                        <button id="randomize-button">Random!</button>
+                    </div>
+                </div>
+                <div class="pairs-outer">
+                    <div id="pairs" class="pairs">
+                        <div id="pair-template" class="pair">
+                            <div class="item relationship" data-relationship>
+                                <h3 class="relationship-heading">Relationship</h3>
+                                <div class="category relationship-category">
+                                    <button class="die relationship-category-die" title="Random!">5</button>
+                                    <a href="/relationship/category" class="name relationship-category-name">Select Category</a>
+                                    <button class="remove relationship-category-remove">
+                                        <img src="/images/cross-black.svg" alt="Remove">
+                                    </button>
+                                </div>
+                                <div class="element relationship-element">
+                                    <button class="die relationship-element-die" title="Random!">5</button>
+                                    <a href="/relationship/element" class="name relationship-element-name">Select Element</a>
+                                    <button class="remove relationship-element-remove">
+                                        <img src="/images/cross-black.svg" alt="Remove">
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="item detail" data-detail>
+                                <div class="unspecified-detail">
+                                    <button class="detail-control need-control">Need</button>
+                                    <button class="detail-control location-control">Location</button>
+                                    <button class="detail-control object-control">Object</button>
+                                </div>
+                                <div class="specified-detail">
+                                    <div class="detail-type">
+                                        <h3 class="detail-heading">Detail</h3>
+                                        <button class="remove detail-remove">
+                                            <img src="/images/cross-black.svg" alt="Remove">
+                                        </button>
+                                    </div>
+                                    <div class="category detail-category">
+                                        <button class="die detail-category-die" title="Random!">5</button>
+                                        <a href="/detail/category" class="name detail-category-name">Select Category</a>
+                                        <button class="remove detail-category-remove">
+                                            <img src="/images/cross-black.svg" alt="Remove">
+                                        </button>
+                                    </div>
+                                    <div class="element detail-element">
+                                        <button class="die detail-element-die" title="Random!">5</button>
+                                        <a href="/detail/element" class="name detail-element-name">Select Element</a>
+                                        <button class="remove detail-element-remove">
+                                            <img src="/images/cross-black.svg" alt="Remove">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="player-template" class="player">
+                            <img class="player-image" src="/images/player-black.svg" alt="">
+                            <div class="player-name-outer">
+                                <span class="player-name">Player #</span>
+                                <button type="button" class="edit">
+                                    <img src="/images/pencil-white.svg" alt="Edit">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="players" class="page players-page">
+                <h2>Number of players</h2>
+                <div class="links">
+                    <a href="/setup" class="players-link" id="players-link-3">3 players</a>
+                    <a href="/setup" class="players-link" id="players-link-4">4 players</a>
+                    <a href="/setup" class="players-link" id="players-link-5">5 players</a>
+                </div>
+            </div>
+            <div id="table" class="page table-page">
+                <div class="table">
+                    <h2 class="table-title"></h2>
+                    <p class="table-subtitle">
+                        <span class="table-subtitle-text"></span>
+                        <button type="button" class="edit">
+                            <img src="/images/pencil-white.svg" alt="Edit">
+                        </button>
+                    </p>
+                    <ol class="categories">
+                        <li class="category">
+                            <h3 class="category-name">
+                                <a href="/setup" class="category-link"></a>
+                                <button type="button" class="edit">
+                                    <img src="/images/pencil-white.svg" alt="Edit">
+                                </button>
+                            </h3>
+                            <ol class="elements">
+                                <li class="element-name">
+                                    <a href="/setup" class="element-link"></a>
+                                    <button type="button" class="edit">
+                                        <img src="/images/pencil-white.svg" alt="Edit">
+                                    </button>
+                                </li>
+                            </ol>
+                        </li>
+                    </ol>
+                    <a href="/setup" class="close-button" id="close-table-control">
+                        <img src="/images/cross-black.svg" alt="Close">
+                    </a>
+                </div>
+            </div>
+            <div id="playset-preview" class="page playset-preview-page">
+                <h2 class="playset-name">
+                    <span class="playset-name-text"></span>
+                    <button type="button" class="edit">
+                        <img src="/images/pencil-white.svg" alt="Edit">
+                    </button>
+                </h2>
+                <!-- We use both `inner` and `outer` below to properly achieve
+                100% image height with proper aspect ratio. -->
+                <div class="pages-outer">
+                    <div class="pages-inner">
+                        <a href="/images/blank-page.svg" target="_blank" class="playset-page-link" id="playset-cover-page-link">
+                            <img src="/images/blank-page.svg" class="playset-page" id="playset-cover-page">
+                        </a>
+                        <a href="/images/blank-page.svg" target="_blank" class="playset-page-link" id="playset-score-page-link">
+                            <img src="/images/blank-page.svg" class="playset-page" id="playset-score-page">
+                        </a>
+                    </div>
+                </div>
+                <div class="links">
+                    <a href="/players" class="play-link" id="start-setup-control">Play!</a>
+                    <a href="/setup" class="resume-link" id="resume-setup-control">Resume</a>
+                    <a href="/images/blank-page.svg" target="_blank" class="credits-link" id="playset-credits-page-link">Credits</a>
+                    <a href="/playsets" class="delete-link" id="delete-playset-control">Delete playset</a>
+                </div>
+                <a href="/playsets" class="back">Back</a>
+            </div>
+            <div id="playsets" class="page playsets-page">
+                <h2>Select Playset</h2>
+                <ul class="playsets">
+                    <li class="playset">
+                        <a href="/playset-preview" class="playset-link">
+                            <img src="" alt="" class="playset-thumbnail">
+                            <span class="playset-name"></span>
+                        </a>
+                    </li>
+                    <li class="add-playset">
+                        <a href="/add-playset" class="add-playset-link">
+                            <span class="add-playset-label">Add Playset</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div id="intro" class="page intro-page">
+                <div class="document">
+                    <h2 class="heading">
+                        <span class="welcome">Welcome to</span>
+                        <span class="title">Fiascomputer!</span>
+                    </h2>
+                    <div class="introduction">
+                        <p>Use Fiascomputer to create and visualize <cite>Fiasco</cite> setups.</p>
+                        <p>
+                            We have included 36 high-quality playsets right from the start,
+                            but you can <a href="/add-playset">add your own playset PDF</a> if you want even more.
+                        </p>
+                    </div>
+                    <a href="/" class="start">Start!</a>
+                    <a href="/" class="close-button">
+                        <img src="/images/cross-black.svg" alt="Close">
+                    </a>
+                </div>
+                <div class="credits">
+                    <small>
+                        <p>For more software like this, visit <a href="http://tabletopsoftware.net/" target="_blank">TabletopSoftware.net</a></p>
+                        <p>The <a href="http://www.bullypulpitgames.com/games/fiasco/" target="_blank"><cite>Fiasco</cite></a> RPG is published by <a href="http://www.bullypulpitgames.com/" target="_blank">Bully Pulpit Games</a></p>
+                    </small>
+                </div>
+            </div>
+            <div id="add-playset" class="page add-playset-page" data-title="Add Playset">
+                <h2 class="heading">Add playset</h2>
+                <ul class="add-playset-method-list">
+                    <li class="add-playset-method add-playset-method-file">
+                        <button type="button" id="add-playset-file-button" class="add-playset-file-button">Select playset PDF</button>
+                    </li>
+                    <li class="add-playset-method add-playset-method-drag-drop">
+                        <span class="add-playset-drag-drop-field">Drag and drop playset PDF</span>
+                    </li>
+                </ul>
+                <p class="tip">
+                    Tip: Try the
+                    <a href="http://www.bullypulpitgames.com/store/#40" target="_blank"><cite>Fiasco</cite> PDF</a> or the
+                    <a href="http://www.bullypulpitgames.com/store/#70" target="_blank"><cite>Fiasco Companion</cite> PDF</a>
+                    to get four playsets at once!
+                </p>
+            </div>
+            <div id="help" class="page help-page" data-title="Help">
+                <div class="document">
+                    <h2 class="title">Help</h2>
+                    
+                    <section>
+                        <h3>Playsets</h3>
+                        
+                        <h4>Adding a playset</h4>
+                        <p>If you have a <cite>Fiasco</cite> playset PDF, you can use it in Fiascomputer! To add a playset, press the <a href="/add-playset">Add Playset</a> button in either the menu or the <a href="/playsets">playset listing</a>.</p>
+                        <p>Hint: You can add more than one playset at a time.</p>
+                        <p><em>Note: Not all playset PDFs are guaranteed to work in Fiascomputer. For best results, use one of the playsets distributed by the publishers of <cite>Fiasco</cite>, <a href="http://www.bullypulpitgames.com/" target="_blank">Bully Pulpit Games</a>.</em></p>
+                        
+                        <h4>Editing a playset</h4>
+                        <p>If you want to add your own touch to a playset, or if the playset was not correctly imported by Fiascomputer, you can edit it. To do so, open the <a href="/setup">setup page</a> and click any category or element to select it. In the table that appears, hover over the item that you want to edit and click the pencil that appears. You can also a playset's title in this way.</p>
+                        
+                        <h4>Creating a playset</h4>
+                        <p>Fiascomputer does not currently offer a way of creating entirely new playsets. That being said, you can still add an existing playset and then edit the items in it (as described above) to get something almost as good. (Just be sure not to save your only copy of a playset in Fiascomputer, as mentioned below.)</p>
+                        
+                        <h4>Deleting a playset</h4>
+                        <p>To delete a playset, select the playset in the <a href="/playsets">playset listing</a> and then press the Delete Playset button. You will return to the playset listing and the playset will be grayed out to show that it will be deleted. If you select the playset again, you can recover the playset. If you don't, the playset is permanently deleted when you close Fiascomputer.</p>
+                        
+                        <h4>Where are playsets stored?</h4>
+                        <p>After you have added a playset, it is stored inside your browser, which means that it won't be available on other computers or in other browsers on the same computer.
+                            
+                        <p><em>Note: Fiascomputer does not currently support saving playsets as files or otherwise exporting them from the app. For that reason, do not use Fiascomputer to store your only copy of a playset.</em></p>
+                    </section>
+                    
+                    <section>
+                        <h3>Setup</h3>
+                        
+                        <h4>Selecting items</h4>
+                        <p>To select the category or element for a relationship, press the text of that category or element. The same goes for details, but you first have to select whether that detail should be a Need, a Location, or an Object.</p>
+                        
+                        <h4>Deleting items</h4>
+                        <p>To delete a detail, category, or element, hover over it and press the cross that appears. To remove a relationship from the game altogether, select a different number of players in the available dropdown menu.</p>
+                        
+                        <h4>Random setups</h4>
+                        <p>To randomize an entire setup, press the Random button. To randomize a single category or element, click the die next to it.</p>
+                        
+                        <h4>Changing a player's name</h4>
+                        <p>To change the name of a player, hover over the player's name and press the pencil that appears.</p>
+                    </section>
+                    
+                    <section>
+                        <h3>Miscellaneous</h3>
+                        
+                        <h4>Fullscreen</h4>
+                        <p>To enter fullscreen mode, press Enter Fullscreen in the menu. To leave fullscreen mode, press Leave Fullscreen in the menu or use your browser's built-in functionality for doing so.</p>
+                        
+                        <h4>Color themes</h4>
+                        <p>If you're feeling blue or otherwise think that Fiasco's red color theme doesn't suit your setup, try one of the other color themes available in the menu!</p>
+                    </section>
+                    
+                    <section>
+                        <h3>Contact</h3>
+                        <p>If you have questions or feedback relating to Fiascomputer, send an email to <a href="mailto:jakob@tabletopsoftware.net">jakob@tabletopsoftware.net</a>.</p>
+                        <p>Fiascomputer is an unofficial app. If you have questions or feedback relating to the <a href="http://www.bullypulpitgames.com/games/fiasco/" target="_blank"><cite>Fiasco</cite></a> RPG itself, please direct them to <a href="http://www.bullypulpitgames.com/" target="_blank">Bully Pulpit Games</a>.</p>
+                    </section>
+                    
+                    <section>
+                        <h3>Credits</h3>
+                        <p>Fiascomputer is developed by <a href="http://jakobkallin.com/" target="_blank">Jakob Kallin</a>. For more software like this, visit <a href="http://tabletopsoftware.net/" target="_blank">TabletopSoftware.net</a>.</p>
+                        <p>The <a href="http://www.bullypulpitgames.com/games/fiasco/" target="_blank"><cite>Fiasco</cite></a> RPG is published by <a href="http://www.bullypulpitgames.com/" target="_blank">Bully Pulpit Games</a>. The 36 official <a href="http://www.bullypulpitgames.com/games/fiasco/playset-of-the-month/" target="_blank">playsets of the month</a> are included in the app with their permission.</p>
+                        <p>"Dice" font by <a href="http://www.ambor.com/public/dice/dice.html" target="_blank">Alastair Bor</a>. "Hitchcock" font by <a href="http://typographica.org/on-typography/saul-bass-website-and-hitchcock-font-are-back/" target="_blank">Matt Terich</a>, based on the work of Saul Bass.</p>
+                    </section>
+
+                    <section>
+                        <h3>Source code</h3>
+                        <p>The source code to Fiascomputer is licensed under <a href="http://www.gnu.org/licenses/gpl-3.0.en.html">GNU GPL</a> and available on <a href="https://github.com/JakobKallin/Fiascomputer">GitHub</a>.</p>
+                    </section>
+                    
+                    <button class="close-button" id="close-help-control">
+                        <img src="/images/cross-black.svg" alt="Close">
+                    </button>
+                </div>
+            </div>
+            <div id="splash" class="page splash-page">
+                <p class="splash-message">Booting Fiascomputer...</p>
+            </div>
+        </main>
+        <script type="text/javascript">
+            var _paq = _paq || [];
+            _paq.push(['trackPageView']);
+            (function() {
+                var u="//statistics.tabletopsoftware.net/piwik/";
+                _paq.push(['setTrackerUrl', u+'piwik.php']);
+                _paq.push(['setSiteId', 2]);
+                var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+                g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+            })();
+        </script>
+        <noscript><p><img src="//statistics.tabletopsoftware.net/piwik/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
+    </body>
+</html>
