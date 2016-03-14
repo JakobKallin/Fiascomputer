@@ -2,29 +2,19 @@ import R from 'ramda';
 import * as dom from 'dom';
 import { parseInteger } from 'utils';
 
-export default function(playerNames, maxPlayers, playerCount, page, signal) {
+export default function(page, options, signal) {
+    const maxPlayers = options.players.length;
     const node = {
         pair: index => dom.all('.pair')[index],
         relationship: index => dom.all('[data-relationship]')[index],
         detail: index => dom.all('[data-detail]')[index]
     };
 
-    const templates = {};
-    ['pair', 'player'].forEach((name, index) => {
-        const node = templates[name] = document.getElementById(name + '-template');
-        node.parentNode.removeChild(node);
+    options.pairs.forEach((p, i) => {
+        renderItem(p.relationship, node.relationship(i));
+        renderDetail(p.detail, node.detail(i));
     });
-    ['pair', 'player'].forEach(card => {
-        R.range(0, maxPlayers).forEach(index => {
-            const number = index + 1;
-            const node = templates[card].cloneNode(true);
-            node.id = card + '-' + number;
-            dom.all('a', node).forEach(link => link.href += '/' + number);
-            dom.id('pairs').appendChild(node);
-        });
-    });
-    
-    renderPlayerNames(playerNames);
+    options.players.forEach((n, i) => renderPlayerName(i, n));
 
     const randomButton = document.querySelector('#randomize-button');
     randomButton.addEventListener('click', event => {
@@ -50,10 +40,6 @@ export default function(playerNames, maxPlayers, playerCount, page, signal) {
             const button = dom.first(selector, node);
             dom.on(button, 'click', listener);
         }, table);
-    }
-
-    function renderPlayset(playset) {
-        dom.first('.playset-name-text', page).textContent = playset.title;
     }
 
     function renderPair(pair, index) {
@@ -124,10 +110,8 @@ export default function(playerNames, maxPlayers, playerCount, page, signal) {
         }
     }
     
-    function renderPlayerNames(names) {
-        dom.all('.player', page).forEach((node, index) => {
-            dom.first('.player-name', node).textContent = names[index];
-        });
+    function renderPlayerName(i, name) {
+        dom.all('.player-name', page)[i].textContent = name;
     }
 
     dom.makeEditable({
@@ -140,24 +124,37 @@ export default function(playerNames, maxPlayers, playerCount, page, signal) {
     R.range(0, maxPlayers).forEach(enablePlayerNameEditing);
     
     const playerDropdown = dom.id('player-count-control');
+    let latestPlayerCount = null;
     dom.select(
         playerDropdown,
-        value => signal.changePlayerCount(parseInteger(value)),
-        playerCount
+        value => {
+            if (value === 'invite') {
+                playerDropdown.value = latestPlayerCount;
+                signal.invitePlayers();
+            }
+            else {
+                signal.changePlayerCount(parseInteger(value))
+            }
+        },
+        options.activePlayers
     );
 
     return {
-        renderRelationship: function(index, relationship) {
+        relationshipChanged: function(index, relationship) {
             renderItem(relationship, node.relationship(index));
         },
-        renderDetail: function(index, detail) {
+        detailChanged: function(index, detail) {
             renderDetail(detail, node.detail(index));
         },
-        renderSetup: function(playset, pairs, playerNames, playerCount) {
-            renderPlayset(playset);
-            pairs.forEach((pair, index) => renderPair(pair, index));
-            renderPlayerNames(playerNames);
-            playerDropdown.value = playerCount;
+        playerNameChanged: (i, name) => {
+            renderPlayerName(i, name);
+        },
+        playerCountChanged: count => {
+            latestPlayerCount = count;
+            playerDropdown.value = count;
+        },
+        titleChanged: title => {
+            dom.first('.playset-name-text', page).textContent = title;
         }
     };
 }

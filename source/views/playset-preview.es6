@@ -1,9 +1,9 @@
 import * as dom from 'dom';
 
 export default function(page, signal) {
-    dom.on(dom.id('start-setup-control'), 'click', signal.startSetup);
-    dom.on(dom.id('resume-setup-control'), 'click', signal.resumeSetup);
-    dom.on(dom.id('delete-playset-control'), 'click', signal.deletePlayset);
+    dom.on(dom.id('start-setup-control'), 'click', () => signal.startSetup());
+    dom.on(dom.id('resume-setup-control'), 'click', () => signal.resumeSetup());
+    dom.on(dom.id('delete-playset-control'), 'click', () => signal.deletePlayset());
     
     dom.makeEditable({
         node: dom.first('.playset-name-text', page),

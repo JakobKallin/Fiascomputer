@@ -27,7 +27,7 @@ main > .page {
 }
 
 html {
-    font-family: Georgia, serif;
+    font-family: $body-font;
 }
 
 @mixin menu-button($image) {
@@ -49,9 +49,9 @@ header {
     @include flex(row, $vertical: center);
 
     #app-title {
+        flex: 1;
         position: relative;
         overflow: hidden;
-        flex: 1;
         padding: 0.5rem;
         
         &:after {
@@ -64,6 +64,41 @@ header {
             width: 2rem;
             background-image: linear-gradient(to right, transparent, black);
             pointer-events: none;
+        }
+    }
+    
+    #player-list-box {
+        position: relative;
+        
+        #player-list-button {
+            @include menu-button(url("/images/google-drive.png"));
+        }
+        
+        #player-list-button.players-0 {
+            display: none;
+        }
+        
+        #player-list {
+            position: absolute;
+            right: 0;
+            top: 100%;
+            padding: 0.75rem;
+            color: $white;
+            background-color: $black;
+            @include shadow;
+            white-space: nowrap;
+
+            > * + * {
+                margin-top: 0.75rem;
+            }
+            
+            .player-image {
+                height: 1.25em;
+            }
+            
+            .player-image, .player-name {
+                vertical-align: middle;
+            }
         }
     }
 
@@ -111,6 +146,10 @@ html:not(.fullscreen) {
     }
 }
 
+html:not(.player-list) #player-list {
+    display: none;
+}
+
 [data-help=true] #help-button {
     @include menu-button(url("/images/cross-white.svg"));
 }
@@ -129,7 +168,13 @@ html:not(.fullscreen) {
     @include horizontal-margin(auto);
 
     .splash-message {
-        @include heading;
+        @include page-heading;
+        &:before {
+            @include loading-indicator;
+            display: inline-block;
+            margin-right: 1rem;
+            margin-bottom: 1rem;
+        }
     }
     
     @media (max-width: 40em) {
@@ -139,7 +184,7 @@ html:not(.fullscreen) {
     }
 }
 
-.intro-page {
+@mixin intro-page {
     @include flex(column);
     @include vertical-margin(auto);
     
@@ -153,24 +198,15 @@ html:not(.fullscreen) {
         background-color: $yellow-card-background-color;
         @include shadow;
     }
-
+    
     .heading {
         font-family: $heading-font;
         color: $text-red;
     }
     
-    .welcome {
-        display: block;
-        margin-bottom: 0.5rem;
-    }
-
     @media (max-width: 40em) {
         .heading {
             font-size: 1rem;
-        }
-        
-        .welcome {
-            font-size: 0.75em;
         }
     }
     
@@ -178,12 +214,8 @@ html:not(.fullscreen) {
         .heading {
             font-size: 3rem;
         }
-        
-        .welcome {
-            font-size: 0.5em;
-        }
     }
-
+    
     .introduction {
         max-width: 50rem;
         margin-top: 2rem;
@@ -200,18 +232,6 @@ html:not(.fullscreen) {
             color: $blue;
             text-decoration: underline;
         }
-    }
-
-    .start {
-        display: inline-block;
-        @include plain-button;
-        @include button;
-        padding: 1rem;
-    }
-    
-    .close-button {
-        @include plain-button;
-        @include close-button;
     }
     
     .credits {
@@ -237,6 +257,113 @@ html:not(.fullscreen) {
     }
 }
 
+.intro-page {
+    @include intro-page;
+    
+    .welcome {
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+
+    @media (max-width: 40em) {
+        .welcome {
+            font-size: 0.75em;
+        }
+    }
+    
+    @media (min-width: 40em) {
+        .welcome {
+            font-size: 0.5em;
+        }
+    }
+
+    .start {
+        display: inline-block;
+        @include plain-button;
+        @include button;
+        padding: 1rem;
+    }
+    
+    .close-button {
+        @include plain-button;
+        @include close-button;
+    }
+}
+
+.join-page {
+    @include flex(column);
+    @include vertical-margin(auto);
+    @include horizontal-margin(auto);
+    
+    &:not(.login) .login,
+    &:not(.empty) .empty,
+    &:not(.loading) .loading,
+    &:not(.error) .error {
+        display: none;
+    }
+    
+    .login {
+        @include paper;
+        @include document;
+        text-align: center;
+        
+        .title {
+            @include heading;
+            margin-bottom: 1rem;
+        }
+        
+        button {
+            @include plain-button;
+            @include button;
+            padding: 1rem;
+        }
+    }
+
+    .empty {
+        @include intro-page;
+    }
+    
+    .loading {
+        @include flex(column);
+        @include vertical-margin(auto);
+        @include horizontal-margin(auto);
+        
+        .loading-message {
+            @include page-heading;
+            &:before {
+                @include loading-indicator;
+                display: inline-block;
+                margin-right: 1rem;
+                margin-bottom: 1rem;
+            }
+        }
+        
+        @media (max-width: 40em) {
+            .loading-message {
+                font-size: 0.75rem;
+            }
+        }
+    }
+    
+    .error {
+        @include paper;
+        @include document;
+        
+        .heading {
+            @include heading;
+        }
+        
+        .error-details-heading {
+            text-align: center;
+        }
+        
+        .error-details {
+            font-family: monospace;
+            font-size: 1rem;
+        }
+    }
+}
+
 .add-playset-page {
     @include vertical-margin(auto);
     max-width: 40rem;
@@ -245,7 +372,7 @@ html:not(.fullscreen) {
     padding: 1rem;
     
     .heading {
-        @include heading;
+        @include page-heading;
         margin-bottom: 2rem;
     }
     
@@ -287,10 +414,6 @@ html:not(.fullscreen) {
         .add-playset-drag-drop-field {
             background-color: $black;
         }
-
-        * {
-            pointer-events: none;
-        }
     }
     
     .tip {
@@ -314,7 +437,7 @@ html:not(.fullscreen) {
     overflow: auto;
 
     h2 {
-        @include heading;
+        @include page-heading;
         margin-top: 2rem;
         margin-bottom: 1.25rem;
     }
@@ -393,20 +516,10 @@ html:not(.fullscreen) {
 
 .playsets-page.loading {
     .add-playset:before {
-        align-self: center;
+        @include loading-indicator;
         display: block;
-        content: "";
+        align-self: center;
         margin-right: 1.5rem;
-        width: 2rem;
-        height: 1rem;
-        border: 0.375rem solid $heading-color;
-        border-bottom-width: 0;
-        border-radius: 2rem 2rem 0 0;
-        animation-duration: 0.75s;
-        animation-name: spin;
-        animation-iteration-count: infinite;
-        animation-timing-function: linear;
-        transform-origin: bottom;
     }
 }
 
@@ -427,7 +540,7 @@ html:not(.fullscreen) {
     }
 
     h2 {
-        @include heading;
+        @include page-heading;
     }
 
     .links {
@@ -435,15 +548,94 @@ html:not(.fullscreen) {
         flex-wrap: wrap;
     }
 
+    .collaboration button,
     .players-link {
+        @include plain-button;
         @include button;
-        margin: 1rem;
         padding: 1rem;
         font-family: $heading-font;
         font-size: 1.5rem;
         text-align: center;
+    }
+    
+    .players-link {
+        margin: 1rem;
+    }
+    
+    @mixin google-drive-logo {
+        background-image: url("/images/google-drive.png");
+        background-repeat: no-repeat;
+        background-size: 3rem auto;
+        background-position: 1rem center;
+        padding-left: 5rem;
+    }
+    
+    .collaboration {
+        button {
+            position: relative;
+            @include google-drive-logo;
+            
+            &:after {
+                @include button;
+                position: absolute;
+                left: 90%;
+                bottom: 85%;
+                display: block;
+                content: "New!";
+                font-size: 0.75rem;
+                padding: 0.5rem;
+                background-color: $other-background-color;
+            }
+            
+            .backend {
+                display: block;
+                margin-top: 0.5rem;
+                font-size: 1rem;
+                color: darken($white, 25%);
+            }
+        }
+        
+        .loading {
+            &:before {
+                @include loading-indicator;
+                display: block;
+                margin-bottom: 1rem;
+            }
+            
+            .message {
+                display: none;
+            }
+        }
+        
+        .active {
+            padding: 1rem;
+            color: $white;
+            background-color: $dark-background-color;
+            
+            @include google-drive-logo;
+            
+            .instructions {
+                font-family: $heading-font;
+                margin-bottom: 0.5rem;
+            }
+            
+            #join-link {
+                display: inline;
+                font-size: 1rem;
+                font-family: monospace, monospace;
+                text-decoration: underline;
+            }
+        }
+        
+        &:not(.inactive) .inactive,
+        &:not(.active) .active,
+        &:not(.loading) .loading {
+            display: none;
+        }
+    }
 
-        &:before {
+    @media (min-width: 40em) {
+        .players-link:before {
             display: block;
             content: "";
             width: 5rem;
@@ -454,34 +646,34 @@ html:not(.fullscreen) {
             background-repeat: no-repeat;
             background-size: auto 3rem;
         }
-    }
-
-    #players-link-3:before {
-        background-image:
+        
+        #players-link-3:before {
+            background-image:
             url("/images/player-white.svg"),
             url("/images/player-white.svg"),
             url("/images/player-white.svg");
-        background-position: center top, right bottom, left bottom;
-    }
-
-    #players-link-4:before {
-        background-image:
-            url("/images/player-white.svg"),
-            url("/images/player-white.svg"),
-            url("/images/player-white.svg"),
-            url("/images/player-white.svg");
-        background-position: left top, right top, right bottom, left bottom;
-    }
-
-    #players-link-5:before {
-        width: 7rem;
-        background-image:
-            url("/images/player-white.svg"),
+            background-position: center top, right bottom, left bottom;
+        }
+        
+        #players-link-4:before {
+            background-image:
             url("/images/player-white.svg"),
             url("/images/player-white.svg"),
             url("/images/player-white.svg"),
             url("/images/player-white.svg");
-        background-position: left top, right top, right bottom, left bottom, center center;
+            background-position: left top, right top, right bottom, left bottom;
+        }
+        
+        #players-link-5:before {
+            width: 7rem;
+            background-image:
+            url("/images/player-white.svg"),
+            url("/images/player-white.svg"),
+            url("/images/player-white.svg"),
+            url("/images/player-white.svg"),
+            url("/images/player-white.svg");
+            background-position: left top, right top, right bottom, left bottom, center center;
+        }
     }
 }
 
@@ -565,8 +757,8 @@ html:not(.fullscreen) {
 
         #pair-1 { order: 1; }
         #pair-2 { order: 3; }
-        #pair-3 { order: 6; }
-        #pair-4 { order: 8; }
+        #pair-3 { order: 8; }
+        #pair-4 { order: 6; }
 
         #player-1 { order: 5; }
         #player-2 { order: 2; }
@@ -701,11 +893,11 @@ html:not(.fullscreen) {
     }
     
     #player-count-control-box {
-        order: 1;
+        order: 3;
     }
     
     #randomize-button-box {
-        order: 3;
+        order: 1;
     }
 
     #randomize-button {
@@ -740,15 +932,18 @@ html:not(.fullscreen) {
         .playset {
             flex-shrink: 0;
             padding: 1rem;
-            justify-content: space-between;
+        }
+        
+        .playset-name {
+            flex: 1;
         }
         
         #player-count-control-box {
-            margin-right: 1rem;
+            margin-left: 1rem;
         }
         
         #randomize-button-box {
-            margin-left: 1rem;
+            margin-right: 1rem;
         }
     }
 
@@ -1094,7 +1289,7 @@ html:not(.fullscreen) {
     overflow: auto;
     
     .playset-name {
-        @include heading;
+        @include page-heading;
         align-self: center;
 
         .playset-name-text {
@@ -1236,51 +1431,76 @@ html:not(.fullscreen) {
     @include vertical-margin(auto);
     
     .document {
+        @include paper;
+        @include document;
         flex: 1;
         position: relative;
         max-width: 60rem;
-        padding: 2rem;
-        background-color: $yellow-card-background-color;
-        @include shadow;
+        
+        @media (min-width: 40em) {
+            @include vertical-margin(2rem);
+        }
     }
     
     .title {
-        text-align: center;
-        font-size: 1.5rem;
-        font-family: $heading-font;
-        color: $text-red;
-    }
-    
-    h3 {
-        font-family: $heading-font;
-        font-size: 1.25rem;
-        color: $text-red;
-        margin-bottom: 1rem;
-    }
-    
-    h4 {
-        font-family: $heading-font;
-        margin-bottom: 1rem;
-    }
-    
-    p {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
-    
-    em {
-        font-style: italic;
-    }
-    
-    a {
-        display: inline;
-        color: $blue;
-        text-decoration: underline;
+        @include heading;
     }
     
     .close-button {
         @include plain-button;
         @include close-button;
+    }
+}
+
+.version-page {
+    @include flex(row, $horizontal: center);
+    @include vertical-margin(auto);
+    
+    .document {
+        @include paper;
+        @include document;
+        flex: 1;
+        position: relative;
+        max-width: 60rem;
+        text-align: center;
+        
+        @media (min-width: 40em) {
+            @include vertical-margin(2rem);
+        }
+    }
+    
+    .title {
+        @include heading;
+        margin-bottom: 2rem;
+    }
+    
+    .close-button {
+        @include plain-button;
+        @include close-button;
+    }
+    
+    .start-button {
+        @include plain-button;
+        @include button;
+        padding: 1rem;
+    }
+    
+    .version {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .version:not(.current) {
+        display: none;
+    }
+    
+    iframe {
+        display: block;
+        @include horizontal-margin(auto);
+        width: 100%;
+        max-width: 560px;
+        height: 315px;
+        border: 0;
     }
 }
 

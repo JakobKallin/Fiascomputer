@@ -1,0 +1,82 @@
+<div id="setup" class="page setup-page">
+    <div class="playset">
+        <h2 class="playset-name">
+            <span class="playset-name-text">Playset</span>
+            <button type="button" class="edit">
+                <img src="/images/pencil-white.svg" alt="Edit">
+            </button>
+        </h2>
+        <div id="player-count-control-box">
+            <select id="player-count-control">
+                <option value="3">3 players</option>
+                <option value="4">4 players</option>
+                <option value="5">5 players</option>
+                <option value="invite">Invite players...</option>
+            </select>
+        </div>
+        <div id="randomize-button-box">
+            <button id="randomize-button">Random!</button>
+        </div>
+    </div>
+    <div class="pairs-outer">
+        <div id="pairs" class="pairs">
+            <div id="pair" class="pair">
+                <div class="item relationship" data-relationship>
+                    <h3 class="relationship-heading">Relationship</h3>
+                    <div class="category relationship-category">
+                        <button class="die relationship-category-die" title="Random!"></button>
+                        <a href="/relationship/category" class="name relationship-category-name">Select Category</a>
+                        <button class="remove relationship-category-remove">
+                            <img src="/images/cross-black.svg" alt="Remove">
+                        </button>
+                    </div>
+                    <div class="element relationship-element">
+                        <button class="die relationship-element-die" title="Random!"></button>
+                        <a href="/relationship/element" class="name relationship-element-name">Select Element</a>
+                        <button class="remove relationship-element-remove">
+                            <img src="/images/cross-black.svg" alt="Remove">
+                        </button>
+                    </div>
+                </div>
+                <div class="item detail" data-detail>
+                    <div class="unspecified-detail">
+                        <button class="detail-control need-control">Need</button>
+                        <button class="detail-control location-control">Location</button>
+                        <button class="detail-control object-control">Object</button>
+                    </div>
+                    <div class="specified-detail">
+                        <div class="detail-type">
+                            <h3 class="detail-heading">Detail</h3>
+                            <button class="remove detail-remove">
+                                <img src="/images/cross-black.svg" alt="Remove">
+                            </button>
+                        </div>
+                        <div class="category detail-category">
+                            <button class="die detail-category-die" title="Random!">5</button>
+                            <a href="/detail/category" class="name detail-category-name">Select Category</a>
+                            <button class="remove detail-category-remove">
+                                <img src="/images/cross-black.svg" alt="Remove">
+                            </button>
+                        </div>
+                        <div class="element detail-element">
+                            <button class="die detail-element-die" title="Random!">5</button>
+                            <a href="/detail/element" class="name detail-element-name">Select Element</a>
+                            <button class="remove detail-element-remove">
+                                <img src="/images/cross-black.svg" alt="Remove">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="player" class="player">
+                <img class="player-image" src="/images/player-black.svg" alt="">
+                <div class="player-name-outer">
+                    <span class="player-name">Player #</span>
+                    <button type="button" class="edit">
+                        <img src="/images/pencil-white.svg" alt="Edit">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

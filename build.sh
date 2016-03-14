@@ -22,6 +22,20 @@ function compile {
     echo "Compile: $SOURCE/source/main.js => $SOURCE/bundle.js"
     NODE_PATH="$SOURCE/libraries:$SOURCE/source" browserify "$SOURCE/source/main.js" -o "$SOURCE/bundle.js" --debug
     
+    # Preprocess HTML
+    echo "Create server HTML"
+    "$SOURCE/create_server_html" < "$SOURCE/index.source.html" > "$SOURCE/index.html"
+    
+    # Compile collaboration client JS to single file
+    CLIENT_MAIN="$SOURCE/source/client.js"
+    CLIENT_BUNDLE="$SOURCE/join/bundle.js"
+    echo "Compile: $CLIENT_MAIN => $CLIENT_BUNDLE"
+    NODE_PATH="$SOURCE/libraries:$SOURCE/source" browserify "$CLIENT_MAIN" -o "$CLIENT_BUNDLE" --debug
+    
+    # Create collaboration client HTML
+    echo "Create client HTML"
+    "$SOURCE/create_client_html" < "$SOURCE/index.source.html" > "$SOURCE/join/index.html"
+    
     echo "Compile: $SOURCE/tests/main.js => $SOURCE/tests/bundle.js"
     NODE_PATH="$SOURCE/libraries:$SOURCE/source" browserify "$SOURCE/tests/main.js" -o "$SOURCE/tests/bundle.js" --debug
 }

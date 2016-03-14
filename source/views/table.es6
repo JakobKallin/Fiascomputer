@@ -2,7 +2,7 @@ import * as dom from 'dom';
 import R from 'ramda';
 
 export default function(page, signal) {
-    const linkHref = '/setup';
+    const linkHref = dom.first('.category-link', page).getAttribute('href');
     
     const pageNode = dom.id('table');
     const templates = {
@@ -29,9 +29,6 @@ export default function(page, signal) {
         dom.on(link, 'click', event => {
             signal.selectCategory(category);
         });
-        dom.on(link, 'input', event => {
-            signal.changeCategory(category, link.textContent);
-        });
         const elementsNode = dom.first('.elements', node);
         R.range(0, 6).forEach((element) => {
             elementsNode.appendChild(showElement(category, element));
@@ -53,9 +50,6 @@ export default function(page, signal) {
         dom.on(link, 'click', event => {
             signal.selectElement(category, element);
         });
-        dom.on(link, 'input', event => {
-            signal.changeElement(category, element, link.textContent);
-        });
         dom.makeEditable({
             node: link,
             trigger: dom.first('.edit', node),
@@ -67,7 +61,7 @@ export default function(page, signal) {
     }
     
     return {
-        renderTable: (table, selectedCategory) => {
+        changed: (table, selectedCategory) => {
             dom.toggleClass(pageNode, {
                 'single-category': selectedCategory !== null,
                 'multiple-categories': selectedCategory === null
@@ -86,6 +80,19 @@ export default function(page, signal) {
                 });
             });
         },
-        close: () => dom.id('close-table-control', page).click()
+        categoryChanged: (index, text) => {
+            dom.all('.category-link', tableNode)[index].textContent = text;
+        },
+        elementChanged: (category, element, text) => {
+            const categoryNode = dom.all('.category', tableNode)[category];
+            dom.all('.element-link', categoryNode)[element].textContent = text;
+        },
+        titleChanged: title => {
+            dom.first('.table-title', tableNode).textContent = title;
+        },
+        subtitleChanged: subtitle => {
+            dom.first('.table-subtitle-text', tableNode).textContent = subtitle;
+        },
+        closed: () => dom.id('close-table-control', page).click()
     };
 }

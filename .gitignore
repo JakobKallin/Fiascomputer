@@ -6,3 +6,5 @@ tests/main.js
 tests/specs/*.js
 css/*.css
 css/*.css.map
+index.html
+join/index.html

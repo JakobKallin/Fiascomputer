@@ -1,3 +1,5 @@
+import { contains } from 'utils';
+
 export function clear(node) {
     while ( node.firstChild ) {
         node.removeChild(node.firstChild);
@@ -90,6 +92,7 @@ export function drag(node, callbacks) {
     });
     
     on(node, 'dragleave', event => {
+        event.preventDefault();
         callbacks.after();
     });
 }
@@ -119,6 +122,8 @@ export function makeEditable(options) {
     const editableNode = options.node;
     const triggerNode = options.trigger;
     
+    ensureStrut();
+    
     on(triggerNode, 'click', () => {
         editableNode.contentEditable = 'true';
         editableNode.focus();
@@ -128,12 +133,12 @@ export function makeEditable(options) {
         }
     });
     on(editableNode, 'blur', () => {
-        // Make sure that nodes cannot "disappear" by having their contents
-        // emptied and suddenly no longer taking up any height.
-        if ( editableNode.textContent.trim() === '' ) {
-            editableNode.innerHTML = '&nbsp;';
-        }
-        if ( options.change ) {
+        ensureStrut();
+        // Check that the node is `contentEditable` first, because blur can also
+        // happen when a link loses focus. This has triggered unnecessary errors
+        // caused by lack of context in the change handler because another page
+        // has been loaded than the one that the editable element is on.
+        if ( options.node.contentEditable === 'true' && options.change ) {
             options.change(editableNode.textContent);
         }
     });
@@ -164,6 +169,14 @@ export function makeEditable(options) {
                 event.stopPropagation();
             }
         });
+    }
+    
+    // Make sure that nodes cannot "disappear" by having their contents emptied
+    // and suddenly no longer taking up any height. Also known as "strut".
+    function ensureStrut() {
+        if ( editableNode.textContent.trim() === '' ) {
+            editableNode.innerHTML = '&nbsp;';
+        }
     }
 }
 
@@ -204,4 +217,208 @@ export function origin(link) {
     else {
         return link.protocol + '//' + link.hostname;
     }
+}
+
+export function enterFullscreen() {
+    [
+        'webkitRequestFullscreen',
+        'webkitRequestFullScreen',
+        'mozRequestFullscreen',
+        'mozRequestFullScreen',
+        'requestFullscreen'
+    ].forEach(f => {
+        if ( f in document.documentElement ) {
+            document.documentElement[f]();
+        }
+    });
+}
+
+export function leaveFullscreen() {
+    [
+        'webkitExitFullscreen',
+        'webkitExitFullScreen',
+        'mozExitFullscreen',
+        'mozExitFullScreen',
+        'mozCancelFullScreen',
+        'mozCancelFullscreen',
+        'exitFullscreen'
+    ].forEach(f => {
+        if ( f in document ) {
+            document[f]();
+        }
+    });
+}
+
+export function activateMenu(options) {
+    const menu = options.menu;
+    const button = options.button;
+    
+    on(button, 'click', () => {
+        const dataset = document.documentElement.dataset;
+        dataset.menu = dataset.menu === 'false' ? 'true' : 'false';
+    });
+    
+    on(menu, 'change', event => {
+        document.documentElement.dataset.menu = 'false';
+    });
+
+    on(document, 'click', event => {
+        const menuButtonWasClicked = event.target === button;
+        if ( !menuButtonWasClicked ) {
+            const elementOutsideMenuWasClicked = !menu.contains(event.target);
+            const controlInsideMenuWasClicked =
+                !elementOutsideMenuWasClicked && (
+                    event.target.tagName === 'A' || event.target.tagName === 'BUTTON'
+                );
+            if ( elementOutsideMenuWasClicked || controlInsideMenuWasClicked ) {
+                document.documentElement.dataset.menu = 'false';
+            }
+        }
+    });
+}
+
+export function activateToggle(options) {
+    const element = options.element;
+    const button = options.button;
+    const className = options.class;
+    
+    on(button, 'click', () => {
+        document.documentElement.classList.toggle(className);
+    });
+
+    on(document, 'click', event => {
+        const buttonWasClicked = event.target === button;
+        if ( !buttonWasClicked ) {
+            const elementOutsideWasClicked = !element.contains(event.target);
+            const controlInsideWasClicked =
+                !elementOutsideWasClicked && (
+                    event.target.tagName === 'A' || event.target.tagName === 'BUTTON'
+                );
+            if ( elementOutsideWasClicked || controlInsideWasClicked ) {
+                document.documentElement.classList.remove(className);
+            }
+        }
+    });
+}
+
+export function isInFullscreen() {
+    return Boolean(
+        document.webkitFullscreenElement ||
+        document.mozFullscreenElement ||
+        document.fullscreenElement
+    );
+}
+
+function onFullscreenChange(callback) {
+    [
+        'webkitfullscreenchange',
+        'mozfullscreenchange',
+        'fullscreenchange'
+    ].forEach(element => {
+        on(document, element, event => callback());
+    });
+}
+
+export function activateFullscreenButtons(options) {
+    var enterButton = options.enter;
+    var leaveButton = options.leave;
+    
+    onFullscreenChange(() => {
+        document.documentElement.classList.toggle('fullscreen', isInFullscreen());
+    });
+
+    on(enterButton, 'click', enterFullscreen);
+    on(leaveButton, 'click', leaveFullscreen);
+}
+
+export function activateThemeDropdown(dropdown, initial, onChange) {
+    select(dropdown, event => {
+        const name = dropdown.value;
+        const stylesheets = all('link[rel~=stylesheet][title]', document.head);
+        stylesheets.forEach(link => link.disabled = true);
+        stylesheets.filter(link => contains(link.href, name))[0].disabled = false;
+        onChange(name);
+    }, initial);
+}
+
+export function activateNavigation(onPageChange) {
+    on(document, 'click', event => {
+        const link = closest(event.target, 'a');
+        if ( link ) {
+            const internal = origin(link) === location.origin;
+            const opensInNewWindow = link.hasAttribute('target');
+            if ( internal && !opensInNewWindow ) {
+                event.preventDefault();
+                history.pushState(null, '', link.href + location.search);
+                onPageChange(location);
+            }
+        }
+    });
+    
+    on(window, 'popstate', () => onPageChange(location));
+    
+    return {
+        go: (path, search, options) => {
+            if ( path !== location.pathname || options.force ) {
+                const after = path + (search === undefined ? location.search : search);
+                history.pushState(null, '', after);
+                onPageChange(location);
+            }
+        },
+        redirect: (path, search, options) => {
+            const before = location.pathname + location.search;
+            const after = path + (search === undefined ? location.search : search);
+            if ( after !== before || options.force ) {
+                history.replaceState(null, '', after);
+                onPageChange(location);
+            }
+        },
+        start: () => onPageChange(location)
+    };
+}
+
+export function showPage(name, title, literalTitle) {
+    const pages = all('main > .page');
+    const activePage = pages.filter(p => p.id === name)[0];
+    if ( !activePage ) {
+        throw new Error('No such page: ' + name);
+    }
+    
+    pages.forEach(page => {
+        page.hidden = page !== activePage;
+    });
+    
+    if ( title !== undefined && literalTitle === true ) {
+        document.title = title;
+    }
+    else if ( title === undefined && 'title' in activePage.dataset ) {
+        document.title = activePage.dataset.title + ' | Fiascomputer';
+    }
+    else if ( title !== undefined ) {
+        document.title = title + ' | Fiascomputer';
+    }
+    else {
+        document.title = 'Fiascomputer';
+    }
+    
+    return activePage;
+}
+
+export function selectText(element) {
+    const selection = window.getSelection();
+    const range = document.createRange();
+    range.selectNodeContents(element);
+    selection.removeAllRanges();
+    selection.addRange(range);
+}
+
+export function loadScript(url) {
+    return new Promise((resolve, reject) => {
+        const script = document.createElement('script');
+        script.src = url;
+        script.async = true;
+        script.addEventListener('load', () => resolve());
+        script.addEventListener('error', () => reject());
+        document.head.appendChild(script);
+    });
 }

@@ -1,0 +1,55 @@
+#!/usr/bin/env python3
+
+import os
+import sys
+from copy import copy
+from bs4 import BeautifulSoup as parse_html
+
+script_dir = os.path.dirname(os.path.realpath(__file__))
+
+max_players = 5
+pages = [
+    'join',
+    'setup',
+    'table',
+    'splash'
+]
+
+def alter_doc():
+    include_pages(pages)
+
+def include_pages(names):
+    for page in doc.select('main > *'):
+        if 'join-page' in page['class']:
+            page.extract()
+
+    for name in names:
+        include = parse_include(script_dir + '/source/views/' + name + '.html')
+        if name == 'setup':
+            replicate_setup(include)
+        doc.select('main')[0].append(include)
+
+def replicate_setup(include):
+    for card in ['pair', 'player']:
+        template = include.select('.' + card)[0]
+        container = template.parent
+        template.extract()
+        for number in range(1, 1 + max_players):
+            instance = copy(template)
+            instance['id'] += '-' + str(number)
+            for link in instance.select('a'):
+                link['href'] += '/' + str(number)
+            container.append(instance)
+
+def parse_include(path):
+    html = read_file(path)
+    include = parse_html(html, 'html5lib')
+    return include.body.next
+
+def read_file(path):
+    with open(path, 'r') as f:
+        return f.read()
+
+doc = parse_html(sys.stdin, 'html5lib')
+alter_doc()
+print(str(doc))

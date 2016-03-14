@@ -1,0 +1,89 @@
+#!/usr/bin/env python3
+
+import os
+import sys
+from copy import copy
+from bs4 import BeautifulSoup as parse_html
+
+script_dir = os.path.dirname(os.path.realpath(__file__))
+
+max_players = 5
+menu_items = [
+    'enter-fullscreen',
+    'leave-fullscreen',
+    'theme'
+]
+pages = [
+    'join',
+    'setup',
+    'table',
+    'splash'
+]
+
+def alter_doc():
+    keep_menu_items(menu_items)
+    remove_help()
+    include_pages(pages)
+    prefix_links('/join')
+    add_client_stylesheet()
+
+def keep_menu_items(names):
+    ids = [n + '-menu-item' for n in names]
+    for menu_item in doc.select('#menu .menu-item'):
+        if not menu_item['id'] in ids:
+            menu_item.extract()
+
+def remove_help():
+    doc.select('#help-button')[0].extract()
+
+def include_pages(names):
+    for page in doc.select('main > *'):
+        page.extract()
+
+    for name in names:
+        include = parse_include(script_dir + '/source/views/' + name + '.html')
+        if name == 'setup':
+            replicate_setup(include)
+        doc.select('main')[0].append(include)
+
+def prefix_links(prefix):
+    for a in doc.select('a[href]'):
+        is_external = a['href'].startswith('http://') or a['href'].startswith('https://')
+        is_absolute = a.has_attr('data-absolute')
+        if not is_external and not is_absolute:
+            a['href'] = prefix + a['href']
+    
+    script = doc.select('script[src="/bundle.js"]')[0]
+    script['src'] = prefix + script['src']
+
+def add_client_stylesheet():
+    doc.select('head')[0].append(doc.new_tag(
+        'link',
+        rel='stylesheet',
+        href='/css/client.css'
+    ))
+
+def replicate_setup(include):
+    for card in ['pair', 'player']:
+        template = include.select('.' + card)[0]
+        container = template.parent
+        template.extract()
+        for number in range(1, 1 + max_players):
+            instance = copy(template)
+            instance['id'] += '-' + str(number)
+            for link in instance.select('a'):
+                link['href'] += '/' + str(number)
+            container.append(instance)
+
+def parse_include(path):
+    html = read_file(path)
+    include = parse_html(html, 'html5lib')
+    return include.body.next
+
+def read_file(path):
+    with open(path, 'r') as f:
+        return f.read()
+
+doc = parse_html(sys.stdin, 'html5lib')
+alter_doc()
+print(str(doc))

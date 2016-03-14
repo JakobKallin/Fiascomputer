@@ -62,11 +62,31 @@ export function startsWith(string, substring) {
     }
 }
 
-export function contains(string, substring) {
-    if ( string.includes ) {
-        return string.includes(substring);
+export function contains(value, subvalue) {
+    if ( value.includes ) {
+        return value.includes(subvalue);
     }
     else {
-        return string.indexOf(substring) !== -1;
+        return value.indexOf(subvalue) !== -1;
     }
+}
+
+export function logCallbacks(names) {
+    const callbacks = {};
+    names.forEach(name => {
+        callbacks[name] = function() {
+            console.log(name + ': ' + [].slice.call(arguments).join(', '));
+        };
+    });
+    return callbacks;
+}
+
+export function withParams() {
+    var args = [].slice.call(arguments);
+    var extra = args.slice(0, args.length - 1);
+    var callbacks = args[args.length - 1];
+    return R.mapObjIndexed(f => function() {
+        var original = [].slice.call(arguments);
+        return f.apply(undefined, original.concat(extra.map(e => e())));
+    }, callbacks);
 }

@@ -1,5 +1,5 @@
 <!doctype html>
-<html spellcheck="false" data-menu="false" data-help="false" class="loading">
+<html spellcheck="false" data-menu="false" data-help="false" class="loading players-5">
     <head>
         <meta charset="UTF-8">
         <title>Fiascomputer | Create and visualize Fiasco setups</title>
@@ -17,13 +17,25 @@
     <body>
         <header>
             <h1 id="app-title"><a href="/">Fiascomputer</a></h1>
+            <div id="player-list-box">
+                <button type="button" id="player-list-button"></button>
+                <ul id="player-list">
+                    <li>
+                        <img src="" alt="" class="player-image">
+                        <span class="player-name"></span>
+                    </li>
+                </ul>
+            </div>
             <a href="/help" id="help-button">Help</a>
             <button id="menu-button">Menu</button>
             <ul id="menu">
-                <li class="menu-item">
+                <li class="menu-item" id="invite-players-menu-item">
+                    <a href="/players">Invite players</a>
+                </li>
+                <li class="menu-item" id="select-playset-menu-item">
                     <a href="/playsets">Select playset</a>
                 </li>
-                <li class="menu-item">
+                <li class="menu-item" id="add-playset-menu-item">
                     <a href="/add-playset">Add playset</a>
                 </li>
                 <li class="menu-item" id="enter-fullscreen-menu-item">
@@ -32,7 +44,7 @@
                 <li class="menu-item" id="leave-fullscreen-menu-item">
                     <button type="button" id="leave-fullscreen-control">Leave fullscreen</button>
                 </li>
-                <li class="menu-item">
+                <li class="menu-item" id="theme-menu-item">
                     <select id="theme-control">
                         <option value="red">Fiasco Red</option>
                         <option value="blue">Companion Blue</option>
@@ -43,125 +55,27 @@
             </ul>
         </header>
         <main>
-            <div id="setup" class="page setup-page">
-                <div class="playset">
-                    <h2 class="playset-name">
-                        <span class="playset-name-text">Playset</span>
-                        <button type="button" class="edit">
-                            <img src="/images/pencil-white.svg" alt="Edit">
-                        </button>
-                    </h2>
-                    <div id="player-count-control-box">
-                        <select id="player-count-control">
-                            <option value="3">3 players</option>
-                            <option value="4">4 players</option>
-                            <option value="5">5 players</option>
-                        </select>
-                    </div>
-                    <div id="randomize-button-box">
-                        <button id="randomize-button">Random!</button>
-                    </div>
-                </div>
-                <div class="pairs-outer">
-                    <div id="pairs" class="pairs">
-                        <div id="pair-template" class="pair">
-                            <div class="item relationship" data-relationship>
-                                <h3 class="relationship-heading">Relationship</h3>
-                                <div class="category relationship-category">
-                                    <button class="die relationship-category-die" title="Random!">5</button>
-                                    <a href="/relationship/category" class="name relationship-category-name">Select Category</a>
-                                    <button class="remove relationship-category-remove">
-                                        <img src="/images/cross-black.svg" alt="Remove">
-                                    </button>
-                                </div>
-                                <div class="element relationship-element">
-                                    <button class="die relationship-element-die" title="Random!">5</button>
-                                    <a href="/relationship/element" class="name relationship-element-name">Select Element</a>
-                                    <button class="remove relationship-element-remove">
-                                        <img src="/images/cross-black.svg" alt="Remove">
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="item detail" data-detail>
-                                <div class="unspecified-detail">
-                                    <button class="detail-control need-control">Need</button>
-                                    <button class="detail-control location-control">Location</button>
-                                    <button class="detail-control object-control">Object</button>
-                                </div>
-                                <div class="specified-detail">
-                                    <div class="detail-type">
-                                        <h3 class="detail-heading">Detail</h3>
-                                        <button class="remove detail-remove">
-                                            <img src="/images/cross-black.svg" alt="Remove">
-                                        </button>
-                                    </div>
-                                    <div class="category detail-category">
-                                        <button class="die detail-category-die" title="Random!">5</button>
-                                        <a href="/detail/category" class="name detail-category-name">Select Category</a>
-                                        <button class="remove detail-category-remove">
-                                            <img src="/images/cross-black.svg" alt="Remove">
-                                        </button>
-                                    </div>
-                                    <div class="element detail-element">
-                                        <button class="die detail-element-die" title="Random!">5</button>
-                                        <a href="/detail/element" class="name detail-element-name">Select Element</a>
-                                        <button class="remove detail-element-remove">
-                                            <img src="/images/cross-black.svg" alt="Remove">
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="player-template" class="player">
-                            <img class="player-image" src="/images/player-black.svg" alt="">
-                            <div class="player-name-outer">
-                                <span class="player-name">Player #</span>
-                                <button type="button" class="edit">
-                                    <img src="/images/pencil-white.svg" alt="Edit">
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div id="players" class="page players-page">
                 <h2>Number of players</h2>
+                <div class="collaboration">
+                    <div class="inactive">
+                        <button type="button" id="invite-button">
+                            <span class="label">Invite players</span>
+                            <span class="backend">with Google Drive</span>
+                        </button>
+                    </div>
+                    <div class="loading">
+                        <p class="message">Starting session...</p>
+                    </div>
+                    <div class="active">
+                        <p class="instructions">To invite players, give them this link:</p>
+                        <a href="" target="_blank" id="join-link"></a>
+                    </div>
+                </div>
                 <div class="links">
                     <a href="/setup" class="players-link" id="players-link-3">3 players</a>
                     <a href="/setup" class="players-link" id="players-link-4">4 players</a>
                     <a href="/setup" class="players-link" id="players-link-5">5 players</a>
-                </div>
-            </div>
-            <div id="table" class="page table-page">
-                <div class="table">
-                    <h2 class="table-title"></h2>
-                    <p class="table-subtitle">
-                        <span class="table-subtitle-text"></span>
-                        <button type="button" class="edit">
-                            <img src="/images/pencil-white.svg" alt="Edit">
-                        </button>
-                    </p>
-                    <ol class="categories">
-                        <li class="category">
-                            <h3 class="category-name">
-                                <a href="/setup" class="category-link"></a>
-                                <button type="button" class="edit">
-                                    <img src="/images/pencil-white.svg" alt="Edit">
-                                </button>
-                            </h3>
-                            <ol class="elements">
-                                <li class="element-name">
-                                    <a href="/setup" class="element-link"></a>
-                                    <button type="button" class="edit">
-                                        <img src="/images/pencil-white.svg" alt="Edit">
-                                    </button>
-                                </li>
-                            </ol>
-                        </li>
-                    </ol>
-                    <a href="/setup" class="close-button" id="close-table-control">
-                        <img src="/images/cross-black.svg" alt="Close">
-                    </a>
                 </div>
             </div>
             <div id="playset-preview" class="page playset-preview-page">
@@ -171,15 +85,14 @@
                         <img src="/images/pencil-white.svg" alt="Edit">
                     </button>
                 </h2>
-                <!-- We use both `inner` and `outer` below to properly achieve
-                100% image height with proper aspect ratio. -->
+                <!-- We use both `inner` and `outer` below to properly achieve 100% image height with proper aspect ratio. -->
                 <div class="pages-outer">
                     <div class="pages-inner">
                         <a href="/images/blank-page.svg" target="_blank" class="playset-page-link" id="playset-cover-page-link">
-                            <img src="/images/blank-page.svg" class="playset-page" id="playset-cover-page">
+                            <img src="/images/blank-page.svg" class="playset-page" id="playset-cover-page" alt="">
                         </a>
                         <a href="/images/blank-page.svg" target="_blank" class="playset-page-link" id="playset-score-page-link">
-                            <img src="/images/blank-page.svg" class="playset-page" id="playset-score-page">
+                            <img src="/images/blank-page.svg" class="playset-page" id="playset-score-page" alt="">
                         </a>
                     </div>
                 </div>
@@ -248,6 +161,9 @@
                     <a href="http://www.bullypulpitgames.com/store/#70" target="_blank"><cite>Fiasco Companion</cite> PDF</a>
                     to get four playsets at once!
                 </p>
+                <p class="tip">
+                    Looking for playsets? Try <a href="http://fiascoplaysets.com/" target="_blank">FiascoPlaysets.com</a>.
+                </p>
             </div>
             <div id="help" class="page help-page" data-title="Help">
                 <div class="document">
@@ -259,7 +175,7 @@
                         <h4>Adding a playset</h4>
                         <p>If you have a <cite>Fiasco</cite> playset PDF, you can use it in Fiascomputer! To add a playset, press the <a href="/add-playset">Add Playset</a> button in either the menu or the <a href="/playsets">playset listing</a>.</p>
                         <p>Hint: You can add more than one playset at a time.</p>
-                        <p><em>Note: Not all playset PDFs are guaranteed to work in Fiascomputer. For best results, use one of the playsets distributed by the publishers of <cite>Fiasco</cite>, <a href="http://www.bullypulpitgames.com/" target="_blank">Bully Pulpit Games</a>.</em></p>
+                        <p><em>Note: Not all playset PDFs are guaranteed to work in Fiascomputer. For best results, use one of the playsets distributed by the publishers of <cite>Fiasco</cite>, <a href="http://www.bullypulpitgames.com/" target="_blank">Bully Pulpit Games</a>. Many other playsets can be found at <a href="http://fiascoplaysets.com/" target="_blank">FiascoPlaysets.com</a>.</em></p>
                         
                         <h4>Editing a playset</h4>
                         <p>If you want to add your own touch to a playset, or if the playset was not correctly imported by Fiascomputer, you can edit it. To do so, open the <a href="/setup">setup page</a> and click any category or element to select it. In the table that appears, hover over the item that you want to edit and click the pencil that appears. You can also a playset's title in this way.</p>
@@ -290,6 +206,9 @@
                         
                         <h4>Changing a player's name</h4>
                         <p>To change the name of a player, hover over the player's name and press the pencil that appears.</p>
+                        
+                        <h4>Online play</h4>
+                        <p>To play with other players online through Google Drive, select "Invite players" in the menu.</p>
                     </section>
                     
                     <section>
@@ -325,8 +244,26 @@
                     </button>
                 </div>
             </div>
-            <div id="splash" class="page splash-page">
-                <p class="splash-message">Booting Fiascomputer...</p>
+            <div id="version" class="page version-page">
+                <div class="document">
+                    <h2 class="title">New version: <span id="version-number"></span></h2>
+                    
+                    <section id="version-1.1" class="version">
+                        <h3>Online play through Google Drive</h3>
+                        <p>Select a playset, then select "Invite players" on the player selection screen. (Experimental feature; <a href="mailto:jakob@tabletopsoftware.net">share your feedback</a>.)</p>
+                        <iframe src="https://www.youtube.com/embed/3O_Z-PKzwbU" allowfullscreen></iframe>
+                    </section>
+                    <section id="version-1.0" class="version">
+                        <h3>Initial release of Fiascomputer</h3>
+                        <p>Import playsets, edit playsets, create setups, bundled with the 36 official playsets of the month.</p>
+                    </section>
+                    
+                    <button type="button" class="start-button">Start</button>
+                    
+                    <button type="button" class="close-button" id="close-version-control">
+                        <img src="/images/cross-black.svg" alt="Close">
+                    </button>
+                </div>
             </div>
         </main>
         <script type="text/javascript">
@@ -340,6 +277,6 @@
                 g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
             })();
         </script>
-        <noscript><p><img src="//statistics.tabletopsoftware.net/piwik/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
+        <noscript><p><img src="//statistics.tabletopsoftware.net/piwik/piwik.php?idsite=2" style="border:0;" alt="" ></p></noscript>
     </body>
 </html>

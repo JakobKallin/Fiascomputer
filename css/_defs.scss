@@ -25,6 +25,7 @@ $gray: hsl(0, 0%, 50%);
 $light-gray: hsl(0, 0%, 75%);
 $blue: hsl(240, 100%, 50%);
 
+$body-font: Georgia, serif;
 $heading-font: Hitchcock, sans-serif;
 
 $yellow-card-background-color: hsl(50, 60%, 60%);
@@ -159,12 +160,32 @@ $shadow-color: hsla(0, 0%, 0%, 0.25);
     text-shadow: $size $size $shadow-color;
 }
 
-@mixin heading {
+@mixin page-heading {
     font-family: $heading-font;
     font-size: 2rem;
     line-height: 1.5;
     text-align: center;
     color: $heading-color;
+}
+
+@mixin heading {
+    text-align: center;
+    font-family: $heading-font;
+    font-size: 1.5rem;
+    color: $text-red;
+    margin-bottom: 1rem;
+}
+
+@mixin subheading {
+    font-family: $heading-font;
+    font-size: 1.25rem;
+    color: $text-red;
+    margin-bottom: 1rem;
+}
+
+@mixin subsubheading {
+    font-family: $heading-font;
+    margin-bottom: 1rem;
 }
 
 @mixin plain-button {
@@ -292,5 +313,51 @@ $shadow-color: hsla(0, 0%, 0%, 0.25);
         display: inline !important;
         margin: 0 !important;
         vertical-align: middle;
+    }
+}
+
+@mixin loading-indicator {
+    content: "";
+    width: 2rem;
+    height: 1rem;
+    border: 0.375rem solid $heading-color;
+    border-bottom-width: 0;
+    border-radius: 2rem 2rem 0 0;
+    animation-duration: 0.75s;
+    animation-name: spin;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform-origin: bottom;
+}
+
+@mixin paper {
+    position: relative;
+    padding: 2rem;
+    background-color: $yellow-card-background-color;
+    @include shadow;
+}
+
+@mixin document {
+    h3 {
+        @include subheading;
+    }
+    
+    h4 {
+        @include subsubheading;
+    }
+    
+    p {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    em {
+        font-style: italic;
+    }
+    
+    a {
+        display: inline;
+        color: $blue;
+        text-decoration: underline;
     }
 }
