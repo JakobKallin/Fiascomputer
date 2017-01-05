@@ -1,0 +1,6 @@
+The architecture of this app is experimental, intended to keep different parts
+of the app as isolated as possible and to allow the HTML and CSS to define the
+app's appearance without being closely tied to the JavaScript implementation.
+Many parts of the app could be refactored to make the code easier to work with.
+The online functionality in particular was added quickly and should be
+refactored before being expanded.
