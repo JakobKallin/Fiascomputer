@@ -18,6 +18,11 @@
     src: url("/fonts/VERTRG_.ttf") format('truetype');
 }
 
+$background-color: var(--background-color);
+$dark-background-color: var(dark-background-color);
+$heading-color: var(--heading-color);
+$other-background-color: var(--other-background-color);
+
 $text-red: #9e032a;
 $black: black;
 $white: white;
@@ -287,7 +292,7 @@ $shadow-color: hsla(0, 0%, 0%, 0.25);
     position: absolute;
     top: 0;
     opacity: 0;
-    
+
     @if $position == outside {
         left: 100%;
         margin-left: 0.5em;
@@ -341,20 +346,20 @@ $shadow-color: hsla(0, 0%, 0%, 0.25);
     h3 {
         @include subheading;
     }
-    
+
     h4 {
         @include subsubheading;
     }
-    
+
     p {
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
-    
+
     em {
         font-style: italic;
     }
-    
+
     a {
         display: inline;
         color: $blue;
