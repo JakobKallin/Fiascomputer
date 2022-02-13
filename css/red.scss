@@ -1,6 +1,6 @@
-$background-color: hsl(0, 70%, 35%);
-$dark-background-color: hsl(0, 100%, 15%);
-$heading-color: hsl(35, 50%, 70%);
-$other-background-color: hsl(150, 60%, 30%);
-
-@import '_main';
+:root {
+  --background-color: hsl(0, 70%, 35%);
+  --dark-background-color: hsl(0, 100%, 15%);
+  --heading-color: hsl(35, 50%, 70%);
+  --other-background-color: hsl(150, 60%, 30%);
+}
